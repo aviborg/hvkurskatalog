@@ -1,0 +1,19 @@
+{
+  "name": "hvkurskatalog",
+  "version": "1.0.0",
+  "description": "Swedish Home Guard course catalog with AI-powered PDF extraction",
+  "type": "module",
+  "scripts": {
+    "extract": "node scripts/extract-courses.js",
+    "extract:dry-run": "node scripts/extract-courses.js --dry-run"
+  },
+  "dependencies": {
+    "openai": "^4.28.0",
+    "pdf-to-img": "^4.0.0",
+    "glob": "^10.3.10"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
