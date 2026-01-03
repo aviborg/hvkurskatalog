@@ -1,17 +1,24 @@
 import os
-from dotenv import load_dotenv
 import json
 import re
+import time
+import random
+from dotenv import load_dotenv
 from tqdm import tqdm
 import pdfplumber
 from jsonschema import validate
 from openai import OpenAI
+from openai import RateLimitError
 
 # =========================
 # CONFIG
 # =========================
+
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise RuntimeError("OPENAI_API_KEY missing")
+
 PDF_DIR = "public/kurskataloger"
 TEXT_DIR = "extracted_text"
 TEMPLATE_FILE = "data/hemvarn_course_templates_all.json"
@@ -20,39 +27,15 @@ OUTPUT_FILE = "data/hemvarn_course_templates_enriched.json"
 
 MODEL = "gpt-4.1-mini"
 TEMPERATURE = 0.1
+THROTTLE_SECONDS = 0.25
 
 os.makedirs(TEXT_DIR, exist_ok=True)
 
-client = OpenAI()
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 # =========================
 # PDF → TEXT EXTRACTION
 # =========================
-
-def build_course_aliases(template):
-    """
-    Generate plausible name variants as they appear in PDFs.
-    """
-    name = template["name"]
-
-    aliases = {name}
-
-    # Add "kurs" variants
-    aliases.add(f"{name}kurs")
-    aliases.add(f"{name} kurs")
-
-    # Handle numbered courses: Gruppchef 1 → Gruppchefskurs 1
-    parts = name.split()
-    if parts[-1].isdigit():
-        aliases.add(f"{parts[0]}kurs {parts[-1]}")
-        aliases.add(f"{parts[0]} kurs {parts[-1]}")
-
-    # Handle "1 + 2" merged courses
-    if "+" in name:
-        base = name.split("+")[0].strip()
-        aliases.add(f"{base}kurs")
-
-    return {a.lower() for a in aliases}
 
 def extract_pdf_to_text(pdf_name):
     txt_path = os.path.join(TEXT_DIR, pdf_name.replace(".pdf", ".txt"))
@@ -66,15 +49,64 @@ def extract_pdf_to_text(pdf_name):
         for i, page in enumerate(pdf.pages):
             text = page.extract_text()
             if text:
-                out.write(f"\n\n=== PAGE {i+1} ===\n")
+                out.write(f"\n=== PAGE {i+1} ===\n")
                 out.write(text)
+                out.write("\n")
 
 # =========================
-# LOAD SOURCE TEXT
+# COURSE NAME ALIASES
+# =========================
+
+def build_course_aliases(template):
+    """
+    Swedish-robust alias generation for HvSS / MR catalogs.
+    """
+    name = template["name"]
+    short = template.get("shortName", "")
+
+    aliases = set()
+
+    # Base name
+    aliases.add(name)
+
+    # Remove trailing numbers
+    base = re.sub(r"\s+\d+.*$", "", name)
+
+    # kurs / skurs variants
+    aliases.update({
+        f"{base}kurs",
+        f"{base}skurs",
+        f"{base} kurs",
+    })
+
+    # Numbered courses
+    m = re.search(r"(\d+\s*\+\s*\d+|\d+)", name)
+    if m:
+        num = m.group(1)
+        aliases.update({
+            f"{base}kurs {num}",
+            f"{base}skurs {num}",
+            f"{base} {num}",
+        })
+
+    # Instruktör special case
+    if base.lower().startswith("instruktör"):
+        aliases.add("instruktörskurs")
+
+    # Abbreviations
+    if short:
+        aliases.add(short)
+        aliases.add(short.replace("-", ""))
+
+    return {a.lower() for a in aliases if a}
+
+# =========================
+# LOAD SOURCE TEXT (SECTION-BASED)
 # =========================
 
 def load_source_text(template):
     collected = []
+    aliases = build_course_aliases(template)
 
     for pdf in template["sourceFiles"]:
         extract_pdf_to_text(pdf)
@@ -84,19 +116,31 @@ def load_source_text(template):
             continue
 
         with open(txt_path, "r", encoding="utf-8") as f:
-            content = f.read()
+            lines = f.readlines()
 
-        # Keep only paragraphs mentioning the course
-        blocks = content.split("\n\n")
+        capturing = False
+        buffer = []
 
-        aliases = build_course_aliases(template)
+        for line in lines:
+            line_l = line.lower()
 
-        for block in blocks:
-            block_lower = block.lower()
-            if any(alias in block_lower for alias in aliases):
-                collected.append(block)
+            # Start capturing on header match
+            if any(alias in line_l for alias in aliases):
+                capturing = True
+                buffer = [line]
+                continue
 
-    return "\n\n".join(collected)
+            # Stop on next section header
+            if capturing and re.match(r"^[A-ZÅÄÖ].{6,}$", line.strip()):
+                break
+
+            if capturing:
+                buffer.append(line)
+
+        if buffer:
+            collected.append("".join(buffer))
+
+    return "\n".join(collected)
 
 # =========================
 # MERGE LOGIC
@@ -117,7 +161,25 @@ def merge_templates(original, enriched):
     return merged
 
 # =========================
-# CHATGPT ENRICHMENT
+# OPENAI CALL WITH RETRY
+# =========================
+
+def call_with_retry(messages, retries=5):
+    for attempt in range(retries):
+        try:
+            return client.responses.create(
+                model=MODEL,
+                temperature=TEMPERATURE,
+                input=messages
+            )
+        except RateLimitError:
+            wait = 2 ** attempt + random.uniform(0, 1)
+            print(f"[RATE LIMIT] sleeping {wait:.2f}s")
+            time.sleep(wait)
+    raise RuntimeError("Exceeded retry limit")
+
+# =========================
+# ENRICH TEMPLATE
 # =========================
 
 def enrich_template(template, source_text, schema):
@@ -131,62 +193,42 @@ def enrich_template(template, source_text, schema):
             "If information is not found, leave the field empty",
             "Do not invent content",
             "Do not modify identifiers, names, short names or category",
-            "Output ONLY valid JSON that conforms to the course template schema"
+            "Return ONLY the course template JSON object"
         ]
     }
 
-    response = client.responses.create(
-        model=MODEL,
-        temperature=TEMPERATURE,
-        input=[
-            {
-              "role": "system",
-              "content": (
-                "You are extracting Hemvärnet course template data.\n"
-                "You MUST return ONLY a single JSON object that conforms to the CourseTemplate schema.\n"
-                "Do NOT include keys like 'template', 'sourceText', 'instructions', or explanations.\n"
-                "Return ONLY the populated course template object."
-              )
-            },
-            {
-                "role": "user",
-                "content": json.dumps(payload, ensure_ascii=False)
-            }
-        ]
-    )
+    response = call_with_retry([
+        {
+            "role": "system",
+            "content": (
+                "You extract Hemvärnet course template data.\n"
+                "Return ONLY a valid CourseTemplate JSON object.\n"
+                "No wrappers, no explanations."
+            )
+        },
+        {
+            "role": "user",
+            "content": json.dumps(payload, ensure_ascii=False)
+        }
+    ])
 
-    # ---- Parse output safely ----
-    raw_text = response.output_text.strip()
+    raw = response.output_text.strip()
+    if not raw:
+        raise RuntimeError("Empty model response")
 
-    if not raw_text:
-        raise RuntimeError("Empty response from model")
+    parsed = json.loads(raw)
 
-    try:
-        parsed = json.loads(raw_text)
-    except json.JSONDecodeError as e:
-        raise RuntimeError(f"Invalid JSON returned:\n{raw_text}") from e
-
-    # ---- IMPORTANT PART ----
-    # If the model wrapped the template, unwrap it safely
     if "template" in parsed and isinstance(parsed["template"], dict):
-        enriched = parsed["template"]
-    else:
-        enriched = parsed
+        parsed = parsed["template"]
 
-    # Remove any accidental non-schema keys
-    enriched = {
-        k: v for k, v in enriched.items()
-        if k in schema["properties"]
-    }
+    # Strip non-schema keys
+    parsed = {k: v for k, v in parsed.items() if k in schema["properties"]}
 
-    # Validate strictly
-    validate(instance=enriched, schema=schema)
-
-    return enriched
-
+    validate(instance=parsed, schema=schema)
+    return parsed
 
 # =========================
-# MAIN PIPELINE
+# MAIN
 # =========================
 
 def main():
@@ -197,7 +239,6 @@ def main():
         schema = json.load(f)
 
     for i, template in enumerate(tqdm(catalog["templates"], desc="Enriching")):
-        # Skip already enriched templates
         if template.get("description"):
             continue
 
@@ -208,12 +249,12 @@ def main():
             continue
 
         enriched = enrich_template(template, source_text, schema)
-        merged = merge_templates(template, enriched)
-        catalog["templates"][i] = merged
+        catalog["templates"][i] = merge_templates(template, enriched)
 
-        # Incremental save (important)
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             json.dump(catalog, f, ensure_ascii=False, indent=2)
+
+        time.sleep(THROTTLE_SECONDS)
 
     print("[DONE] Enrichment complete")
 

@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * PDF Course Catalog Extraction Script
- * 
- * Extracts course information from PDF catalogs using GPT-4o vision API
- * and outputs structured JSON for courseTemplates.json and courseEvents.json
- */
+* PDF Course Catalog Extraction Script
+* 
+* Extracts course information from PDF catalogs using GPT-4o vision API
+* and outputs structured JSON for courseTemplates.json and courseEvents.json
+*/
 
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { readdir } from 'fs/promises';
@@ -31,59 +31,204 @@ const openai = new OpenAI({
 
 // JSON schemas for structured output
 const COURSE_TEMPLATE_SCHEMA = {
-  type: "object",
-  properties: {
-    id: { type: "string", description: "Unique identifier, lowercase with hyphens (e.g., 'gu-f', 'kc-1')" },
-    name: { type: "string", description: "Full course name in Swedish" },
-    shortName: { type: "string", description: "Abbreviated name (e.g., 'GU-F', 'KC1')" },
-    category: { type: "string", description: "Course category (e.g., 'Chefsutbildningar', 'Funktionsutbildningar')" },
-    courseCode: { type: ["string", "null"], description: "Official course code if available" },
-    description: { type: "string", description: "Course description" },
-    targetAudience: { type: "string", description: "Who the course is intended for" },
-    syllabus: { type: "string", description: "Course syllabus/content overview" },
-    purpose: { type: "string", description: "Purpose of the course" },
-    learningObjectives: { type: "array", items: { type: "string" }, description: "List of learning objectives" },
-    finalGoal: { type: "string", description: "Final goal after completing the course" },
-    subGoals: { type: "array", items: { type: "string" }, description: "Sub-goals of the course" },
-    examination: { type: "string", description: "How the course is examined" },
-    prerequisites: { type: "array", items: { type: "string" }, description: "Prerequisites for the course" },
-    literature: { type: "string", description: "Required literature" },
-    additionalInfo: { type: ["string", "null"], description: "Additional information" },
-    typicalDuration: { type: "number", description: "Typical duration in days" },
-    ownerRegion: { type: "string", description: "Region that owns/runs the course" }
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the course template, lowercase with hyphens, without the word 'kurs' (e.g., 'gruppchef-1', 'tccc-cls')."
+    },
+    "name": {
+      "type": "string",
+      "description": "Full course name in Swedish, verbatim, without the word 'kurs'."
+    },
+    "shortName": {
+      "type": "string",
+      "description": "Short established name or abbreviation (normally 2 letters + number, but longer accepted if established, e.g., 'KombU', 'GC12', 'TCCCCLS', 'GKÖLAK')."
+    },
+    "category": {
+      "type": "string",
+      "description": "Course category (e.g., 'Chefsutbildningar', 'Funktionsutbildningar')."
+    },
+    "courseCode": {
+      "type": ["string", "null"],
+      "description": "Official course code if available."
+    },
+    "description": {
+      "type": "string",
+      "description": "Verbatim course description."
+    },
+    "targetAudience": {
+      "type": "string",
+      "description": "Who the course is intended for, verbatim."
+    },
+    "syllabus": {
+      "type": "string",
+      "description": "Course syllabus or content overview."
+    },
+    "purpose": {
+      "type": "string",
+      "description": "Purpose of the course, verbatim where possible."
+    },
+    "learningObjectives": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of learning objectives."
+    },
+    "finalGoal": {
+      "type": "string",
+      "description": "Final goal after completing the course."
+    },
+    "subGoals": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Sub-goals or intermediate objectives."
+    },
+    "examination": {
+      "type": "string",
+      "description": "How the course is examined."
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Prerequisites for the course."
+    },
+    "literature": {
+      "type": "string",
+      "description": "Required literature or course material."
+    },
+    "additionalInfo": {
+      "type": ["string", "null"],
+      "description": "Additional information or remarks."
+    },
+    "typicalDuration": {
+      "type": "number",
+      "description": "Typical duration in days."
+    },
+    "courseResponsible": {
+      "type": "string",
+      "description": "Responsible organization (no spaces, e.g., 'HvSS', 'MRM', 'MRV')."
+    },
+    "baseTemplateIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "IDs of base course templates covered by this template (used for merged or derived courses)."
+    },
+    "sourceFiles": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "PDF or other sources from which this template was extracted."
+    }
   },
-  required: ["id", "name", "shortName", "category", "description", "typicalDuration"]
+  "required": [
+    "id",
+    "name",
+    "shortName",
+    "category",
+    "courseCode",
+    "description",
+    "targetAudience",
+    "syllabus",
+    "purpose",
+    "learningObjectives",
+    "finalGoal",
+    "subGoals",
+    "examination",
+    "prerequisites",
+    "literature",
+    "additionalInfo",
+    "typicalDuration",
+    "courseResponsible",
+    "baseTemplateIds",
+    "sourceFiles"
+  ],
+  "additionalProperties": false
 };
 
 const COURSE_EVENT_SCHEMA = {
-  type: "object",
-  properties: {
-    id: { type: "string", description: "Unique event identifier (e.g., 'evt-gu-f-summer-2026')" },
-    templateId: { type: "string", description: "Reference to course template id" },
-    courseDates: { 
-      type: "array", 
-      items: {
-        type: "object",
-        properties: {
-          start: { type: "string", description: "Start date in YYYYMMDD format" },
-          end: { type: "string", description: "End date in YYYYMMDD format" }
-        }
-      },
-      description: "Course date periods"
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique event identifier (e.g., 'evt-gruppchef-12-mrm-summer-2026')."
     },
-    location: { type: "string", description: "Location where course is held" },
-    courseResponsible: { type: "string", description: "Responsible organization/person code" },
-    applicationDeadline: { type: "string", description: "Application deadline in YYYYMMDD format" },
-    spots: { type: "number", description: "Number of available spots" },
-    status: { type: "string", enum: ["open", "closed", "cancelled"], description: "Course status" },
-    notes: { type: "string", description: "Additional notes about this specific event" }
+    "templateId": {
+      "type": "string",
+      "description": "Reference to the primary course template ID."
+    },
+    "coveredTemplateIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of course template IDs whose learning outcomes are covered by this event."
+    },
+    "courseDates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "type": "string",
+            "description": "Start date in YYYYMMDD format."
+          },
+          "end": {
+            "type": "string",
+            "description": "End date in YYYYMMDD format."
+          }
+        },
+        "required": ["start", "end"],
+        "additionalProperties": false
+      },
+      "description": "One or more course date periods."
+    },
+    "location": {
+      "type": "string",
+      "description": "Location where the course is held."
+    },
+    "courseResponsible": {
+      "type": "string",
+      "description": "Responsible organization for this event (no spaces)."
+    },
+    "applicationDeadline": {
+      "type": "string",
+      "description": "Application deadline in YYYYMMDD format."
+    },
+    "spots": {
+      "type": "number",
+      "description": "Number of available spots."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["open", "closed", "cancelled"],
+      "description": "Course event status."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes about this specific event."
+    },
+    "sourceFiles": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "PDF or other sources from which this event was extracted."
+    }
   },
-  required: ["id", "templateId", "courseDates", "location", "status"]
+  "required": [
+    "id",
+    "templateId",
+    "coveredTemplateIds",
+    "courseDates",
+    "location",
+    "courseResponsible",
+    "applicationDeadline",
+    "spots",
+    "status",
+    "notes",
+    "sourceFiles"
+  ],
+  "additionalProperties": false
 };
 
 /**
- * Convert PDF pages to base64-encoded images
- */
+* Convert PDF pages to base64-encoded images
+*/
 async function pdfToImages(pdfPath) {
   console.log(`  Converting PDF to images: ${pdfPath}`);
   const images = [];
@@ -111,8 +256,8 @@ async function pdfToImages(pdfPath) {
 }
 
 /**
- * Extract course information from PDF images using GPT-4o
- */
+* Extract course information from PDF images using GPT-4o
+*/
 async function extractCoursesFromImages(images, pdfName) {
   console.log(`  Sending ${images.length} pages to GPT-4o for extraction...`);
   
@@ -121,22 +266,22 @@ async function extractCoursesFromImages(images, pdfName) {
     {
       type: "text",
       text: `You are extracting course catalog information from a Swedish military (Hemvärnet/Home Guard) training catalog PDF named "${pdfName}".
-
+      
 Extract ALL courses found in these pages. For each course, provide:
-
+      
 1. **Course Templates** (course definitions with description, objectives, prerequisites, etc.)
 2. **Course Events** (specific scheduled instances with dates, locations, spots)
-
+      
 Output as JSON with two arrays:
 {
   "templates": [...],  // Course template objects
   "events": [...]      // Course event objects
 }
-
+      
 Important:
 - Use Swedish text as-is, don't translate
 - Dates should be in YYYYMMDD format
-- Generate unique IDs: templates use lowercase with hyphens (e.g., "gu-f"), events use "evt-{templateId}-{season/month}-{year}"
+- Generate unique IDs: templates use lowercase with hyphens (e.g., "gu-f"), events use "evt-{templateId}-{courseResponsible}-{season/month}-{year}"
 - If a field is not found in the PDF, use null or empty array as appropriate
 - Extract as much detail as possible from the PDF content`
     }
@@ -177,8 +322,8 @@ Important:
 }
 
 /**
- * Merge extracted data with existing data, avoiding duplicates
- */
+* Merge extracted data with existing data, avoiding duplicates
+*/
 function mergeData(existing, extracted, keyField = 'id') {
   const merged = [...existing];
   const existingIds = new Set(existing.map(item => item[keyField]));
@@ -187,7 +332,7 @@ function mergeData(existing, extracted, keyField = 'id') {
   for (const item of extracted) {
     // Check for duplicates by id or courseCode
     const isDuplicate = existingIds.has(item[keyField]) || 
-      (item.courseCode && existingCodes.has(item.courseCode));
+    (item.courseCode && existingCodes.has(item.courseCode));
     
     if (isDuplicate) {
       // Update existing entry
@@ -215,16 +360,16 @@ function mergeData(existing, extracted, keyField = 'id') {
 }
 
 /**
- * Get current date in YYYYMMDD format
- */
+* Get current date in YYYYMMDD format
+*/
 function getCurrentDate() {
   const now = new Date();
   return now.toISOString().slice(0, 10).replace(/-/g, '');
 }
 
 /**
- * Load existing JSON file or return empty array
- */
+* Load existing JSON file or return empty array
+*/
 function loadJson(filePath) {
   if (existsSync(filePath)) {
     return JSON.parse(readFileSync(filePath, 'utf-8'));
@@ -233,15 +378,15 @@ function loadJson(filePath) {
 }
 
 /**
- * Save JSON file with pretty formatting
- */
+* Save JSON file with pretty formatting
+*/
 function saveJson(filePath, data) {
   writeFileSync(filePath, JSON.stringify(data, null, 4) + '\n', 'utf-8');
 }
 
 /**
- * Main extraction process
- */
+* Main extraction process
+*/
 async function main() {
   console.log('='.repeat(60));
   console.log('PDF Course Catalog Extraction');

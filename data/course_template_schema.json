@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/course-template.json",
+  "title": "CourseTemplate",
+  "type": "object",
+  "additionalProperties": false,
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier, lowercase with hyphens, without the word 'kurs'."
+    },
+    "name": {
+      "type": "string",
+      "description": "Full course name in Swedish, without the word 'kurs'."
+    },
+    "shortName": {
+      "type": "string",
+      "description": "Established short name or abbreviation (e.g., GC1, GC12, GKÖLAK, TCCCCLS)."
+    },
+    "category": {
+      "type": "string",
+      "description": "Course category (e.g., Chefsutbildningar, Funktionsutbildningar)."
+    },
+    "courseCode": {
+      "type": ["string", "null"],
+      "description": "Official course code if available."
+    },
+    "description": {
+      "type": "string",
+      "description": "Verbatim course description."
+    },
+    "targetAudience": {
+      "type": "string",
+      "description": "Who the course is intended for."
+    },
+    "syllabus": {
+      "type": "string",
+      "description": "Course content or syllabus."
+    },
+    "purpose": {
+      "type": "string",
+      "description": "Purpose of the course."
+    },
+    "learningObjectives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of learning objectives."
+    },
+    "finalGoal": {
+      "type": "string",
+      "description": "Final goal after completing the course."
+    },
+    "subGoals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Sub-goals or intermediate objectives."
+    },
+    "examination": {
+      "type": "string",
+      "description": "How the course is examined."
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Prerequisites for participation."
+    },
+    "literature": {
+      "type": "string",
+      "description": "Required or recommended literature."
+    },
+    "additionalInfo": {
+      "type": ["string", "null"],
+      "description": "Additional information."
+    },
+    "typicalDuration": {
+      "type": "number",
+      "description": "Typical duration in days."
+    },
+    "courseResponsible": {
+      "type": "string",
+      "description": "Responsible organization (no spaces, e.g., HvSS, MRM)."
+    },
+    "baseTemplateIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "IDs of base templates covered by this template (for merged courses)."
+    },
+    "sourceFiles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Source PDF files."
+    }
+  },
+
+  "required": [
+    "id",
+    "name",
+    "shortName",
+    "category",
+    "courseCode",
+    "description",
+    "targetAudience",
+    "syllabus",
+    "purpose",
+    "learningObjectives",
+    "finalGoal",
+    "subGoals",
+    "examination",
+    "prerequisites",
+    "literature",
+    "additionalInfo",
+    "typicalDuration",
+    "courseResponsible",
+    "baseTemplateIds",
+    "sourceFiles"
+  ]
+}
