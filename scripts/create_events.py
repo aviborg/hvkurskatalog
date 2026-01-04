@@ -8,9 +8,9 @@ from openai import OpenAI
 import pdfplumber
 from tqdm import tqdm
 
-# =========================
+# ============================================================
 # CONFIG
-# =========================
+# ============================================================
 
 load_dotenv()
 client = OpenAI()
@@ -22,45 +22,49 @@ OUTPUT_FILE = "data/hemvarn_course_events.json"
 
 MODEL = "gpt-4.1-mini"
 TEMPERATURE = 0.1
-THROTTLE_SECONDS = 1.5
-
-DATE_REGEX = re.compile(
-    r"(20\d{2}[-/.]?\d{2}[-/.]?\d{2})|"
-    r"(\d{6,8})|"
-    r"(v\.\s?\d{2,3})",
-    re.IGNORECASE
-)
+THROTTLE_SECONDS = 2.0
 
 os.makedirs(TEXT_DIR, exist_ok=True)
 
-# =========================
-# HELPERS
-# =========================
+# ============================================================
+# UTILITIES
+# ============================================================
 
 def now_utc():
     return datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
 
-def extract_candidate_blocks(text):
-    lines = text.splitlines()
-    candidates = []
+def norm(s):
+    if not s:
+        return "unknown"
+    return (
+        s.lower()
+        .replace("å", "a")
+        .replace("ä", "a")
+        .replace("ö", "o")
+        .replace(" ", "")
+        .replace("/", "")
+        .replace(".", "")
+    )
 
-    buffer = []
+def build_date_hash(course_dates):
+    parts = []
+    for d in course_dates or []:
+        if d.get("start") and d.get("end"):
+            parts.append(f"{d['start']}_{d['end']}")
+    return "+".join(parts) if parts else "nodates"
 
-    for line in lines:
-        if DATE_REGEX.search(line):
-            buffer.append(line)
-        elif buffer:
-            buffer.append(line)
+def generate_event_id(event, existing_ids):
+    base = f"evt-{norm(event['templateId'])}-{norm(event.get('eventResponsible'))}-{build_date_hash(event.get('courseDates'))}"
+    if base not in existing_ids:
+        return base
+    suffix = "a"
+    while f"{base}-{suffix}" in existing_ids:
+        suffix = chr(ord(suffix) + 1)
+    return f"{base}-{suffix}"
 
-            # stop buffer when it gets too large
-            if len(buffer) >= 6:
-                candidates.append("\n".join(buffer))
-                buffer = []
-
-    if buffer:
-        candidates.append("\n".join(buffer))
-
-    return candidates
+# ============================================================
+# PDF → TEXT
+# ============================================================
 
 def extract_pdf_text(pdf_name):
     txt_path = os.path.join(TEXT_DIR, pdf_name.replace(".pdf", ".txt"))
@@ -77,133 +81,167 @@ def extract_pdf_text(pdf_name):
 
     return txt_path
 
-# =========================
-# STEP 1: LOAD TEMPLATES
-# =========================
+# ============================================================
+# HIGH-RECALL CANDIDATE EXTRACTION
+# ============================================================
+
+DATE_REGEX = re.compile(
+    r"(20\d{2}[-/.]?\d{2}[-/.]?\d{2})|"   # 2026-09-01
+    r"(\d{8})|"                           # 20260901
+    r"(v\.\s?\d{2,3})",                   # v.39
+    re.IGNORECASE
+)
+
+def extract_candidate_blocks(text):
+    lines = text.splitlines()
+    blocks = []
+    buffer = []
+
+    for line in lines:
+        if DATE_REGEX.search(line):
+            buffer = [line]
+        elif buffer:
+            buffer.append(line)
+            if len(buffer) >= 6:
+                blocks.append("\n".join(buffer))
+                buffer = []
+
+    if buffer:
+        blocks.append("\n".join(buffer))
+
+    return blocks
+
+# ============================================================
+# LOAD TEMPLATES
+# ============================================================
 
 with open(TEMPLATE_FILE, encoding="utf-8") as f:
     templates = json.load(f)["templates"]
 
-# Build lookup by name + shortName
-TEMPLATE_LOOKUP = {}
-for t in templates:
-    TEMPLATE_LOOKUP[t["id"]] = t
-    TEMPLATE_LOOKUP[t["name"].lower()] = t
-    if t.get("shortName"):
-        TEMPLATE_LOOKUP[t["shortName"].lower()] = t
-
-# =========================
-# STEP 2: FIND EVENT BLOCKS
-# =========================
-
-EVENT_BLOCK_HINTS = [
-    "plats", "datum", "sista ansökningsdag",
-    "antal platser", "anmälan", "genomförs"
+TEMPLATE_HINTS = [
+    {"id": t["id"], "name": t["name"], "shortName": t.get("shortName")}
+    for t in templates
 ]
 
-def is_event_block(text):
-    text_l = text.lower()
-    return sum(h in text_l for h in EVENT_BLOCK_HINTS) >= 2
-
-# =========================
-# STEP 3: AI NORMALIZATION
-# =========================
+# ============================================================
+# AI NORMALIZATION
+# ============================================================
 
 SYSTEM_PROMPT = """
-You are extracting Swedish Hemvärnet course event information.
+You extract COURSE EVENTS from Swedish Hemvärnet catalogs.
 
 Input:
-- Raw text describing a course event
-- A list of known course templates
+- Raw text that MAY describe one scheduled course event
+- Known course templates
 
-Your task:
-- Identify the course
-- Extract event details
-- Normalize dates to YYYYMMDD
-- Output ONE JSON object matching the CourseEvent schema
+If the text does NOT describe a concrete event:
+→ return null
+
+If it DOES:
+→ return ONE JSON object with:
+templateId
+courseDates [{start, end}]
+location
+eventResponsible
+applicationDeadline
+spots
+status
+notes
 
 Rules:
 - Use Swedish
-- Be conservative
-- If a field is missing, use null
+- Normalize dates to YYYYMMDD
 - Do not invent data
-- Output JSON only
+- Output JSON or null ONLY
 """
 
-def normalize_event(block_text, source_file):
-    payload = {
-        "text": block_text,
-        "knownTemplates": [
-            {"id": t["id"], "name": t["name"], "shortName": t.get("shortName")}
-            for t in templates
-        ]
-    }
-
+def normalize_event(block_text):
     response = client.responses.create(
         model=MODEL,
         temperature=TEMPERATURE,
         input=[
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}
-        ]
+            {
+                "role": "user",
+                "content": json.dumps(
+                    {"text": block_text, "knownTemplates": TEMPLATE_HINTS},
+                    ensure_ascii=False,
+                ),
+            },
+        ],
     )
 
     raw = response.output_text.strip()
-    event = json.loads(raw)
 
-    # Metadata
-    event["lastModifiedBy"] = MODEL
-    event["lastModified"] = now_utc()
-    event["sourceFiles"] = [source_file]
+    if raw.lower() == "null":
+        return None
 
-    return event
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        return None
 
-# =========================
-# STEP 4: MAIN
-# =========================
+# ============================================================
+# MAIN
+# ============================================================
 
 events = []
-seen_fingerprints = {}
+existing_ids = set()
+fingerprints = {}
+
+stats = {"candidates": 0, "accepted": 0}
 
 for pdf in tqdm(os.listdir(PDF_DIR), desc="Scanning PDFs"):
     if not pdf.lower().endswith(".pdf"):
         continue
 
     txt_path = extract_pdf_text(pdf)
-
     with open(txt_path, encoding="utf-8") as f:
-        blocks = f.read().split("\n\n")
+        text = f.read()
 
-    for block in blocks:
-        if not is_event_block(block):
+    candidates = extract_candidate_blocks(text)
+    stats["candidates"] += len(candidates)
+
+    for block in candidates:
+        event = normalize_event(block)
+
+        if not event or not event.get("templateId"):
             continue
 
-        try:
-            event = normalize_event(block, pdf)
-        except Exception:
-            continue
+        stats["accepted"] += 1
 
-        # Deduplication fingerprint
+        event["lastModifiedBy"] = MODEL
+        event["lastModified"] = now_utc()
+        event["sourceFiles"] = [pdf]
+
         fp = (
-            event.get("templateId"),
+            event["templateId"],
             json.dumps(event.get("courseDates"), sort_keys=True),
             event.get("location"),
-            event.get("eventResponsible")
+            event.get("eventResponsible"),
         )
 
-        if fp in seen_fingerprints:
-            seen_fingerprints[fp]["sourceFiles"].append(pdf)
-        else:
-            seen_fingerprints[fp] = event
-            events.append(event)
+        if fp in fingerprints:
+            fingerprints[fp]["sourceFiles"].append(pdf)
+            continue
+
+        event["id"] = generate_event_id(event, existing_ids)
+        existing_ids.add(event["id"])
+
+        fingerprints[fp] = event
+        events.append(event)
 
         time.sleep(THROTTLE_SECONDS)
 
-# =========================
+# ============================================================
 # OUTPUT
-# =========================
+# ============================================================
 
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump({"events": events}, f, ensure_ascii=False, indent=2)
 
-print(f"[DONE] Created {len(events)} unique course events")
+print(
+    f"[DONE] Candidates: {stats['candidates']} | "
+    f"Accepted events: {stats['accepted']} | "
+    f"Unique events: {len(events)}"
+)

@@ -1,275 +1,2628 @@
 {
   "events": [
     {
-      "courseId": "gruppchef-1",
-      "courseName": "Gruppchefskurs 1",
-      "startDate": "20250623",
-      "endDate": "20250702",
-      "location": "Revingehed SSK",
-      "maxParticipants": 24,
-      "applicationDeadlineIndividual": "20250326",
-      "applicationDeadlineGroup": "20250406",
-      "notes": null,
-      "lastModifiedBy": "gpt-4.1-mini",
-      "lastModified": "20260104-141135",
+      "id": "evt-auto-gkdnbi-20260418-boden",
+      "templateId": "auto-gkdnbi",
+      "courseDates": [
+        {
+          "start": "20260418",
+          "end": "20260426"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "RHS",
+      "applicationDeadline": "20260204",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
       "sourceFiles": [
-        "05 MRS UTBKAT25-27 Bilaga D Gröna kurser v25.1.pdf"
+        "events.csv"
       ]
     },
     {
-      "courseId": null,
-      "courseName": null,
-      "courseShortName": null,
-      "eventName": null,
-      "startDate": null,
-      "endDate": null,
-      "location": null,
-      "applicationDeadline": null,
-      "applicationInstructions": "Du fyller i kursanmälan elektroniskt. Samtliga rutor märkta med en *(asteriks) måste vara ifyllda. Skall du inte byta befattning så skriver du i rutan ”Avses tillträda befattning” kvar i befattning. När allt är ifyllt på ansökan skickar du den vidare elektroniskt till din kompanichef för motiveringar och bestyrkande. Kompanichefen skickar i sin tur ansökan till utbildningsgruppen i god tid så att de hinner handlägga och prioritera den.",
-      "prerequisites": "Vissa kurser kräver att du har genomfört godkänt kompetensprov för Ak4B/C eller är utbildad skyddsvakt och att du har genomfört en tidigare kurs. Du hittar vad som krävs i respektive kursplan i rutan förkunskapskrav.",
-      "contactInfo": "Frågor gällande kursplanerna? Börja med att fråga din närmaste chef (plutonchef/kompanichef). Kan denna inte svara lyfter du frågan vidare till din utbildningsgrupp. Kan de inte svara så kontaktar utbildningsgruppen HvSS.",
-      "notes": "Datum för sista anmälan är den dag utbildningsgruppen skall ha skickat ansökan till HvSS vilket innebär att du måste skicka din ansökan 2-3 veckor innan till din kompanichef som i sin tur skickar den till utbildningsgruppen i god tid. Samtidigt bör du fråga/meddela eventuell arbetsgivare att du har sökt utbildning vid HvSS. Kursansökningar till Danmark och Norge måste vara HvSS tillhanda minst 50 dagar innan kursstart.",
-      "lastModifiedBy": "gpt-4.1-mini",
-      "lastModified": "20260104-141142",
+      "id": "evt-auto-gkdnbi-20260509-boden",
+      "templateId": "auto-gkdnbi",
+      "courseDates": [
+        {
+          "start": "20260509",
+          "end": "20260517"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "RHS",
+      "applicationDeadline": "20260225",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "hvss-kursutbud-2026-uppdaterad-2025-10-14.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf",
-        "utbildningskatalog-mr-m-2025.pdf"
+        "events.csv"
       ]
     },
     {
-      "courseId": "instruktörskurs-grundkurs-övningsledare-strisim-pc",
-      "courseName": "Instruktörskurs grundkurs övningsledare Strisim PC",
-      "courseCode": "MARGK510ÖSSP GK",
-      "eventDate": "20150225",
-      "courseLength": "2 dagar, totalt 16 timmar",
-      "courseResponsible": "Markstridsskolan",
-      "location": "Markstridsskolan",
-      "targetGroup": "Civil och militärpersonal i Försvarsmakten som skall utbilda och öva med brukare i StriSimPC",
-      "prerequisites": "Erforderlig kompetens att leda stridsutbildning eller annan utbildning och övning i den verksamhet som ska bedrivas med stöd av StriSimPC. För Hemvärnet, Instruktörskurs 1 samt att du skall vara väl insatt i Hemvärnets stridsteknik på Bevakning- och Insatskompani.",
-      "certification": "Ger behörighet att verka som övningsledare i StriSimPC med stöd av systemoperatör från Försvarsmakten.",
-      "examination": "Kursen examineras genom skriftliga och praktiska prov. Betyg ges i tvågradig skala, godkänd (G) respektive icke godkänd (IG). Max två examinations tillfällen under kursen.",
-      "literature": "Instruktionsbok StriSimPC. Övningshäfte StriSimPC GK.",
-      "notes": "Beroende på vilken StriSimPC anläggning som används kan antalet elevplatser variera.",
-      "lastModifiedBy": "gpt-4.1-mini",
-      "lastModified": "20260104-141629",
+      "id": "evt-auto-gkdnbi-20260606-boden",
+      "templateId": "auto-gkdnbi",
+      "courseDates": [
+        {
+          "start": "20260606",
+          "end": "20260614"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "RHS",
+      "applicationDeadline": "20260325",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2023.pdf"
+        "events.csv"
       ]
     },
     {
-      "courseId": "grundkurs-underrättelsetjänst-hv",
-      "courseName": "Grundkurs Underrättelsetjänst Hv",
-      "courseCode": "HVT422FFU00",
-      "courseGroup": "Funktionskurs",
-      "courseLength": "4 dagar självstudier samt 11 dagar (144 timmar)",
-      "courseResponsible": "HvSS",
-      "dateEstablished": "20220615",
-      "location": "Hemvärnets Stridsskola HvSS",
-      "description": "Kursen omfattar grundläggande teoretisk och praktisk utbildning avseende underrättelseprocessen. Utbildningen är uppdelad i två delar: Första delen är fyra dagars självstudier som genomförs med stöd av Försvarsmaktens digitala distansutbildningsplattform, där reglementen och handböcker studeras och motståndarkunskap inhämtas. Andra delen genomförs på HvSS där lärarledda lektioner, grupparbeten och spel på applikatoriska övningsexempel genomförs. Underrättelseprodukter redovisas enskilt samt i grupp.",
-      "prerequisites": "Minst GU-F.",
-      "targetGroup": "Avsedd för dig som är placerad eller skall placeras inom ett år i underrättelsebefattning i underrättelsekompanistab eller bataljonsstab, samt för personal vid S3 och hundbefäl vid kompani. Kursen är även sökbar för Batch, Stf batch, SC samt kompanichefer. Kurschef prioriterar urval efter målgrupp samt efter särskilda behov i dialog med utbildningsgrupp.",
-      "certificates": null,
-      "examination": "Elevens underrättelseprodukter värderas fortlöpande under kursen.",
-      "literature": "FM UndR, 2010; FM UndH Rapp 2015; NOMEN UND 2021; Handbok UndSäktjänst vid hemvärnsförband 2017; Markstridshandbok Motståndaren 2021; Distribuerat lärande: Introduktion Underrättelsetjänst (A110714-1, 1.0)",
-      "other": "Efter genomförd kurs bör kursdeltagare genomföra praktisk tillämpning som stabsmedlem i S2-sektionen under stabstjänstövning, KFÖ eller motsvarande.",
-      "lastModifiedBy": "gpt-4.1-mini",
-      "lastModified": "20260104-141921",
+      "id": "evt-auto-gkdnbi-20260815-boden",
+      "templateId": "auto-gkdnbi",
+      "courseDates": [
+        {
+          "start": "20260815",
+          "end": "20260823"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "RHS",
+      "applicationDeadline": "20260603",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf"
+        "events.csv"
       ]
     },
     {
-      "courseId": "krigsförbandsplaneringskurs",
-      "courseName": "Krigsförbandsplaneringskurs",
-      "courseCode": "MAHFÖ2011515",
-      "courseGroup": "Funktionskurser",
-      "courseLengthDays": 6,
-      "courseLengthHours": 48,
-      "courseResponsible": "HvSS C Utb HvSS",
-      "dateEstablished": "20190116",
-      "location": "Tylebäck",
-      "organizer": "Försvarsutbildarna",
-      "prerequisites": "Lägst plutonchefskurs 1",
-      "targetAudience": "Hvbataljonchef/stf, stabschef, sektionschef i bataljonsstab, kompanichef/stf (Hvund, båt och bevakning). Öppen i mån av plats för kvm på kompani, plutonchef/stf.",
-      "certification": null,
-      "examination": "Praktiskt lärande examinationer där elevens förmåga att lösa tilldelade uppgifter värderas och examineras fortlöpande under kursen med tyngdpunkt på applikatoriska exemplen KFÖ och mobiliseringsplanering.",
-      "courseLiterature": "KFS, Handbok Hvkompani/pluton del 1-3, Reglemente Mobilisering 2018",
-      "lastModifiedBy": "gpt-4.1-mini",
-      "lastModified": "20260104-142940",
+      "id": "evt-auto-gkdnbi-20260919-boden",
+      "templateId": "auto-gkdnbi",
+      "courseDates": [
+        {
+          "start": "20260919",
+          "end": "20260927"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "RHS",
+      "applicationDeadline": "20260708",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
       "sourceFiles": [
-        "hvss-kurskatalog-2025.pdf"
+        "events.csv"
       ]
     },
     {
-      "courseId": "instruktörskurs-1",
-      "courseName": "Instruktörskurs 1",
-      "courseCode": "MAHGK9090001",
-      "eventStartDate": "20250818",
-      "eventEndDate": "20250830",
-      "location": "VILLINGSBERG",
-      "organizer": "Hemvärnets Stridsskola eller utbildningsgrupp eller frivilligorganisation",
-      "applicationDeadline": "20250430",
-      "availableSeats": 40,
-      "registeredSeats": 23,
-      "description": "Kursen omfattar 80 timmar och består av teoretiska grunder samt praktiska trupputbildningsövningar. Undervisningen varvar teori med praktik. Elevledda övningar sker både inomhus och utomhus. Urval: Avsedd för dig som är placerad i befattning som gruppchef/stf alternativt ska bli instruktör inom Hemvärnet. Förkunskapskrav: VPL, GMU, GU, eller GU-F. Kursansvarig skola: Hemvärnets Stridsskola. Certifikat och behörighet: Behörighet till att söka alla instruktörskurser inom Hemvärnet och IK G del 2 Fvrf samt befordringskrav för gruppchefsnivån. Kunskapskontroll och examinationsbestämmelser: Praktiskt lärande examinationer där eleven ska använda sig av kurslitteratur för att planera och genomföra fyra övningar med stöd av HvSS övningsplansmall. Max 1 omexaminationstillfälle under kursen.",
-      "lastModifiedBy": "gpt-4.1-mini",
-      "lastModified": "20260104-143407",
+      "id": "evt-auto-gkdnbi-20261017-boden",
+      "templateId": "auto-gkdnbi",
+      "courseDates": [
+        {
+          "start": "20261017",
+          "end": "20261025"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "RHS",
+      "applicationDeadline": "20260805",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
       "sourceFiles": [
-        "MR V utbildningskatalog 2025 ver 1.4.pdf"
+        "events.csv"
       ]
     },
     {
-      "courseId": "bataljonchef-1",
-      "courseName": "Bataljonchefskurs 1",
-      "startDate": "20260302",
-      "endDate": "20260311",
+      "id": "evt-auto-gkdnbi-20261114-boden",
+      "templateId": "auto-gkdnbi",
+      "courseDates": [
+        {
+          "start": "20261114",
+          "end": "20261122"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "RHS",
+      "applicationDeadline": "20260902",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gkdnbi-20261205-boden",
+      "templateId": "auto-gkdnbi",
+      "courseDates": [
+        {
+          "start": "20261205",
+          "end": "20261213"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "RHS",
+      "applicationDeadline": "20260923",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-bataljonchef-1-20260302-vällinge",
+      "templateId": "bataljonchef-1",
+      "courseDates": [
+        {
+          "start": "20260302",
+          "end": "20260311"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
       "applicationDeadline": "20251211",
-      "location": "HvSS Vällinge",
-      "organizer": "HvSS",
-      "lastModifiedBy": "gpt-4.1-mini",
-      "lastModified": "20260104-143512",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
       "sourceFiles": [
-        "SK Hv Gemensam kurskatalog uppdaterad 2025-12-11.pdf"
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-bataljonchef-2-20260831-vällinge",
+      "templateId": "bataljonchef-2",
+      "courseDates": [
+        {
+          "start": "20260831",
+          "end": "20260909"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260613",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-bataljonstridskurs-20260413-vällinge",
+      "templateId": "bataljonstridskurs",
+      "courseDates": [
+        {
+          "start": "20260413",
+          "end": "20260417"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260130",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-2-20260420-vällinge",
+      "templateId": "gruppchef-2",
+      "courseDates": [
+        {
+          "start": "20260420",
+          "end": "20260429"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260131",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-kompanichef-1-20260209-vällinge",
+      "templateId": "kompanichef-1",
+      "courseDates": [
+        {
+          "start": "20260209",
+          "end": "20260218"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20251127",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-kompanichef-1-20261026-vällinge",
+      "templateId": "kompanichef-1",
+      "courseDates": [
+        {
+          "start": "20261026",
+          "end": "20261104"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260814",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-kompanichef-2-20260831-vällinge",
+      "templateId": "kompanichef-2",
+      "courseDates": [
+        {
+          "start": "20260831",
+          "end": "20260909"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260613",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-kompanistridskurs-20260914-vällinge",
+      "templateId": "kompanistridskurs",
+      "courseDates": [
+        {
+          "start": "20260914",
+          "end": "20260918"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260619",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-kompanistridskurs-20261012-vällinge",
+      "templateId": "kompanistridskurs",
+      "courseDates": [
+        {
+          "start": "20261012",
+          "end": "20261016"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260807",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-plutonchef-2-20260420-vällinge",
+      "templateId": "plutonchef-2",
+      "courseDates": [
+        {
+          "start": "20260420",
+          "end": "20260429"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260131",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk119in00-20260323-vällinge",
+      "templateId": "auto-mahgk119in00",
+      "courseDates": [
+        {
+          "start": "20260323",
+          "end": "20260326"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260116",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk119in00-20261116-vällinge",
+      "templateId": "auto-mahgk119in00",
+      "courseDates": [
+        {
+          "start": "20261116",
+          "end": "20261119"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260918",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-kvartermästarkurs-1-20260209-vällinge",
+      "templateId": "kvartermästarkurs-1",
+      "courseDates": [
+        {
+          "start": "20260209",
+          "end": "20260218"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20251127",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-nordisk-chefskurs-20261108-danmark",
+      "templateId": "nordisk-chefskurs",
+      "courseDates": [
+        {
+          "start": "20261108",
+          "end": "20261112"
+        }
+      ],
+      "location": "Danmark",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260619",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-stabschefskurs-20260504-vällinge",
+      "templateId": "stabschefskurs",
+      "courseDates": [
+        {
+          "start": "20260504",
+          "end": "20260508"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260222",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-hvt424l0000-20260126-vällinge",
+      "templateId": "auto-hvt424l0000",
+      "courseDates": [
+        {
+          "start": "20260126",
+          "end": "20260204"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20251114",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-hvt424l0000-20260518-vällinge",
+      "templateId": "auto-hvt424l0000",
+      "courseDates": [
+        {
+          "start": "20260518",
+          "end": "20260527"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260306",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-indirekt-ledarskap-20260205-vällinge",
+      "templateId": "indirekt-ledarskap",
+      "courseDates": [
+        {
+          "start": "20260205",
+          "end": "20260206"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20251127",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-indirekt-ledarskap-20260917-vällinge",
+      "templateId": "indirekt-ledarskap",
+      "courseDates": [
+        {
+          "start": "20260917",
+          "end": "20260918"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260619",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-ledarskap-och-självkännedom-20260621-vällinge",
+      "templateId": "ledarskap-och-självkännedom",
+      "courseDates": [
+        {
+          "start": "20260621",
+          "end": "20260623"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260403",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-utveckling-grupp-ledare-20260511-vällinge",
+      "templateId": "utveckling-grupp-ledare",
+      "courseDates": [
+        {
+          "start": "20260511",
+          "end": "20260515"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260227",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-utveckling-grupp-ledare-20261005-vällinge",
+      "templateId": "utveckling-grupp-ledare",
+      "courseDates": [
+        {
+          "start": "20261005",
+          "end": "20261009"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20260515",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-utvecklande-ledarskap-20260202-vällinge",
+      "templateId": "utvecklande-ledarskap",
+      "courseDates": [
+        {
+          "start": "20260202",
+          "end": "20260205"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20251127",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-utvecklande-ledarskap-20260914-vällinge",
+      "templateId": "utvecklande-ledarskap",
+      "courseDates": [
+        {
+          "start": "20260914",
+          "end": "20260917"
+        }
+      ],
+      "location": "Vällinge",
+      "eventResponsible": "HvSS",
+      "applicationDeadline": "20251127",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-1-20260112-kosta",
+      "templateId": "gruppchef-1",
+      "courseDates": [
+        {
+          "start": "20260112",
+          "end": "20260121"
+        }
+      ],
+      "location": "Kosta",
+      "eventResponsible": "KRAG",
+      "applicationDeadline": "20251031",
+      "spots": 25,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-1-20260323-rinkaby",
+      "templateId": "gruppchef-1",
+      "courseDates": [
+        {
+          "start": "20260323",
+          "end": "20260401"
+        }
+      ],
+      "location": "Rinkaby",
+      "eventResponsible": "SSK",
+      "applicationDeadline": "20260109",
+      "spots": 25,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-plutonchef-1-20260112-kosta",
+      "templateId": "plutonchef-1",
+      "courseDates": [
+        {
+          "start": "20260112",
+          "end": "20260121"
+        }
+      ],
+      "location": "Kosta",
+      "eventResponsible": "KRAG",
+      "applicationDeadline": "20251031",
+      "spots": 15,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-plutonchef-1-20260706-revingehed",
+      "templateId": "plutonchef-1",
+      "courseDates": [
+        {
+          "start": "20260706",
+          "end": "20260816"
+        }
+      ],
+      "location": "Revingehed",
+      "eventResponsible": "SSK",
+      "applicationDeadline": "20260424",
+      "spots": 16,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-plutonchef-2-20261103, 20270205-karlskrona",
+      "templateId": "plutonchef-2",
+      "courseDates": [
+        {
+          "start": "20261103, 20270205",
+          "end": "20261108, 20270227"
+        }
+      ],
+      "location": "Karlskrona",
+      "eventResponsible": "BLG",
+      "applicationDeadline": "20260830",
+      "spots": 15,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk119fu02-20260130, 20260213-f17",
+      "templateId": "auto-mahgk119fu02",
+      "courseDates": [
+        {
+          "start": "20260130, 20260213",
+          "end": "20260201, 20260215"
+        }
+      ],
+      "location": "F17",
+      "eventResponsible": "BLG",
+      "applicationDeadline": "20251116",
+      "spots": 25,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-2-20260302-kvarn",
+      "templateId": "gruppchef-2",
+      "courseDates": [
+        {
+          "start": "20260302",
+          "end": "20260311"
+        }
+      ],
+      "location": "Kvarn",
+      "eventResponsible": "LVG",
+      "applicationDeadline": "20260116",
+      "spots": 24,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-2-20260706-revingehed",
+      "templateId": "gruppchef-2",
+      "courseDates": [
+        {
+          "start": "20260706",
+          "end": "20260816"
+        }
+      ],
+      "location": "Revingehed",
+      "eventResponsible": "SSK",
+      "applicationDeadline": "20260424",
+      "spots": 24,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-2-20261103, 20270205-karlskrona",
+      "templateId": "gruppchef-2",
+      "courseDates": [
+        {
+          "start": "20261103, 20270205",
+          "end": "20261108, 20270207"
+        }
+      ],
+      "location": "Karlskrona",
+      "eventResponsible": "BLG",
+      "applicationDeadline": "20260830",
+      "spots": 24,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-3-20270402-kosta",
+      "templateId": "gruppchef-3",
+      "courseDates": [
+        {
+          "start": "20270402",
+          "end": "20270411"
+        }
+      ],
+      "location": "Kosta",
+      "eventResponsible": "BLG",
+      "applicationDeadline": "20270117",
+      "spots": 30,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-bataljonstridskurs-20260424, 20260508-f17",
+      "templateId": "bataljonstridskurs",
+      "courseDates": [
+        {
+          "start": "20260424, 20260508",
+          "end": "20260426, 20260510"
+        }
+      ],
+      "location": "F17",
+      "eventResponsible": "BLG",
+      "applicationDeadline": "20260215",
+      "spots": 18,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-hv-intro-automatkarbin-4-20260227-kvarn",
+      "templateId": "hv-intro-automatkarbin-4",
+      "courseDates": [
+        {
+          "start": "20260227",
+          "end": "20260301"
+        }
+      ],
+      "location": "Kvarn",
+      "eventResponsible": "LVG",
+      "applicationDeadline": "20260116",
+      "spots": 40,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-hv-intro-automatkarbin-4-20260227-kosta",
+      "templateId": "hv-intro-automatkarbin-4",
+      "courseDates": [
+        {
+          "start": "20260227",
+          "end": "20260301"
+        }
+      ],
+      "location": "Kosta",
+      "eventResponsible": "KRAG",
+      "applicationDeadline": "20260116",
+      "spots": 40,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-hv-intro-automatkarbin-4-20260515-kvarn",
+      "templateId": "hv-intro-automatkarbin-4",
+      "courseDates": [
+        {
+          "start": "20260515",
+          "end": "20260517"
+        }
+      ],
+      "location": "Kvarn",
+      "eventResponsible": "LVG",
+      "applicationDeadline": "20260402",
+      "spots": 40,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-hv-intro-automatkarbin-4-20260612-kosta",
+      "templateId": "hv-intro-automatkarbin-4",
+      "courseDates": [
+        {
+          "start": "20260612",
+          "end": "20260614"
+        }
+      ],
+      "location": "Kosta",
+      "eventResponsible": "KRAG",
+      "applicationDeadline": "20260331",
+      "spots": 40,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-hv-intro-automatkarbin-4-20260828-kvarn",
+      "templateId": "hv-intro-automatkarbin-4",
+      "courseDates": [
+        {
+          "start": "20260828",
+          "end": "20260830"
+        }
+      ],
+      "location": "Kvarn",
+      "eventResponsible": "LVG",
+      "applicationDeadline": "20260612",
+      "spots": 40,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-hv-intro-automatkarbin-4-20261106-karlskrona",
+      "templateId": "hv-intro-automatkarbin-4",
+      "courseDates": [
+        {
+          "start": "20261106",
+          "end": "20261108"
+        }
+      ],
+      "location": "Karlskrona",
+      "eventResponsible": "BLG",
+      "applicationDeadline": "20260925",
+      "spots": 40,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-undgk311sf11-20260305-karlskrona",
+      "templateId": "auto-undgk311sf11",
+      "courseDates": [
+        {
+          "start": "20260305",
+          "end": "20260308"
+        }
+      ],
+      "location": "Karlskrona",
+      "eventResponsible": "BLG",
+      "applicationDeadline": "20260102",
+      "spots": 12,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-und424isf45-20260306-karlskrona",
+      "templateId": "auto-und424isf45",
+      "courseDates": [
+        {
+          "start": "20260306",
+          "end": "20260308"
+        }
+      ],
+      "location": "Karlskrona",
+      "eventResponsible": "BLG",
+      "applicationDeadline": "20260102",
+      "spots": 30,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-basförmåga-kulspruta-58-20260323-rinkaby",
+      "templateId": "basförmåga-kulspruta-58",
+      "courseDates": [
+        {
+          "start": "20260323",
+          "end": "20260329"
+        }
+      ],
+      "location": "Rinkaby",
+      "eventResponsible": "SSK",
+      "applicationDeadline": "20260109",
+      "spots": 16,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-basförmåga-kulspruta-58-20260402-kosta",
+      "templateId": "basförmåga-kulspruta-58",
+      "courseDates": [
+        {
+          "start": "20260402",
+          "end": "20260404"
+        }
+      ],
+      "location": "Kosta",
+      "eventResponsible": "BLG",
+      "applicationDeadline": "20260116",
+      "spots": 12,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-basförmåga-8,4-cm-granatgevär-20260323-rinkaby",
+      "templateId": "basförmåga-8,4-cm-granatgevär",
+      "courseDates": [
+        {
+          "start": "20260323",
+          "end": "20260329"
+        }
+      ],
+      "location": "Rinkaby",
+      "eventResponsible": "SSK",
+      "applicationDeadline": "20260109",
+      "spots": 16,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-basförmåga-8,4-cm-granatgevär-20260402-kosta",
+      "templateId": "basförmåga-8,4-cm-granatgevär",
+      "courseDates": [
+        {
+          "start": "20260402",
+          "end": "20260404"
+        }
+      ],
+      "location": "Kosta",
+      "eventResponsible": "BLG",
+      "applicationDeadline": "20260116",
+      "spots": 12,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk119fu02-20260513-kosta",
+      "templateId": "auto-mahgk119fu02",
+      "courseDates": [
+        {
+          "start": "20260513",
+          "end": "20260517"
+        }
+      ],
+      "location": "Kosta",
+      "eventResponsible": "KRAG",
+      "applicationDeadline": "20260301",
+      "spots": 20,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk119fu02-20261125-kosta",
+      "templateId": "auto-mahgk119fu02",
+      "courseDates": [
+        {
+          "start": "20261125",
+          "end": "20261129"
+        }
+      ],
+      "location": "Kosta",
+      "eventResponsible": "KRAG",
+      "applicationDeadline": "20260913",
+      "spots": 20,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-hvt423f1000-20260525-kvarn",
+      "templateId": "auto-hvt423f1000",
+      "courseDates": [
+        {
+          "start": "20260525",
+          "end": "20260603"
+        }
+      ],
+      "location": "Kvarn",
+      "eventResponsible": "LVG",
+      "applicationDeadline": "20260410",
+      "spots": 20,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk9090001-20260601-rinkaby",
+      "templateId": "auto-mahgk9090001",
+      "courseDates": [
+        {
+          "start": "20260601",
+          "end": "20260610"
+        }
+      ],
+      "location": "Rinkaby",
+      "eventResponsible": "SSK",
+      "applicationDeadline": "20260306",
+      "spots": 24,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-x-20260627-eso",
+      "templateId": "gruppchef-x",
+      "courseDates": [
+        {
+          "start": "20260627",
+          "end": "20260706"
+        }
+      ],
+      "location": "ESO",
+      "eventResponsible": "MRM",
+      "applicationDeadline": "20260322",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-plutonchef-12-20260318-strängnäs",
+      "templateId": "plutonchef-12",
+      "courseDates": [
+        {
+          "start": "20260318",
+          "end": "20260329"
+        }
+      ],
+      "location": "Strängnäs",
+      "eventResponsible": "SLG",
+      "applicationDeadline": "20260111",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gc12-20260318-strängnäs",
+      "templateId": "auto-gc12",
+      "courseDates": [
+        {
+          "start": "20260318",
+          "end": "20260329"
+        }
+      ],
+      "location": "Strängnäs",
+      "eventResponsible": "SLG",
+      "applicationDeadline": "20260111",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-fordon-förare-pb8-20260316-gävle",
+      "templateId": "fordon-förare-pb8",
+      "courseDates": [
+        {
+          "start": "20260316",
+          "end": "20260322"
+        }
+      ],
+      "location": "Gävle",
+      "eventResponsible": "GBG",
+      "applicationDeadline": "20260111",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-fordon-förare-pb8-20260629-gävle",
+      "templateId": "fordon-förare-pb8",
+      "courseDates": [
+        {
+          "start": "20260629",
+          "end": "20260705"
+        }
+      ],
+      "location": "Gävle",
+      "eventResponsible": "GBG",
+      "applicationDeadline": "20260322",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-fordon-förare-pb8-20260629-gävle",
+      "templateId": "fordon-förare-pb8",
+      "courseDates": [
+        {
+          "start": "20260629",
+          "end": "20260705"
+        }
+      ],
+      "location": "Gävle",
+      "eventResponsible": "GBG",
+      "applicationDeadline": "20260322",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-kombu-20261019-eso",
+      "templateId": "kombu",
+      "courseDates": [
+        {
+          "start": "20261019",
+          "end": "20261023"
+        }
+      ],
+      "location": "ESO",
+      "eventResponsible": "MRM",
+      "applicationDeadline": "20260807",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk119fu02-20261019-eso",
+      "templateId": "auto-mahgk119fu02",
+      "courseDates": [
+        {
+          "start": "20261019",
+          "end": "20261023"
+        }
+      ],
+      "location": "ESO",
+      "eventResponsible": "MRM",
+      "applicationDeadline": "20260807",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk119fu02-20260309-eso",
+      "templateId": "auto-mahgk119fu02",
+      "courseDates": [
+        {
+          "start": "20260309",
+          "end": "20260313"
+        }
+      ],
+      "location": "ESO",
+      "eventResponsible": "MRM",
+      "applicationDeadline": "20260111",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-ikgrg18-20260310-strängnäs",
+      "templateId": "auto-ikgrg18",
+      "courseDates": [
+        {
+          "start": "20260310",
+          "end": "20260314"
+        }
+      ],
+      "location": "Strängnäs",
+      "eventResponsible": "SLG",
+      "applicationDeadline": "20260111",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahfö2111555-20260310-strängnäs",
+      "templateId": "auto-mahfö2111555",
+      "courseDates": [
+        {
+          "start": "20260310",
+          "end": "20260314"
+        }
+      ],
+      "location": "Strängnäs",
+      "eventResponsible": "SLG",
+      "applicationDeadline": "20260111",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-plutonchef-1-20260116-villingsberg",
+      "templateId": "plutonchef-1",
+      "courseDates": [
+        {
+          "start": "20260116",
+          "end": "20260125"
+        }
+      ],
+      "location": "Villingsberg",
+      "eventResponsible": "ÖVG",
+      "applicationDeadline": "20251123",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gc12-20260216-göteborg",
+      "templateId": "auto-gc12",
+      "courseDates": [
+        {
+          "start": "20260216",
+          "end": "20260301"
+        }
+      ],
+      "location": "Göteborg",
+      "eventResponsible": "EBG",
+      "applicationDeadline": "20251123",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-x-20260220-skövde",
+      "templateId": "gruppchef-x",
+      "courseDates": [
+        {
+          "start": "20260220",
+          "end": "20260301"
+        }
+      ],
+      "location": "Skövde",
+      "eventResponsible": "MRV",
+      "applicationDeadline": "20251123",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-kompanistridskurs-20260302-skövde",
+      "templateId": "kompanistridskurs",
+      "courseDates": [
+        {
+          "start": "20260302",
+          "end": "20260306"
+        }
+      ],
+      "location": "Skövde",
+      "eventResponsible": "SKG",
+      "applicationDeadline": "20251207",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-bataljonstridskurs-20260304-skövde",
+      "templateId": "bataljonstridskurs",
+      "courseDates": [
+        {
+          "start": "20260304",
+          "end": "20260308"
+        }
+      ],
+      "location": "Skövde",
+      "eventResponsible": "MRV",
+      "applicationDeadline": "20251207",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-2-20260316-halmstad",
+      "templateId": "gruppchef-2",
+      "courseDates": [
+        {
+          "start": "20260316",
+          "end": "20260325"
+        }
+      ],
+      "location": "Halmstad",
+      "eventResponsible": "HAG",
+      "applicationDeadline": "20260104",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk119fu02-20260817-skövde",
+      "templateId": "auto-mahgk119fu02",
+      "courseDates": [
+        {
+          "start": "20260817",
+          "end": "20260821"
+        }
+      ],
+      "location": "Skövde",
+      "eventResponsible": "SKG",
+      "applicationDeadline": "20260524",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-kompanichef-1-20261102-skredsvik",
+      "templateId": "kompanichef-1",
+      "courseDates": [
+        {
+          "start": "20261102",
+          "end": "20261111"
+        }
+      ],
+      "location": "Skredsvik",
+      "eventResponsible": "BDG",
+      "applicationDeadline": "20260809",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-plutonchef-2-20261102-skredsvik",
+      "templateId": "plutonchef-2",
+      "courseDates": [
+        {
+          "start": "20261102",
+          "end": "20261111"
+        }
+      ],
+      "location": "Skredsvik",
+      "eventResponsible": "BDG",
+      "applicationDeadline": "20260809",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gkmotorsåg-20260504-kråk",
+      "templateId": "auto-gkmotorsåg",
+      "courseDates": [
+        {
+          "start": "20260504",
+          "end": "20260504"
+        }
+      ],
+      "location": "Kråk",
+      "eventResponsible": "SKG",
+      "applicationDeadline": "20260208",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gkuav06a-20260304-skövde",
+      "templateId": "auto-gkuav06a",
+      "courseDates": [
+        {
+          "start": "20260304",
+          "end": "20260308"
+        }
+      ],
+      "location": "Skövde",
+      "eventResponsible": "MRV",
+      "applicationDeadline": "20251207",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gkuav06a-20260527-skövde",
+      "templateId": "auto-gkuav06a",
+      "courseDates": [
+        {
+          "start": "20260527",
+          "end": "20260531"
+        }
+      ],
+      "location": "Skövde",
+      "eventResponsible": "MRV",
+      "applicationDeadline": "20260301",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gkuav06a-20260923-eso",
+      "templateId": "auto-gkuav06a",
+      "courseDates": [
+        {
+          "start": "20260923",
+          "end": "20260927"
+        }
+      ],
+      "location": "ESO",
+      "eventResponsible": "MRV",
+      "applicationDeadline": "20260628",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gkuav06a-20261118-eso",
+      "templateId": "auto-gkuav06a",
+      "courseDates": [
+        {
+          "start": "20261118",
+          "end": "20261122"
+        }
+      ],
+      "location": "ESO",
+      "eventResponsible": "MRV",
+      "applicationDeadline": "20260823",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-iktmm-20260225-skövde",
+      "templateId": "auto-iktmm",
+      "courseDates": [
+        {
+          "start": "20260225",
+          "end": "20260301"
+        }
+      ],
+      "location": "Skövde",
+      "eventResponsible": "SKG",
+      "applicationDeadline": "20251130",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-hvt423f1000-20260302-halmstad",
+      "templateId": "auto-hvt423f1000",
+      "courseDates": [
+        {
+          "start": "20260302",
+          "end": "20260309"
+        }
+      ],
+      "location": "Halmstad",
+      "eventResponsible": "HAG",
+      "applicationDeadline": "20251207",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-und525sfs47-20260304-halmstad",
+      "templateId": "auto-und525sfs47",
+      "courseDates": [
+        {
+          "start": "20260304",
+          "end": "20260308"
+        }
+      ],
+      "location": "Halmstad",
+      "eventResponsible": "HAG",
+      "applicationDeadline": "20251207",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mar423fbank-20260608, 20260622-göteborg",
+      "templateId": "auto-mar423fbank",
+      "courseDates": [
+        {
+          "start": "20260608, 20260622",
+          "end": "20260612, 20260626"
+        }
+      ],
+      "location": "Göteborg",
+      "eventResponsible": "EBG",
+      "applicationDeadline": "20260322",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-loggk404040-20260819-eso",
+      "templateId": "auto-loggk404040",
+      "courseDates": [
+        {
+          "start": "20260819",
+          "end": "20260823"
+        }
+      ],
+      "location": "ESO",
+      "eventResponsible": "EBG",
+      "applicationDeadline": "20260524",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-c16020-20260819-landvetter",
+      "templateId": "auto-c16020",
+      "courseDates": [
+        {
+          "start": "20260819",
+          "end": "20260819"
+        }
+      ],
+      "location": "Landvetter",
+      "eventResponsible": "EBG",
+      "applicationDeadline": "20260524",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk9090001-20260817-villingsberg",
+      "templateId": "auto-mahgk9090001",
+      "courseDates": [
+        {
+          "start": "20260817",
+          "end": "20260826"
+        }
+      ],
+      "location": "Villingsberg",
+      "eventResponsible": "ÖVG",
+      "applicationDeadline": "20260524",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-1-20260417-kråk",
+      "templateId": "gruppchef-1",
+      "courseDates": [
+        {
+          "start": "20260417",
+          "end": "20260426"
+        }
+      ],
+      "location": "Kråk",
+      "eventResponsible": "FJG",
+      "applicationDeadline": "20260308",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-1-20260417-östersund",
+      "templateId": "gruppchef-1",
+      "courseDates": [
+        {
+          "start": "20260417",
+          "end": "20260426"
+        }
+      ],
+      "location": "Östersund",
+      "eventResponsible": "FJG",
+      "applicationDeadline": "20260308",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-1-20260629-boden",
+      "templateId": "gruppchef-1",
+      "courseDates": [
+        {
+          "start": "20260629",
+          "end": "20260705"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "NBG",
+      "applicationDeadline": "20260510",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-1-20260817-umeå",
+      "templateId": "gruppchef-1",
+      "courseDates": [
+        {
+          "start": "20260817",
+          "end": "20260826"
+        }
+      ],
+      "location": "Umeå",
+      "eventResponsible": "VBG",
+      "applicationDeadline": "20260607",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-1-20261113-kalixfors",
+      "templateId": "gruppchef-1",
+      "courseDates": [
+        {
+          "start": "20261113",
+          "end": "20261122"
+        }
+      ],
+      "location": "Kalixfors",
+      "eventResponsible": "LJG",
+      "applicationDeadline": "20261015",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-gruppchef-2-20261030-östersund",
+      "templateId": "gruppchef-2",
+      "courseDates": [
+        {
+          "start": "20261030",
+          "end": "20261108"
+        }
+      ],
+      "location": "Östersund",
+      "eventResponsible": "FJG",
+      "applicationDeadline": "20260913",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-plutonchef-1-20260629-boden",
+      "templateId": "plutonchef-1",
+      "courseDates": [
+        {
+          "start": "20260629",
+          "end": "20260705"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "NBG",
+      "applicationDeadline": "20260510",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-plutonchef-1-20261030-östersund",
+      "templateId": "plutonchef-1",
+      "courseDates": [
+        {
+          "start": "20261030",
+          "end": "20261108"
+        }
+      ],
+      "location": "Östersund",
+      "eventResponsible": "FJG",
+      "applicationDeadline": "20260913",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-plutonchef-1-20261123-härnösand",
+      "templateId": "plutonchef-1",
+      "courseDates": [
+        {
+          "start": "20261123",
+          "end": "20261202"
+        }
+      ],
+      "location": "Härnösand",
+      "eventResponsible": "VNG",
+      "applicationDeadline": "20261012",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-plutonchef-2-20261123-härnösand",
+      "templateId": "plutonchef-2",
+      "courseDates": [
+        {
+          "start": "20261123",
+          "end": "20261202"
+        }
+      ],
+      "location": "Härnösand",
+      "eventResponsible": "VNG",
+      "applicationDeadline": "20261012",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-kompanichef-1-20261123-härnösand",
+      "templateId": "kompanichef-1",
+      "courseDates": [
+        {
+          "start": "20261123",
+          "end": "20261202"
+        }
+      ],
+      "location": "Härnösand",
+      "eventResponsible": "VNG",
+      "applicationDeadline": "20261012",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-basförmåga-8,4-cm-granatgevär-20260928-tåme",
+      "templateId": "basförmåga-8,4-cm-granatgevär",
+      "courseDates": [
+        {
+          "start": "20260928",
+          "end": "20261002"
+        }
+      ],
+      "location": "Tåme",
+      "eventResponsible": "VBG",
+      "applicationDeadline": "20260607",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-basförmåga-kulspruta-58-20260928-tåme",
+      "templateId": "basförmåga-kulspruta-58",
+      "courseDates": [
+        {
+          "start": "20260928",
+          "end": "20261002"
+        }
+      ],
+      "location": "Tåme",
+      "eventResponsible": "VBG",
+      "applicationDeadline": "20260607",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gkuav06a-20260423-kalixfors",
+      "templateId": "auto-gkuav06a",
+      "courseDates": [
+        {
+          "start": "20260423",
+          "end": "20260426"
+        }
+      ],
+      "location": "Kalixfors",
+      "eventResponsible": "LJG",
+      "applicationDeadline": "20260401",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gkuav06a-20260423-kalixfors",
+      "templateId": "auto-gkuav06a",
+      "courseDates": [
+        {
+          "start": "20260423",
+          "end": "20260426"
+        }
+      ],
+      "location": "Kalixfors",
+      "eventResponsible": "LJG",
+      "applicationDeadline": "20260401",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gkuav06a-20260813-umeå",
+      "templateId": "auto-gkuav06a",
+      "courseDates": [
+        {
+          "start": "20260813",
+          "end": "20260816"
+        }
+      ],
+      "location": "Umeå",
+      "eventResponsible": "VBG",
+      "applicationDeadline": "20260607",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gkuav06a-20260903-östersund",
+      "templateId": "auto-gkuav06a",
+      "courseDates": [
+        {
+          "start": "20260903",
+          "end": "20260906"
+        }
+      ],
+      "location": "Östersund",
+      "eventResponsible": "FJG",
+      "applicationDeadline": "20260802",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gkuav06a-20261112-östersund",
+      "templateId": "auto-gkuav06a",
+      "courseDates": [
+        {
+          "start": "20261112",
+          "end": "20261115"
+        }
+      ],
+      "location": "Östersund",
+      "eventResponsible": "FJG",
+      "applicationDeadline": "20261004",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk119fu02-20260527-östersund",
+      "templateId": "auto-mahgk119fu02",
+      "courseDates": [
+        {
+          "start": "20260527",
+          "end": "20260531"
+        }
+      ],
+      "location": "Östersund",
+      "eventResponsible": "FJG",
+      "applicationDeadline": "20260419",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk119fu02-20261014-östersund",
+      "templateId": "auto-mahgk119fu02",
+      "courseDates": [
+        {
+          "start": "20261014",
+          "end": "20261018"
+        }
+      ],
+      "location": "Östersund",
+      "eventResponsible": "FJG",
+      "applicationDeadline": "20260906",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-ikgrg18-20260120-boden",
+      "templateId": "auto-ikgrg18",
+      "courseDates": [
+        {
+          "start": "20260120",
+          "end": "20260121"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "VBG",
+      "applicationDeadline": "20251115",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-iktmm-20260216-umeå",
+      "templateId": "auto-iktmm",
+      "courseDates": [
+        {
+          "start": "20260216",
+          "end": "20260219"
+        }
+      ],
+      "location": "Umeå",
+      "eventResponsible": "VBG",
+      "applicationDeadline": "20260118",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-loggk404040-20260216-umeå",
+      "templateId": "auto-loggk404040",
+      "courseDates": [
+        {
+          "start": "20260216",
+          "end": "20260219"
+        }
+      ],
+      "location": "Umeå",
+      "eventResponsible": "VBG",
+      "applicationDeadline": "20260118",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk9090001-20260223-härnösand",
+      "templateId": "auto-mahgk9090001",
+      "courseDates": [
+        {
+          "start": "20260223",
+          "end": "20260301"
+        }
+      ],
+      "location": "Härnösand",
+      "eventResponsible": "VNG",
+      "applicationDeadline": "20260119",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk9090001-20260817-umeå",
+      "templateId": "auto-mahgk9090001",
+      "courseDates": [
+        {
+          "start": "20260817",
+          "end": "20260826"
+        }
+      ],
+      "location": "Umeå",
+      "eventResponsible": "VBG",
+      "applicationDeadline": "20260607",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahgk9090001-20260311, 20260520-östersund",
+      "templateId": "auto-mahgk9090001",
+      "courseDates": [
+        {
+          "start": "20260311, 20260520",
+          "end": "20260315, 20260524"
+        }
+      ],
+      "location": "Östersund",
+      "eventResponsible": "FJG",
+      "applicationDeadline": "20260201",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahfk2011553-20260924, 20261008-boden",
+      "templateId": "auto-mahfk2011553",
+      "courseDates": [
+        {
+          "start": "20260924, 20261008",
+          "end": "20260927, 20261011"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "NBG",
+      "applicationDeadline": "20260823",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahfk2011553-20261102-umeå",
+      "templateId": "auto-mahfk2011553",
+      "courseDates": [
+        {
+          "start": "20261102",
+          "end": "20261111"
+        }
+      ],
+      "location": "Umeå",
+      "eventResponsible": "VBG",
+      "applicationDeadline": "20260906",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-mahfk2011553-20261113-kalixfors",
+      "templateId": "auto-mahfk2011553",
+      "courseDates": [
+        {
+          "start": "20261113",
+          "end": "20261122"
+        }
+      ],
+      "location": "Kalixfors",
+      "eventResponsible": "LJG",
+      "applicationDeadline": "20261015",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-hvt423f1000-20260417-kalixfors",
+      "templateId": "auto-hvt423f1000",
+      "courseDates": [
+        {
+          "start": "20260417",
+          "end": "20260426"
+        }
+      ],
+      "location": "Kalixfors",
+      "eventResponsible": "LJG",
+      "applicationDeadline": "20260401",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-hvt423f1000-20261113-kalixfors",
+      "templateId": "auto-hvt423f1000",
+      "courseDates": [
+        {
+          "start": "20261113",
+          "end": "20261122"
+        }
+      ],
+      "location": "Kalixfors",
+      "eventResponsible": "LJG",
+      "applicationDeadline": "20261015",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-hvt423f1000-20260425-boden",
+      "templateId": "auto-hvt423f1000",
+      "courseDates": [
+        {
+          "start": "20260425",
+          "end": "20260426"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "NBG",
+      "applicationDeadline": "20260322",
+      "spots": null,
+      "status": "open",
+      "notes": "Repetition",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-undgk311sf11-20261019-boden",
+      "templateId": "auto-undgk311sf11",
+      "courseDates": [
+        {
+          "start": "20261019",
+          "end": "20261023"
+        }
+      ],
+      "location": "Boden",
+      "eventResponsible": "NBG",
+      "applicationDeadline": "20260920",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
+      ]
+    },
+    {
+      "id": "evt-auto-gksensor-20261116-östersund",
+      "templateId": "auto-gksensor",
+      "courseDates": [
+        {
+          "start": "20261116",
+          "end": "20261122"
+        }
+      ],
+      "location": "Östersund",
+      "eventResponsible": "FJG",
+      "applicationDeadline": "20261011",
+      "spots": null,
+      "status": "open",
+      "notes": "",
+      "lastModifiedBy": "csv-import",
+      "lastModified": "20260104-211437",
+      "sourceFiles": [
+        "events.csv"
       ]
     }
   ]
