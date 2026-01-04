@@ -19,7 +19,7 @@ def add(id, name, category, shortName=None, resp="HvSS", sources=None, base=None
         "prerequisites": [],
         "literature": "",
         "additionalInfo": None,
-        "typicalDuration": 0,
+        "typicalDuration": "",
         "courseResponsible": resp,
         "baseTemplateIds": base or [],
         "sourceFiles": sources or []

@@ -73,7 +73,7 @@
       "description": "Additional information."
     },
     "typicalDuration": {
-      "type": "number",
+      "type": "string",
       "description": "Typical duration in days."
     },
     "courseResponsible": {
@@ -93,6 +93,15 @@
         "type": "string"
       },
       "description": "Source PDF files."
+    },
+    "lastModifiedBy": {
+      "type": "string",
+      "description": "Identifier of who last modified the template (e.g. gpt-4.1)."
+      },
+    "lastModified": {
+      "type": "string",
+      "pattern": "^\\d{8}-\\d{6}$",
+      "description": "Timestamp of last modification in YYYYMMDD-hhmmss format."
     }
   },
 

@@ -8,6 +8,7 @@ from tqdm import tqdm
 import pdfplumber
 from jsonschema import validate
 from openai import OpenAI, RateLimitError
+from datetime import datetime, timezone
 
 # =========================
 # CONFIG
@@ -26,11 +27,18 @@ OUTPUT_FILE = "data/hemvarn_course_templates_enriched.json"
 
 MODEL = "gpt-4.1"
 TEMPERATURE = 0.2
-THROTTLE_SECONDS = 0.5
+THROTTLE_SECONDS = 2.5
 
 os.makedirs(TEXT_DIR, exist_ok=True)
 
 client = OpenAI(api_key=OPENAI_API_KEY)
+
+# =========================
+# Date helpers
+# =========================
+
+def now_utc_timestamp():
+    return datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
 
 # =========================
 # PDF → TEXT
@@ -110,18 +118,20 @@ def merge_templates(original, enriched):
 # OPENAI CALL
 # =========================
 
-def call_with_retry(messages, retries=5):
-    for i in range(retries):
+def call_with_retry(messages, retries=6):
+    for attempt in range(retries):
         try:
             return client.responses.create(
                 model=MODEL,
                 temperature=TEMPERATURE,
                 input=messages
             )
-        except RateLimitError:
-            wait = 2 ** i + random.uniform(0, 1)
+        except RateLimitError as e:
+            wait = 10 + attempt * 5
+            print(f"[RATE LIMIT] waiting {wait}s before retry")
             time.sleep(wait)
-    raise RuntimeError("Rate limit exceeded")
+
+    raise RuntimeError("Rate limit exceeded after retries")
 
 # =========================
 # PROMPT
@@ -130,21 +140,27 @@ def call_with_retry(messages, retries=5):
 SYSTEM_PROMPT = """
 You are enriching Swedish Hemvärnet course templates.
 
-You may use:
-- Provided source text
-- Well-established knowledge of Hemvärnet and Försvarsmakten training
+Use the following guidance:
+
+PRIMARY EXAMPLE:
+- A fully populated Gruppchefskurs template demonstrates the expected structure, tone, and level of detail.
+
+CONTRAST EXAMPLE:
+- Functional/specialist courses (e.g. TCCC-CLS) are typically described more concisely,
+  with focus on skills, application, and target audience rather than leadership progression.
 
 Rules:
-- Write in Swedish
-- Be neutral, professional, and concise
-- Prefer source text when available
-- If missing, synthesize high-level, conservative descriptions
-- Do NOT invent specific regulations, hours, or exams
-- Do NOT modify identifiers or administrative fields
-- Output ONLY a valid CourseTemplate JSON object
+- Write in Swedish.
+- Be neutral, professional, and concise.
+- Prefer provided source text when available.
+- If source text is missing, you MAY synthesize high-level, well-established knowledge.
+- Do NOT invent exact hours, regulations, or examination rules unless obvious.
+- Do NOT modify id, name, shortName, category, courseResponsible, baseTemplateIds, or sourceFiles.
+- Output ONLY a valid CourseTemplate JSON object.
 """
 
-EXAMPLE = {
+
+PRIMARY_EXAMPLE = {
     "id": "gruppchef-1",
     "name": "Gruppchefskurs 1",
     "shortName": "GC1",
@@ -177,15 +193,58 @@ EXAMPLE = {
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
       ]
+  }
+
+CONTRAST_EXAMPLE = {
+  "courseType": "Grundläggande militärutbildning / funktionsutbildning",
+  "exampleName": "Kombattantutbildning för krigsplacerad, obeväpnad personal (KombU)",
+  "descriptionStyle": "Saklig och kortfattad, fokus på grundläggande förståelse och tillämpning",
+  "typicalDescription": "Grundläggande utbildning som ger personal förståelse för sin roll, status och uppgifter i Försvarsmaktens krigsorganisation.",
+  "typicalTargetAudience": "Krigsplacerad personal utan ordinarie beväpning.",
+  "typicalPurpose": "Att ge deltagaren grundläggande kunskap om totalförsvaret, värdegrund, folkrätt och det egna förbandets uppgift.",
+  "typicalLearningObjectives": [
+    "Förstå egen roll i krigsorganisationen",
+    "Tillämpa grundläggande soldatkunskaper",
+    "Följa Försvarsmaktens värdegrund och regelverk"
+  ]
 }
 
+'''
+CONTRAST_EXAMPLE = {
+      "id": "kombu",
+      "name": "Kombattantutbildning för krigsplacerad, obeväpnad personal (KombU)",
+      "shortName": "KombU",
+      "category": "Grundläggande militärutbildning",
+      "courseCode": "UTPGK450KU02",
+      "description": "Nedbrytning av lärandemål till specifika utbildningsmål sker i centralt utgiven kursbeskrivning. Undervisningsformerna utgörs av teoretiska och praktiska utbildningsmoment.",
+      "targetAudience": "Krigsplacerad, obeväpnad personal, såväl kombattanter som icke kombattanter (dessa icke kombattanter kan efter särskild utbildning tilldelas lättare beväpning).",
+      "syllabus": "Fysisk träning, Exercis, CBRN, Hälso- och sjukvårdsutbildning, Försvarsupplysning, FM Värdegrund, Folkrätt, förmanskap, Uniformssystem 90, Förevisningsskjutning, Brandutbildning",
+      "purpose": "Ge viss personal i Försvarsmaktens krigsorganisation förståelse för sin roll och sin status som ”kombattant” alternativt ”icke kombattant”.",
+      "finalGoal": "Ge deltagarna kunskap om Totalförsvaret, Försvarsmaktens Värdegrund, Folkrätt och det egna krigsförbandets uppgift och funktion i krigsorganisationen.",
+      "subGoals": [
+        "Kursen ska, tillsammans med eventuell specifik befattningsutbildning, ge sådan förmåga att eleven ska kunna krigsplaceras på avsedd befattning i krigsorganisationen."
+      ],
+      "examination": "För godkänt krävs att respektive kursdeltagaren deltagit i samtliga utbildningsmoment. Eventuell komplettering ska ske inom 6 månader från kurstillfället.",
+      "prerequisites": [],
+      "literature": "Underlag för utbildningen utgörs främst av delar av underlag för GMU. Dessa framgår av kursbeskrivningen för KombU.",
+      "additionalInfo": "Samverkan och synkronisering mot GMU och FSU har skett med kursansvarig för GMU och FSU (se vidare i kursbeskrivningen). Kursen kan även genomföras med ”icke kombattanter”. Kursen reviderad enligt MHS H 2014-12-18, 19 100:20260 avseende utbildningslängd, målgrupp samt syfte.",
+      "typicalDuration": "3 dagar",
+      "courseResponsible": "MHSH",
+      "baseTemplateIds": [],
+      "sourceFiles": [
+        "hvss-kurskatalog-2023.pdf",
+        "mr-m-utbildningskatalog-2026-a1.pdf"
+      ]
+    }
+'''
 # =========================
 # ENRICH
 # =========================
 
 def enrich_template(template, source_text, schema):
     payload = {
-        "example": EXAMPLE,
+        "primaryExample": PRIMARY_EXAMPLE,      # full GC1 JSON
+        "contrastExample": CONTRAST_EXAMPLE,    # reduced KombU
         "template": template,
         "sourceText": source_text
     }
@@ -241,7 +300,15 @@ def main():
             if v not in ("", [], None)
         }
 
-        catalog["templates"][i] = merge_templates(template, enriched)
+        merged = merge_templates(template, enriched)
+
+        # Only update metadata if something actually changed
+        if merged != template:
+            merged["lastModifiedBy"] = MODEL
+            merged["lastModified"] = now_utc_timestamp()
+
+        catalog["templates"][i] = merged
+
 
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             json.dump(catalog, f, ensure_ascii=False, indent=2)
