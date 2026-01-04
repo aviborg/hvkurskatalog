@@ -2,7 +2,7 @@
   "templates": [
     {
       "id": "kombu",
-      "name": "Kombattantutbildning för krigsplacerad, obeväpnad personal",
+      "name": "Kombattantutbildning för krigsplacerad, obeväpnad personal (KombU)",
       "shortName": "KombU",
       "category": "Grundläggande militärutbildning",
       "courseCode": null,
@@ -22,39 +22,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
-    },
-    {
-      "id": "gu-f",
-      "name": "Grundläggande soldatutbildning för frivillig personal",
-      "shortName": "GUF",
-      "category": "Grundläggande militärutbildning",
-      "courseCode": null,
-      "description": "",
-      "targetAudience": "",
-      "syllabus": "",
-      "purpose": "",
-      "learningObjectives": [],
-      "finalGoal": "",
-      "subGoals": [],
-      "examination": "",
-      "prerequisites": [],
-      "literature": "",
-      "additionalInfo": null,
-      "typicalDuration": 0,
-      "courseResponsible": "HvSS",
-      "baseTemplateIds": [],
-      "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
         "mr-m-utbildningskatalog-2026-a1.pdf"
       ]
     },
     {
       "id": "gruppchef-1",
-      "name": "Gruppchef 1",
+      "name": "Gruppchefskurs 1",
       "shortName": "GC1",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -74,13 +47,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "gruppchef-2",
-      "name": "Gruppchef 2",
+      "name": "Gruppchefskurs 2",
       "shortName": "GC2",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -100,13 +72,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "gruppchef-3",
-      "name": "Gruppchef 3",
+      "name": "Gruppchefskurs 3",
       "shortName": "GC3",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -126,13 +97,40 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
+        "hvss-kurskatalog-2025.pdf"
+      ]
+    },
+    {
+      "id": "gruppchef-12",
+      "name": "Gruppchefskurs 1 + 2",
+      "shortName": "GC12",
+      "category": "Chefsutbildningar",
+      "courseCode": null,
+      "description": "",
+      "targetAudience": "",
+      "syllabus": "",
+      "purpose": "",
+      "learningObjectives": [],
+      "finalGoal": "",
+      "subGoals": [],
+      "examination": "",
+      "prerequisites": [],
+      "literature": "",
+      "additionalInfo": null,
+      "typicalDuration": 0,
+      "courseResponsible": "HvSS",
+      "baseTemplateIds": [
+        "gruppchef-1",
+        "gruppchef-2"
+      ],
+      "sourceFiles": [
         "hvss-kurskatalog-2025.pdf",
         "mr-m-utbildningskatalog-2026-a1.pdf"
       ]
     },
     {
       "id": "gruppchef-x",
-      "name": "Gruppchef X",
+      "name": "Gruppchefskurs X",
       "shortName": "GCX",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -152,14 +150,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "gruppchef-12",
-      "name": "Gruppchef 1 + 2",
-      "shortName": "GC12",
+      "id": "troppchef-stab-tross",
+      "name": "Troppchef Stab och Tross",
+      "shortName": "CSOT",
       "category": "Chefsutbildningar",
       "courseCode": null,
       "description": "",
@@ -178,13 +175,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "plutonchef-1",
-      "name": "Plutonchef 1",
+      "name": "Plutonchefskurs 1",
       "shortName": "PC1",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -204,13 +200,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "plutonchef-2",
-      "name": "Plutonchef 2",
+      "name": "Plutonchefskurs 2",
       "shortName": "PC2",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -230,13 +225,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "plutonchef-3",
-      "name": "Plutonchef 3",
+      "name": "Plutonchefskurs 3",
       "shortName": "PC3",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -256,13 +250,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "plutonchef-12",
-      "name": "Plutonchef 1 + 2",
+      "name": "Plutonchefskurs 1 + 2",
       "shortName": "PC12",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -279,16 +272,18 @@
       "additionalInfo": null,
       "typicalDuration": 0,
       "courseResponsible": "HvSS",
-      "baseTemplateIds": [],
+      "baseTemplateIds": [
+        "plutonchef-1",
+        "plutonchef-2"
+      ],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf",
         "mr-m-utbildningskatalog-2026-a1.pdf"
       ]
     },
     {
       "id": "ledningsplutonchef",
-      "name": "Ledningsplutonchef",
+      "name": "Ledningsplutonchefskurs",
       "shortName": "LPC",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -308,39 +303,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
-    },
-    {
-      "id": "troppchef-stab-tross",
-      "name": "Troppchef Stab och Tross",
-      "shortName": "TCST",
-      "category": "Chefsutbildningar",
-      "courseCode": null,
-      "description": "",
-      "targetAudience": "",
-      "syllabus": "",
-      "purpose": "",
-      "learningObjectives": [],
-      "finalGoal": "",
-      "subGoals": [],
-      "examination": "",
-      "prerequisites": [],
-      "literature": "",
-      "additionalInfo": null,
-      "typicalDuration": 0,
-      "courseResponsible": "HvSS",
-      "baseTemplateIds": [],
-      "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "kompanichef-1",
-      "name": "Kompanichef 1",
+      "name": "Kompanichefskurs 1",
       "shortName": "KC1",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -360,13 +328,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "kompanichef-2",
-      "name": "Kompanichef 2",
+      "name": "Kompanichefskurs 2",
       "shortName": "KC2",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -386,13 +353,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "kompanichef-3",
-      "name": "Kompanichef 3",
+      "name": "Kompanichefskurs 3",
       "shortName": "KC3",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -412,13 +378,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "kompanistrid",
-      "name": "Kompanistrid",
+      "id": "kompanistridskurs",
+      "name": "Kompanistridskurs",
       "shortName": "KSTR",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -438,13 +403,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "bataljonchef-1",
-      "name": "Bataljonchef 1",
+      "name": "Bataljonchefskurs 1",
       "shortName": "BC1",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -464,13 +428,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "bataljonchef-2",
-      "name": "Bataljonchef 2",
+      "name": "Bataljonchefskurs 2",
       "shortName": "BC2",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -490,13 +453,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "bataljonchef-3",
-      "name": "Bataljonchef 3",
+      "name": "Bataljonchefskurs 3",
       "shortName": "BC3",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -516,13 +478,12 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "bataljonstrid",
-      "name": "Bataljonstrid",
+      "id": "bataljonstridskurs",
+      "name": "Bataljonstridskurs",
       "shortName": "BSTR",
       "category": "Chefsutbildningar",
       "courseCode": null,
@@ -542,66 +503,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "stabschef",
-      "name": "Stabschef",
-      "shortName": "SC",
-      "category": "Chefsutbildningar",
-      "courseCode": null,
-      "description": "",
-      "targetAudience": "",
-      "syllabus": "",
-      "purpose": "",
-      "learningObjectives": [],
-      "finalGoal": "",
-      "subGoals": [],
-      "examination": "",
-      "prerequisites": [],
-      "literature": "",
-      "additionalInfo": null,
-      "typicalDuration": 0,
-      "courseResponsible": "HvSS",
-      "baseTemplateIds": [],
-      "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
-    },
-    {
-      "id": "nordisk-chef",
-      "name": "Nordisk chef",
-      "shortName": "NC",
-      "category": "Chefsutbildningar",
-      "courseCode": null,
-      "description": "",
-      "targetAudience": "",
-      "syllabus": "",
-      "purpose": "",
-      "learningObjectives": [],
-      "finalGoal": "",
-      "subGoals": [],
-      "examination": "",
-      "prerequisites": [],
-      "literature": "",
-      "additionalInfo": null,
-      "typicalDuration": 0,
-      "courseResponsible": "HvSS",
-      "baseTemplateIds": [],
-      "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
-    },
-    {
-      "id": "gkolak",
-      "name": "Grundkurs Övningsledare Automatkarbin BAS",
-      "shortName": "GKÖLAK",
+      "id": "instruktörskurs-1",
+      "name": "Instruktörskurs 1",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -620,14 +528,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-1",
-      "name": "Instruktör 1",
-      "shortName": "IK1",
+      "id": "instruktörskurs-2",
+      "name": "Instruktörskurs 2",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -646,14 +553,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-2",
-      "name": "Instruktör 2",
-      "shortName": "IK2",
+      "id": "instruktörskurs-fusa-grupp",
+      "name": "Instruktörskurs FUSA grupp",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -672,14 +578,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-12",
-      "name": "Instruktör 1 + 2",
-      "shortName": "IK12",
+      "id": "instruktörskurs-gevär-22-ungdomsvapen",
+      "name": "Instruktörskurs Gevär 22 Ungdomsvapen",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -698,14 +603,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-fusa",
-      "name": "Instruktör FUSA grupp",
-      "shortName": "IKFUSA",
+      "id": "instruktörskurs-granattillsats-ak4b",
+      "name": "Instruktörskurs Granattillsats Ak4B",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -724,14 +628,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-gev22",
-      "name": "Instruktör Gevär 22 Ungdomsvapen",
-      "shortName": "IKG22",
+      "id": "instruktörskurs-grg-m48",
+      "name": "Instruktörskurs Grg m/48",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -750,14 +653,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-granattillsats-ak4b",
-      "name": "Instruktör Granattillsats Ak4B",
-      "shortName": "IKGT40",
+      "id": "instruktörskurs-is-hv",
+      "name": "Instruktörskurs IS Hv",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -776,14 +678,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-grg48",
-      "name": "Instruktör Grg m/48",
-      "shortName": "IKGRG48",
+      "id": "instruktörskurs-ksp-58b",
+      "name": "Instruktörskurs Ksp 58B",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -802,14 +703,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-is-hv",
-      "name": "Instruktör IS Hv",
-      "shortName": "IKISHV",
+      "id": "instruktörskurs-oden",
+      "name": "Instruktörskurs ODEN",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -828,14 +728,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-ksp58",
-      "name": "Instruktör Ksp 58B",
-      "shortName": "IKKSP58",
+      "id": "instruktörskurs-pansarskott-m86",
+      "name": "Instruktörskurs Pansarskott m86",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -854,14 +753,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-oden",
-      "name": "Instruktör ODEN",
-      "shortName": "IKODEN",
+      "id": "instruktörskurs-pistol-88",
+      "name": "Instruktörskurs Pistol 88",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -880,14 +778,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-pskott86",
-      "name": "Instruktör Pansarskott m/86",
-      "shortName": "IKPSK86",
+      "id": "instruktörskurs-psg90-alt-ak4b-med-kikarsikte",
+      "name": "Instruktörskurs Psg90 alt. AK4B med kikarsikte",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -906,14 +803,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-pistol88",
-      "name": "Instruktör Pistol 88",
-      "shortName": "IKP88",
+      "id": "instruktörskurs-rekrytering",
+      "name": "Instruktörskurs Rekrytering",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -932,14 +828,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-psg90",
-      "name": "Instruktör PSG90 / AK4B kikarsikte",
-      "shortName": "IKPSG90",
+      "id": "instruktörskurs-skjutr-ak-4bc-del-1",
+      "name": "Instruktörskurs SkjutR AK 4B/C del 1",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -958,14 +853,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-rekrytering",
-      "name": "Instruktör Rekrytering",
-      "shortName": "IKREK",
+      "id": "instruktörskurs-skjutr-ak-4bc-del-2",
+      "name": "Instruktörskurs SkjutR AK 4B/C del 2",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -984,14 +878,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-skjutr-ak4-1",
-      "name": "Instruktör SkjutR AK 4B/C del 1",
-      "shortName": "IKSKJ1",
+      "id": "instruktörskurs-stabstjänst",
+      "name": "Instruktörskurs stabstjänst",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1010,14 +903,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-skjutr-ak4-2",
-      "name": "Instruktör SkjutR AK 4B/C del 2",
-      "shortName": "IKSKJ2",
+      "id": "instruktörskurs-säkr-avlyst-terräng",
+      "name": "Instruktörskurs SäkR avlyst terräng",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1036,14 +928,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-stabstjanst",
-      "name": "Instruktör Stabstjänst",
-      "shortName": "IKSTAB",
+      "id": "instruktörskurs-säkr-skjutbana",
+      "name": "Instruktörskurs SäkR skjutbana",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1062,14 +953,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-sakr-avlyst",
-      "name": "Instruktör SäkR Avlyst Terräng",
-      "shortName": "IKSAKRAT",
+      "id": "instruktörskurs-tårgas",
+      "name": "Instruktörskurs Tårgas",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1088,14 +978,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-sakr-skjutbana",
-      "name": "Instruktör SäkR Skjutbana",
-      "shortName": "IKSAKRSB",
+      "id": "instruktörskurs-grundkurs-övningsledare-strisim-pc",
+      "name": "Instruktörskurs grundkurs övningsledare Strisim PC",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1114,14 +1003,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-targas",
-      "name": "Instruktör Tårgas",
-      "shortName": "IKTG",
+      "id": "instruktörskurs-fortsättningskurs-övningsledare-strisim-pc",
+      "name": "Instruktörskurs fortsättningskurs övningsledare Strisim PC",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1140,14 +1028,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-strisim-gk",
-      "name": "Instruktör Grundkurs Övningsledare Strisim PC",
-      "shortName": "IKSTRGK",
+      "id": "halvar-huvudinstruktörskurs",
+      "name": "HALVAR Huvudinstruktörskurs",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1166,14 +1053,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "instruktor-strisim-fk",
-      "name": "Instruktör Fortsättningskurs Övningsledare Strisim PC",
-      "shortName": "IKSTRFK",
+      "id": "halvar-instruktörskurs",
+      "name": "HALVAR Instruktörskurs",
+      "shortName": null,
       "category": "Instruktörsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1192,66 +1078,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "halvar-huvudinstruktor",
-      "name": "HALVAR Huvudinstruktör",
-      "shortName": "HALVARH",
-      "category": "Instruktörsutbildningar",
-      "courseCode": null,
-      "description": "",
-      "targetAudience": "",
-      "syllabus": "",
-      "purpose": "",
-      "learningObjectives": [],
-      "finalGoal": "",
-      "subGoals": [],
-      "examination": "",
-      "prerequisites": [],
-      "literature": "",
-      "additionalInfo": null,
-      "typicalDuration": 0,
-      "courseResponsible": "HvSS",
-      "baseTemplateIds": [],
-      "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
-    },
-    {
-      "id": "halvar-instruktor",
-      "name": "HALVAR Instruktör",
-      "shortName": "HALVARI",
-      "category": "Instruktörsutbildningar",
-      "courseCode": null,
-      "description": "",
-      "targetAudience": "",
-      "syllabus": "",
-      "purpose": "",
-      "learningObjectives": [],
-      "finalGoal": "",
-      "subGoals": [],
-      "examination": "",
-      "prerequisites": [],
-      "literature": "",
-      "additionalInfo": null,
-      "typicalDuration": 0,
-      "courseResponsible": "HvSS",
-      "baseTemplateIds": [],
-      "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
-    },
-    {
-      "id": "anstalld-utbildningsgrupp",
-      "name": "Anställd vid utbildningsgrupp",
-      "shortName": "AUG",
+      "id": "anställda-vid-utbildningsgrupp",
+      "name": "Anställda vid utbildningsgrupp",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1270,14 +1103,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "anstalld-mr-grupp",
-      "name": "Anställd vid MR-grupp",
-      "shortName": "AMRG",
+      "id": "anställda-vid-mr-grupp",
+      "name": "Anställda vid MR-grupp",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1296,14 +1128,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "fredsadministrativ",
-      "name": "Fredsadministrativ",
-      "shortName": "FAK",
+      "id": "fredsadministrativkurs",
+      "name": "Fredsadministrativkurs",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1322,14 +1153,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "forare-pb8",
+      "id": "fordon-förare-pb8",
       "name": "Fordon Förare PB8",
-      "shortName": "PB8",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1348,14 +1178,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "gk-tung-slapkarrra",
-      "name": "Grundkurs Tung släpkärra",
-      "shortName": "GKTS",
+      "id": "halvar-figurantkurs",
+      "name": "HALVAR Figurantkurs",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1374,14 +1203,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "tung-lastbil-automat",
-      "name": "Tung Lastbil Automat",
-      "shortName": "TLBA",
+      "id": "hemvärns-personnel-recovery-officerskurs-(hv-pr-o)",
+      "name": "Hemvärns Personnel Recovery Officerskurs (Hv PR-O)",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1400,14 +1228,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "forbandsplats-materiel",
-      "name": "Förbandsplats ny Hemvärnet, materialutbildning",
-      "shortName": "FÖRBPL",
+      "id": "informatörwebredaktör-bataljon",
+      "name": "Informatör/webredaktör bataljon",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1426,118 +1253,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "sakerhetstjanst-hv",
-      "name": "Säkerhetstjänst Hemvärnet",
-      "shortName": "SÄKHv",
-      "category": "Funktionsutbildningar",
-      "courseCode": null,
-      "description": "",
-      "targetAudience": "",
-      "syllabus": "",
-      "purpose": "",
-      "learningObjectives": [],
-      "finalGoal": "",
-      "subGoals": [],
-      "examination": "",
-      "prerequisites": [],
-      "literature": "",
-      "additionalInfo": null,
-      "typicalDuration": 0,
-      "courseResponsible": "HvSS",
-      "baseTemplateIds": [],
-      "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
-    },
-    {
-      "id": "halvar-figurant",
-      "name": "HALVAR Figurant",
-      "shortName": "HALVARF",
-      "category": "Funktionsutbildningar",
-      "courseCode": null,
-      "description": "",
-      "targetAudience": "",
-      "syllabus": "",
-      "purpose": "",
-      "learningObjectives": [],
-      "finalGoal": "",
-      "subGoals": [],
-      "examination": "",
-      "prerequisites": [],
-      "literature": "",
-      "additionalInfo": null,
-      "typicalDuration": 0,
-      "courseResponsible": "HvSS",
-      "baseTemplateIds": [],
-      "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
-    },
-    {
-      "id": "hv-pro",
-      "name": "Hemvärns Personnel Recovery Officer",
-      "shortName": "HVPRO",
-      "category": "Funktionsutbildningar",
-      "courseCode": null,
-      "description": "",
-      "targetAudience": "",
-      "syllabus": "",
-      "purpose": "",
-      "learningObjectives": [],
-      "finalGoal": "",
-      "subGoals": [],
-      "examination": "",
-      "prerequisites": [],
-      "literature": "",
-      "additionalInfo": null,
-      "typicalDuration": 0,
-      "courseResponsible": "HvSS",
-      "baseTemplateIds": [],
-      "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
-    },
-    {
-      "id": "informatör-bataljon",
-      "name": "Informatör/Webredaktör Bataljon",
-      "shortName": "INFWEB",
-      "category": "Funktionsutbildningar",
-      "courseCode": null,
-      "description": "",
-      "targetAudience": "",
-      "syllabus": "",
-      "purpose": "",
-      "learningObjectives": [],
-      "finalGoal": "",
-      "subGoals": [],
-      "examination": "",
-      "prerequisites": [],
-      "literature": "",
-      "additionalInfo": null,
-      "typicalDuration": 0,
-      "courseResponsible": "HvSS",
-      "baseTemplateIds": [],
-      "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
-    },
-    {
-      "id": "is-hv-superuser",
+      "id": "is-hv-super-user",
       "name": "IS Hv Super User",
-      "shortName": "ISHVSU",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1556,14 +1278,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "is-hv-tekniker",
-      "name": "IS Hv Tekniker",
-      "shortName": "ISHVT",
+      "id": "is-hv-teknikerkurs",
+      "name": "IS Hv Teknikerkurs",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1582,14 +1303,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "krigsforbandsplanering",
-      "name": "Krigsförbandsplanering",
-      "shortName": "KFP",
+      "id": "krigsförbandsplaneringskurs",
+      "name": "Krigsförbandsplaneringskurs",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1608,14 +1328,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "kvartermastare-1",
-      "name": "Kvartermästare 1",
-      "shortName": "KM1",
+      "id": "kvartermästarkurs-1",
+      "name": "Kvartermästarkurs 1",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1634,14 +1353,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "kvartermastare-2",
-      "name": "Kvartermästare 2",
-      "shortName": "KM2",
+      "id": "kvartermästarkurs-2",
+      "name": "Kvartermästarkurs 2",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1660,14 +1378,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "marin-hv-taktik",
+      "id": "marin-hemvärnstaktik",
       "name": "Marin hemvärnstaktik",
-      "shortName": "MHVT",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1686,14 +1403,38 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
+      ]
+    },
+    {
+      "id": "nordisk-chefskurs",
+      "name": "Nordisk chefskurs",
+      "shortName": null,
+      "category": "Funktionsutbildningar",
+      "courseCode": null,
+      "description": "",
+      "targetAudience": "",
+      "syllabus": "",
+      "purpose": "",
+      "learningObjectives": [],
+      "finalGoal": "",
+      "subGoals": [],
+      "examination": "",
+      "prerequisites": [],
+      "literature": "",
+      "additionalInfo": null,
+      "typicalDuration": 0,
+      "courseResponsible": "HvSS",
+      "baseTemplateIds": [],
+      "sourceFiles": [
+        "hvss-kurskatalog-2023.pdf",
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
       "id": "scanbal",
       "name": "Scanbal",
-      "shortName": "SCAN",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1712,14 +1453,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "stridsledning-sensor-hund",
-      "name": "Stridsledning Sensor Hund Hemvärnet",
-      "shortName": "SLSH",
+      "id": "stabschefskurs",
+      "name": "Stabschefskurs",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1738,14 +1478,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "grundkurs-stabstjanst",
+      "id": "grundkurs-stabstjänst",
       "name": "Grundkurs Stabstjänst",
-      "shortName": "GKST",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1764,14 +1503,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "grundkurs-stora",
+      "id": "grundkurs-störa",
       "name": "Grundkurs Störa",
-      "shortName": "GKSTÖ",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1790,14 +1528,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "grundkurs-underrattelse",
-      "name": "Grundkurs Underrättelsetjänst Hemvärnet",
-      "shortName": "GKUND",
+      "id": "grundkurs-underrättelsetjänst-hv",
+      "name": "Grundkurs Underrättelsetjänst Hv",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1816,14 +1553,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "ungdomsledare",
-      "name": "Ungdomsledare",
-      "shortName": "UL",
+      "id": "vaktb-kurs",
+      "name": "VaktB kurs",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1842,14 +1578,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "vaktb",
-      "name": "VaktB",
-      "shortName": "VAKTB",
+      "id": "stridsledning-sensor-hund-hv",
+      "name": "Stridsledning Sensor Hund Hv",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1868,14 +1603,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "tccc-cls",
-      "name": "Tactical Combat Casualty Care Combat Lifesavers",
-      "shortName": "TCCCCLS",
+      "id": "säkerhetstjänstkurs-hv",
+      "name": "Säkerhetstjänstkurs Hv",
+      "shortName": null,
       "category": "Funktionsutbildningar",
       "courseCode": null,
       "description": "",
@@ -1894,14 +1628,13 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2025.pdf"
       ]
     },
     {
-      "id": "hv-intro-ak4",
+      "id": "hv-intro-automatkarbin-4",
       "name": "Hv-Intro Automatkarbin 4",
-      "shortName": "HVAK4",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -1919,15 +1652,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "bas-grg84",
+      "id": "basförmåga-8,4-cm-granatgevär",
       "name": "Basförmåga 8,4 cm Granatgevär",
-      "shortName": "BGRG84",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -1945,15 +1676,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "bas-ak4",
+      "id": "basförmåga-automatkarbin-4",
       "name": "Basförmåga Automatkarbin 4",
-      "shortName": "BAK4",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -1971,15 +1700,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "bas-gt40",
+      "id": "basförmåga-granattillsats-40mm",
       "name": "Basförmåga Granattillsats 40mm",
-      "shortName": "BGT40",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -1997,15 +1724,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "bas-ksp58",
+      "id": "basförmåga-kulspruta-58",
       "name": "Basförmåga Kulspruta 58",
-      "shortName": "BKSP58",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -2023,15 +1748,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "bas-psk86",
+      "id": "basförmåga-pansarskott-m86",
       "name": "Basförmåga Pansarskott m/86",
-      "shortName": "BPSK86",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -2049,15 +1772,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "pistol-fortsattning",
-      "name": "Pistol fortsättning",
-      "shortName": "PSTF",
+      "id": "pistolkurs-fortsättning",
+      "name": "Pistolkurs fortsättning",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -2075,15 +1796,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "spets-grg84",
+      "id": "spetsförmåga-8,4-cm-granatgevär",
       "name": "Spetsförmåga 8,4 cm Granatgevär",
-      "shortName": "SGRG84",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -2101,15 +1820,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "spets-psk86",
+      "id": "spetsförmåga-pansarskott-m86",
       "name": "Spetsförmåga Pansarskott m/86",
-      "shortName": "SPSK86",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -2127,15 +1844,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "tillagg-grg84",
+      "id": "tilläggsförmåga-8,4-cm-granatgevär",
       "name": "Tilläggsförmåga 8,4 cm Granatgevär",
-      "shortName": "TGRG84",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -2153,15 +1868,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "tillagg-ak4",
+      "id": "tilläggsförmåga-automatkarbin-4",
       "name": "Tilläggsförmåga Automatkarbin 4",
-      "shortName": "TAK4",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -2179,15 +1892,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "tillagg-gt40",
+      "id": "tilläggsförmåga-granattillsats-40mm",
       "name": "Tilläggsförmåga Granattillsats 40mm",
-      "shortName": "TGT40",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -2205,15 +1916,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "tillagg-ksp58",
-      "name": "Tilläggsförmåga Kulspruta 58",
-      "shortName": "TKSP58",
+      "id": "tilläggsförmåga-kulspruta-m58",
+      "name": "Tilläggsförmåga Kulspruta m/58",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -2231,15 +1940,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "tillagg-psk86",
+      "id": "tilläggsförmåga-pansarskott-m86",
       "name": "Tilläggsförmåga Pansarskott m/86",
-      "shortName": "TPSK86",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -2257,15 +1964,13 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "skarpskytt-psg90",
-      "name": "Skarpskytt PSG90 Hemvärnet",
-      "shortName": "PSG90",
+      "id": "skarpskytt-psg90-hv",
+      "name": "Skarpskytt PSG90 Hv",
+      "shortName": null,
       "category": "Vapenkurser",
       "courseCode": null,
       "description": "",
@@ -2283,13 +1988,11 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "il",
+      "id": "indirekt-ledarskap",
       "name": "Indirekt ledarskap",
       "shortName": "IL",
       "category": "Ledarskapsutbildningar",
@@ -2309,13 +2012,11 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "los",
+      "id": "ledarskap-och-självkännedom",
       "name": "Ledarskap och självkännedom",
       "shortName": "LoS",
       "category": "Ledarskapsutbildningar",
@@ -2335,13 +2036,11 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "ugl",
+      "id": "utveckling-grupp-ledare",
       "name": "Utveckling grupp ledare",
       "shortName": "UGL",
       "category": "Ledarskapsutbildningar",
@@ -2361,13 +2060,11 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
-      "id": "ul",
+      "id": "utvecklande-ledarskap",
       "name": "Utvecklande ledarskap",
       "shortName": "UL",
       "category": "Ledarskapsutbildningar",
@@ -2387,9 +2084,7 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
-        "mr-m-utbildningskatalog-2026-a1.pdf"
+        "hvss-kurskatalog-2023.pdf"
       ]
     },
     {
@@ -2413,8 +2108,129 @@
       "courseResponsible": "HvSS",
       "baseTemplateIds": [],
       "sourceFiles": [
-        "hvss-kurskatalog-2023.pdf",
-        "hvss-kurskatalog-2025.pdf",
+        "hvss-kurskatalog-2023.pdf"
+      ]
+    },
+    {
+      "id": "gu-f",
+      "name": "Grundläggande soldatutbildning för frivillig personal, GU-F",
+      "shortName": "GU-F",
+      "category": "Grundläggande militärutbildning",
+      "courseCode": null,
+      "description": "",
+      "targetAudience": "",
+      "syllabus": "",
+      "purpose": "",
+      "learningObjectives": [],
+      "finalGoal": "",
+      "subGoals": [],
+      "examination": "",
+      "prerequisites": [],
+      "literature": "",
+      "additionalInfo": null,
+      "typicalDuration": 0,
+      "courseResponsible": "MRM",
+      "baseTemplateIds": [],
+      "sourceFiles": [
+        "mr-m-utbildningskatalog-2026-a1.pdf"
+      ]
+    },
+    {
+      "id": "tccc-cls",
+      "name": "TCCC-CLS (Combat Life Saver)",
+      "shortName": "TCCC-CLS",
+      "category": "Funktionsutbildningar",
+      "courseCode": null,
+      "description": "",
+      "targetAudience": "",
+      "syllabus": "",
+      "purpose": "",
+      "learningObjectives": [],
+      "finalGoal": "",
+      "subGoals": [],
+      "examination": "",
+      "prerequisites": [],
+      "literature": "",
+      "additionalInfo": null,
+      "typicalDuration": 0,
+      "courseResponsible": "MRM",
+      "baseTemplateIds": [],
+      "sourceFiles": [
+        "mr-m-utbildningskatalog-2026-a1.pdf"
+      ]
+    },
+    {
+      "id": "pb8",
+      "name": "PB8 (Personbil 8)",
+      "shortName": "PB8",
+      "category": "Funktionsutbildningar",
+      "courseCode": null,
+      "description": "",
+      "targetAudience": "",
+      "syllabus": "",
+      "purpose": "",
+      "learningObjectives": [],
+      "finalGoal": "",
+      "subGoals": [],
+      "examination": "",
+      "prerequisites": [],
+      "literature": "",
+      "additionalInfo": null,
+      "typicalDuration": 0,
+      "courseResponsible": "MRM",
+      "baseTemplateIds": [],
+      "sourceFiles": [
+        "mr-m-utbildningskatalog-2026-a1.pdf"
+      ]
+    },
+    {
+      "id": "gk-tung-slapkarra",
+      "name": "Gk Tung släpkärra",
+      "shortName": "GKTSK",
+      "category": "Funktionsutbildningar",
+      "courseCode": null,
+      "description": "",
+      "targetAudience": "",
+      "syllabus": "",
+      "purpose": "",
+      "learningObjectives": [],
+      "finalGoal": "",
+      "subGoals": [],
+      "examination": "",
+      "prerequisites": [],
+      "literature": "",
+      "additionalInfo": null,
+      "typicalDuration": 0,
+      "courseResponsible": "MRM",
+      "baseTemplateIds": [],
+      "sourceFiles": [
+        "mr-m-utbildningskatalog-2026-a1.pdf"
+      ]
+    },
+    {
+      "id": "instruktörskurs-12",
+      "name": "Instruktörskurs 1 + 2",
+      "shortName": "IK12",
+      "category": "Instruktörsutbildningar",
+      "courseCode": null,
+      "description": "",
+      "targetAudience": "",
+      "syllabus": "",
+      "purpose": "",
+      "learningObjectives": [],
+      "finalGoal": "",
+      "subGoals": [],
+      "examination": "",
+      "prerequisites": [],
+      "literature": "",
+      "additionalInfo": null,
+      "typicalDuration": 0,
+      "courseResponsible": "MRM",
+      "baseTemplateIds": [
+        "instruktörskurs-1",
+        "instruktörskurs-2"
+      ],
+      "sourceFiles": [
         "mr-m-utbildningskatalog-2026-a1.pdf"
       ]
     }

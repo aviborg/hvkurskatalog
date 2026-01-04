@@ -8,15 +8,15 @@
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique identifier, lowercase with hyphens, without the word 'kurs'."
+      "description": "Unique identifier, lowercase with hyphens."
     },
     "name": {
       "type": "string",
-      "description": "Full course name in Swedish, without the word 'kurs'."
+      "description": "Full course name in Swedish."
     },
     "shortName": {
-      "type": "string",
-      "description": "Established short name or abbreviation (e.g., GC1, GC12, GKÖLAK, TCCCCLS)."
+      "type": ["string", "null"],
+      "description": "Established short name or abbreviation (e.g., GC1, GC12, GKÖLAK, TCCC-CLS)."
     },
     "category": {
       "type": "string",
