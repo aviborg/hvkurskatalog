@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 TSV_FILE = "public/events.csv"
 TEMPLATE_FILE = "data/hemvarn_course_templates_enriched.json"
 EVENT_OUTPUT = "data/hemvarn_course_events.json"
-TEMPLATE_OUTPUT = "data/hemvarn_course_templates_enriched_out.json"
+TEMPLATE_OUTPUT = "data/hemvarn_course_templates_enriched.json"
 
 DELIMITER = "\t"
 
@@ -45,6 +45,30 @@ def template_id_from_code(code):
 
 def normalize_date(s):
     return s.replace("-", "").replace(".", "")
+
+def parse_course_dates(start_raw, end_raw):
+    """
+    Parses comma-separated start/end dates into a list of {start, end}.
+    """
+    if not start_raw or not end_raw:
+        return []
+
+    starts = [s.strip() for s in start_raw.split(",") if s.strip()]
+    ends = [e.strip() for e in end_raw.split(",") if e.strip()]
+
+    if len(starts) != len(ends):
+        raise ValueError(
+            f"Mismatched start/end dates: {start_raw} / {end_raw}"
+        )
+
+    return [
+        {
+            "start": normalize_date(s),
+            "end": normalize_date(e),
+        }
+        for s, e in zip(starts, ends)
+    ]
+
 
 
 # ============================================================
@@ -120,15 +144,15 @@ with open(TSV_FILE, encoding="utf-8") as f:
         # --------------------------------------------
         # EVENT CREATION
         # --------------------------------------------
+        course_dates = parse_course_dates(
+            row["startDate"],
+            row["endDate"]
+        )
+        first_start = course_dates[0]["start"] if course_dates else "nodate"
         event = {
-            "id": f"evt-{template_id}-{normalize_date(row['startDate'])}-{row.get('location','').lower().replace(' ','')}",
+            "id": f"evt-{template_id}-{first_start}-{row.get('responsible', '').lower().replace(' ','')}-{row.get('location','').lower().replace(' ','')}",
             "templateId": template_id,
-            "courseDates": [
-                {
-                    "start": normalize_date(row["startDate"]),
-                    "end": normalize_date(row["endDate"])
-                }
-            ],
+            "courseDates": course_dates,
             "location": row.get("location", ""),
             "eventResponsible": row.get("responsible", ""),
             "applicationDeadline": normalize_date(row.get("applicationDeadline", "")),

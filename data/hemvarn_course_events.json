@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "id": "evt-auto-gkdnbi-20260418-boden",
+      "id": "evt-auto-gkdnbi-20260418-rhs-boden",
       "templateId": "auto-gkdnbi",
       "courseDates": [
         {
@@ -16,13 +16,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkdnbi-20260509-boden",
+      "id": "evt-auto-gkdnbi-20260509-rhs-boden",
       "templateId": "auto-gkdnbi",
       "courseDates": [
         {
@@ -37,13 +37,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkdnbi-20260606-boden",
+      "id": "evt-auto-gkdnbi-20260606-rhs-boden",
       "templateId": "auto-gkdnbi",
       "courseDates": [
         {
@@ -58,13 +58,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkdnbi-20260815-boden",
+      "id": "evt-auto-gkdnbi-20260815-rhs-boden",
       "templateId": "auto-gkdnbi",
       "courseDates": [
         {
@@ -79,13 +79,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkdnbi-20260919-boden",
+      "id": "evt-auto-gkdnbi-20260919-rhs-boden",
       "templateId": "auto-gkdnbi",
       "courseDates": [
         {
@@ -100,13 +100,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkdnbi-20261017-boden",
+      "id": "evt-auto-gkdnbi-20261017-rhs-boden",
       "templateId": "auto-gkdnbi",
       "courseDates": [
         {
@@ -121,13 +121,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkdnbi-20261114-boden",
+      "id": "evt-auto-gkdnbi-20261114-rhs-boden",
       "templateId": "auto-gkdnbi",
       "courseDates": [
         {
@@ -142,13 +142,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkdnbi-20261205-boden",
+      "id": "evt-auto-gkdnbi-20261205-rhs-boden",
       "templateId": "auto-gkdnbi",
       "courseDates": [
         {
@@ -163,13 +163,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-bataljonchef-1-20260302-vällinge",
+      "id": "evt-bataljonchef-1-20260302-hvss-vällinge",
       "templateId": "bataljonchef-1",
       "courseDates": [
         {
@@ -184,13 +184,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-bataljonchef-2-20260831-vällinge",
+      "id": "evt-bataljonchef-2-20260831-hvss-vällinge",
       "templateId": "bataljonchef-2",
       "courseDates": [
         {
@@ -205,13 +205,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-bataljonstridskurs-20260413-vällinge",
+      "id": "evt-bataljonstridskurs-20260413-hvss-vällinge",
       "templateId": "bataljonstridskurs",
       "courseDates": [
         {
@@ -226,13 +226,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-2-20260420-vällinge",
+      "id": "evt-gruppchef-2-20260420-hvss-vällinge",
       "templateId": "gruppchef-2",
       "courseDates": [
         {
@@ -247,13 +247,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-kompanichef-1-20260209-vällinge",
+      "id": "evt-kompanichef-1-20260209-hvss-vällinge",
       "templateId": "kompanichef-1",
       "courseDates": [
         {
@@ -268,13 +268,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-kompanichef-1-20261026-vällinge",
+      "id": "evt-kompanichef-1-20261026-hvss-vällinge",
       "templateId": "kompanichef-1",
       "courseDates": [
         {
@@ -289,13 +289,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-kompanichef-2-20260831-vällinge",
+      "id": "evt-kompanichef-2-20260831-hvss-vällinge",
       "templateId": "kompanichef-2",
       "courseDates": [
         {
@@ -310,13 +310,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-kompanistridskurs-20260914-vällinge",
+      "id": "evt-kompanistridskurs-20260914-hvss-vällinge",
       "templateId": "kompanistridskurs",
       "courseDates": [
         {
@@ -331,13 +331,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-kompanistridskurs-20261012-vällinge",
+      "id": "evt-kompanistridskurs-20261012-hvss-vällinge",
       "templateId": "kompanistridskurs",
       "courseDates": [
         {
@@ -352,13 +352,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-plutonchef-2-20260420-vällinge",
+      "id": "evt-plutonchef-2-20260420-hvss-vällinge",
       "templateId": "plutonchef-2",
       "courseDates": [
         {
@@ -373,13 +373,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk119in00-20260323-vällinge",
+      "id": "evt-auto-mahgk119in00-20260323-hvss-vällinge",
       "templateId": "auto-mahgk119in00",
       "courseDates": [
         {
@@ -394,13 +394,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk119in00-20261116-vällinge",
+      "id": "evt-auto-mahgk119in00-20261116-hvss-vällinge",
       "templateId": "auto-mahgk119in00",
       "courseDates": [
         {
@@ -415,13 +415,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-kvartermästarkurs-1-20260209-vällinge",
+      "id": "evt-kvartermästarkurs-1-20260209-hvss-vällinge",
       "templateId": "kvartermästarkurs-1",
       "courseDates": [
         {
@@ -436,13 +436,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-nordisk-chefskurs-20261108-danmark",
+      "id": "evt-nordisk-chefskurs-20261108-hvss-danmark",
       "templateId": "nordisk-chefskurs",
       "courseDates": [
         {
@@ -457,13 +457,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-stabschefskurs-20260504-vällinge",
+      "id": "evt-stabschefskurs-20260504-hvss-vällinge",
       "templateId": "stabschefskurs",
       "courseDates": [
         {
@@ -478,13 +478,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-hvt424l0000-20260126-vällinge",
+      "id": "evt-auto-hvt424l0000-20260126-hvss-vällinge",
       "templateId": "auto-hvt424l0000",
       "courseDates": [
         {
@@ -499,13 +499,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-hvt424l0000-20260518-vällinge",
+      "id": "evt-auto-hvt424l0000-20260518-hvss-vällinge",
       "templateId": "auto-hvt424l0000",
       "courseDates": [
         {
@@ -520,13 +520,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-indirekt-ledarskap-20260205-vällinge",
+      "id": "evt-indirekt-ledarskap-20260205-hvss-vällinge",
       "templateId": "indirekt-ledarskap",
       "courseDates": [
         {
@@ -541,13 +541,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-indirekt-ledarskap-20260917-vällinge",
+      "id": "evt-indirekt-ledarskap-20260917-hvss-vällinge",
       "templateId": "indirekt-ledarskap",
       "courseDates": [
         {
@@ -562,13 +562,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-ledarskap-och-självkännedom-20260621-vällinge",
+      "id": "evt-ledarskap-och-självkännedom-20260621-hvss-vällinge",
       "templateId": "ledarskap-och-självkännedom",
       "courseDates": [
         {
@@ -583,13 +583,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-utveckling-grupp-ledare-20260511-vällinge",
+      "id": "evt-utveckling-grupp-ledare-20260511-hvss-vällinge",
       "templateId": "utveckling-grupp-ledare",
       "courseDates": [
         {
@@ -604,13 +604,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-utveckling-grupp-ledare-20261005-vällinge",
+      "id": "evt-utveckling-grupp-ledare-20261005-hvss-vällinge",
       "templateId": "utveckling-grupp-ledare",
       "courseDates": [
         {
@@ -625,13 +625,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-utvecklande-ledarskap-20260202-vällinge",
+      "id": "evt-utvecklande-ledarskap-20260202-hvss-vällinge",
       "templateId": "utvecklande-ledarskap",
       "courseDates": [
         {
@@ -646,13 +646,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-utvecklande-ledarskap-20260914-vällinge",
+      "id": "evt-utvecklande-ledarskap-20260914-hvss-vällinge",
       "templateId": "utvecklande-ledarskap",
       "courseDates": [
         {
@@ -667,13 +667,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-1-20260112-kosta",
+      "id": "evt-gruppchef-1-20260112-krag-kosta",
       "templateId": "gruppchef-1",
       "courseDates": [
         {
@@ -688,13 +688,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-1-20260323-rinkaby",
+      "id": "evt-gruppchef-1-20260323-ssk-rinkaby",
       "templateId": "gruppchef-1",
       "courseDates": [
         {
@@ -709,13 +709,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-plutonchef-1-20260112-kosta",
+      "id": "evt-plutonchef-1-20260112-krag-kosta",
       "templateId": "plutonchef-1",
       "courseDates": [
         {
@@ -730,13 +730,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-plutonchef-1-20260706-revingehed",
+      "id": "evt-plutonchef-1-20260706-ssk-revingehed",
       "templateId": "plutonchef-1",
       "courseDates": [
         {
@@ -751,18 +751,22 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-plutonchef-2-20261103, 20270205-karlskrona",
+      "id": "evt-plutonchef-2-20261103-blg-karlskrona",
       "templateId": "plutonchef-2",
       "courseDates": [
         {
-          "start": "20261103, 20270205",
-          "end": "20261108, 20270227"
+          "start": "20261103",
+          "end": "20261108"
+        },
+        {
+          "start": "20270205",
+          "end": "20270227"
         }
       ],
       "location": "Karlskrona",
@@ -772,18 +776,22 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk119fu02-20260130, 20260213-f17",
+      "id": "evt-auto-mahgk119fu02-20260130-blg-f17",
       "templateId": "auto-mahgk119fu02",
       "courseDates": [
         {
-          "start": "20260130, 20260213",
-          "end": "20260201, 20260215"
+          "start": "20260130",
+          "end": "20260201"
+        },
+        {
+          "start": "20260213",
+          "end": "20260215"
         }
       ],
       "location": "F17",
@@ -793,13 +801,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-2-20260302-kvarn",
+      "id": "evt-gruppchef-2-20260302-lvg-kvarn",
       "templateId": "gruppchef-2",
       "courseDates": [
         {
@@ -814,13 +822,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-2-20260706-revingehed",
+      "id": "evt-gruppchef-2-20260706-ssk-revingehed",
       "templateId": "gruppchef-2",
       "courseDates": [
         {
@@ -835,18 +843,22 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-2-20261103, 20270205-karlskrona",
+      "id": "evt-gruppchef-2-20261103-blg-karlskrona",
       "templateId": "gruppchef-2",
       "courseDates": [
         {
-          "start": "20261103, 20270205",
-          "end": "20261108, 20270207"
+          "start": "20261103",
+          "end": "20261108"
+        },
+        {
+          "start": "20270205",
+          "end": "20270207"
         }
       ],
       "location": "Karlskrona",
@@ -856,13 +868,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-3-20270402-kosta",
+      "id": "evt-gruppchef-3-20270402-blg-kosta",
       "templateId": "gruppchef-3",
       "courseDates": [
         {
@@ -877,18 +889,22 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-bataljonstridskurs-20260424, 20260508-f17",
+      "id": "evt-bataljonstridskurs-20260424-blg-f17",
       "templateId": "bataljonstridskurs",
       "courseDates": [
         {
-          "start": "20260424, 20260508",
-          "end": "20260426, 20260510"
+          "start": "20260424",
+          "end": "20260426"
+        },
+        {
+          "start": "20260508",
+          "end": "20260510"
         }
       ],
       "location": "F17",
@@ -898,13 +914,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-hv-intro-automatkarbin-4-20260227-kvarn",
+      "id": "evt-hv-intro-automatkarbin-4-20260227-lvg-kvarn",
       "templateId": "hv-intro-automatkarbin-4",
       "courseDates": [
         {
@@ -919,13 +935,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-hv-intro-automatkarbin-4-20260227-kosta",
+      "id": "evt-hv-intro-automatkarbin-4-20260227-krag-kosta",
       "templateId": "hv-intro-automatkarbin-4",
       "courseDates": [
         {
@@ -940,13 +956,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-hv-intro-automatkarbin-4-20260515-kvarn",
+      "id": "evt-hv-intro-automatkarbin-4-20260515-lvg-kvarn",
       "templateId": "hv-intro-automatkarbin-4",
       "courseDates": [
         {
@@ -961,13 +977,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-hv-intro-automatkarbin-4-20260612-kosta",
+      "id": "evt-hv-intro-automatkarbin-4-20260612-krag-kosta",
       "templateId": "hv-intro-automatkarbin-4",
       "courseDates": [
         {
@@ -982,13 +998,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-hv-intro-automatkarbin-4-20260828-kvarn",
+      "id": "evt-hv-intro-automatkarbin-4-20260828-lvg-kvarn",
       "templateId": "hv-intro-automatkarbin-4",
       "courseDates": [
         {
@@ -1003,13 +1019,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-hv-intro-automatkarbin-4-20261106-karlskrona",
+      "id": "evt-hv-intro-automatkarbin-4-20261106-blg-karlskrona",
       "templateId": "hv-intro-automatkarbin-4",
       "courseDates": [
         {
@@ -1024,13 +1040,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-undgk311sf11-20260305-karlskrona",
+      "id": "evt-auto-undgk311sf11-20260305-blg-karlskrona",
       "templateId": "auto-undgk311sf11",
       "courseDates": [
         {
@@ -1045,13 +1061,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-und424isf45-20260306-karlskrona",
+      "id": "evt-auto-und424isf45-20260306-blg-karlskrona",
       "templateId": "auto-und424isf45",
       "courseDates": [
         {
@@ -1066,13 +1082,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-basförmåga-kulspruta-58-20260323-rinkaby",
+      "id": "evt-basförmåga-kulspruta-58-20260323-ssk-rinkaby",
       "templateId": "basförmåga-kulspruta-58",
       "courseDates": [
         {
@@ -1087,13 +1103,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-basförmåga-kulspruta-58-20260402-kosta",
+      "id": "evt-basförmåga-kulspruta-58-20260402-blg-kosta",
       "templateId": "basförmåga-kulspruta-58",
       "courseDates": [
         {
@@ -1108,13 +1124,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-basförmåga-8,4-cm-granatgevär-20260323-rinkaby",
+      "id": "evt-basförmåga-8,4-cm-granatgevär-20260323-ssk-rinkaby",
       "templateId": "basförmåga-8,4-cm-granatgevär",
       "courseDates": [
         {
@@ -1129,13 +1145,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-basförmåga-8,4-cm-granatgevär-20260402-kosta",
+      "id": "evt-basförmåga-8,4-cm-granatgevär-20260402-blg-kosta",
       "templateId": "basförmåga-8,4-cm-granatgevär",
       "courseDates": [
         {
@@ -1150,13 +1166,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk119fu02-20260513-kosta",
+      "id": "evt-auto-mahgk119fu02-20260513-krag-kosta",
       "templateId": "auto-mahgk119fu02",
       "courseDates": [
         {
@@ -1171,13 +1187,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk119fu02-20261125-kosta",
+      "id": "evt-auto-mahgk119fu02-20261125-krag-kosta",
       "templateId": "auto-mahgk119fu02",
       "courseDates": [
         {
@@ -1192,13 +1208,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-hvt423f1000-20260525-kvarn",
+      "id": "evt-auto-hvt423f1000-20260525-lvg-kvarn",
       "templateId": "auto-hvt423f1000",
       "courseDates": [
         {
@@ -1213,13 +1229,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk9090001-20260601-rinkaby",
+      "id": "evt-auto-mahgk9090001-20260601-ssk-rinkaby",
       "templateId": "auto-mahgk9090001",
       "courseDates": [
         {
@@ -1234,13 +1250,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-x-20260627-eso",
+      "id": "evt-gruppchef-x-20260627-mrm-eso",
       "templateId": "gruppchef-x",
       "courseDates": [
         {
@@ -1255,13 +1271,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-plutonchef-12-20260318-strängnäs",
+      "id": "evt-plutonchef-12-20260318-slg-strängnäs",
       "templateId": "plutonchef-12",
       "courseDates": [
         {
@@ -1276,13 +1292,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gc12-20260318-strängnäs",
+      "id": "evt-auto-gc12-20260318-slg-strängnäs",
       "templateId": "auto-gc12",
       "courseDates": [
         {
@@ -1297,13 +1313,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-fordon-förare-pb8-20260316-gävle",
+      "id": "evt-fordon-förare-pb8-20260316-gbg-gävle",
       "templateId": "fordon-förare-pb8",
       "courseDates": [
         {
@@ -1318,13 +1334,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-fordon-förare-pb8-20260629-gävle",
+      "id": "evt-fordon-förare-pb8-20260629-gbg-gävle",
       "templateId": "fordon-förare-pb8",
       "courseDates": [
         {
@@ -1339,13 +1355,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-fordon-förare-pb8-20260629-gävle",
+      "id": "evt-fordon-förare-pb8-20260629-gbg-gävle",
       "templateId": "fordon-förare-pb8",
       "courseDates": [
         {
@@ -1360,13 +1376,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-kombu-20261019-eso",
+      "id": "evt-kombu-20261019-mrm-eso",
       "templateId": "kombu",
       "courseDates": [
         {
@@ -1381,13 +1397,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk119fu02-20261019-eso",
+      "id": "evt-auto-mahgk119fu02-20261019-mrm-eso",
       "templateId": "auto-mahgk119fu02",
       "courseDates": [
         {
@@ -1402,13 +1418,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk119fu02-20260309-eso",
+      "id": "evt-auto-mahgk119fu02-20260309-mrm-eso",
       "templateId": "auto-mahgk119fu02",
       "courseDates": [
         {
@@ -1423,13 +1439,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-ikgrg18-20260310-strängnäs",
+      "id": "evt-auto-ikgrg18-20260310-slg-strängnäs",
       "templateId": "auto-ikgrg18",
       "courseDates": [
         {
@@ -1444,13 +1460,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahfö2111555-20260310-strängnäs",
+      "id": "evt-auto-mahfö2111555-20260310-slg-strängnäs",
       "templateId": "auto-mahfö2111555",
       "courseDates": [
         {
@@ -1465,13 +1481,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-plutonchef-1-20260116-villingsberg",
+      "id": "evt-plutonchef-1-20260116-övg-villingsberg",
       "templateId": "plutonchef-1",
       "courseDates": [
         {
@@ -1486,13 +1502,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gc12-20260216-göteborg",
+      "id": "evt-auto-gc12-20260216-ebg-göteborg",
       "templateId": "auto-gc12",
       "courseDates": [
         {
@@ -1507,13 +1523,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-x-20260220-skövde",
+      "id": "evt-gruppchef-x-20260220-mrv-skövde",
       "templateId": "gruppchef-x",
       "courseDates": [
         {
@@ -1528,13 +1544,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-kompanistridskurs-20260302-skövde",
+      "id": "evt-kompanistridskurs-20260302-skg-skövde",
       "templateId": "kompanistridskurs",
       "courseDates": [
         {
@@ -1549,13 +1565,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-bataljonstridskurs-20260304-skövde",
+      "id": "evt-bataljonstridskurs-20260304-mrv-skövde",
       "templateId": "bataljonstridskurs",
       "courseDates": [
         {
@@ -1570,13 +1586,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-2-20260316-halmstad",
+      "id": "evt-gruppchef-2-20260316-hag-halmstad",
       "templateId": "gruppchef-2",
       "courseDates": [
         {
@@ -1591,13 +1607,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk119fu02-20260817-skövde",
+      "id": "evt-auto-mahgk119fu02-20260817-skg-skövde",
       "templateId": "auto-mahgk119fu02",
       "courseDates": [
         {
@@ -1612,13 +1628,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-kompanichef-1-20261102-skredsvik",
+      "id": "evt-kompanichef-1-20261102-bdg-skredsvik",
       "templateId": "kompanichef-1",
       "courseDates": [
         {
@@ -1633,13 +1649,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-plutonchef-2-20261102-skredsvik",
+      "id": "evt-plutonchef-2-20261102-bdg-skredsvik",
       "templateId": "plutonchef-2",
       "courseDates": [
         {
@@ -1654,13 +1670,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkmotorsåg-20260504-kråk",
+      "id": "evt-auto-gkmotorsåg-20260504-skg-kråk",
       "templateId": "auto-gkmotorsåg",
       "courseDates": [
         {
@@ -1675,13 +1691,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkuav06a-20260304-skövde",
+      "id": "evt-auto-gkuav06a-20260304-mrv-skövde",
       "templateId": "auto-gkuav06a",
       "courseDates": [
         {
@@ -1696,13 +1712,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkuav06a-20260527-skövde",
+      "id": "evt-auto-gkuav06a-20260527-mrv-skövde",
       "templateId": "auto-gkuav06a",
       "courseDates": [
         {
@@ -1717,13 +1733,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkuav06a-20260923-eso",
+      "id": "evt-auto-gkuav06a-20260923-mrv-eso",
       "templateId": "auto-gkuav06a",
       "courseDates": [
         {
@@ -1738,13 +1754,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkuav06a-20261118-eso",
+      "id": "evt-auto-gkuav06a-20261118-mrv-eso",
       "templateId": "auto-gkuav06a",
       "courseDates": [
         {
@@ -1759,13 +1775,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-iktmm-20260225-skövde",
+      "id": "evt-auto-iktmm-20260225-skg-skövde",
       "templateId": "auto-iktmm",
       "courseDates": [
         {
@@ -1780,13 +1796,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-hvt423f1000-20260302-halmstad",
+      "id": "evt-auto-hvt423f1000-20260302-hag-halmstad",
       "templateId": "auto-hvt423f1000",
       "courseDates": [
         {
@@ -1801,14 +1817,14 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-und525sfs47-20260304-halmstad",
-      "templateId": "auto-und525sfs47",
+      "id": "evt-auto-undgk311sf11-20260304-hag-halmstad",
+      "templateId": "auto-undgk311sf11",
       "courseDates": [
         {
           "start": "20260304",
@@ -1822,18 +1838,22 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mar423fbank-20260608, 20260622-göteborg",
+      "id": "evt-auto-mar423fbank-20260608-ebg-göteborg",
       "templateId": "auto-mar423fbank",
       "courseDates": [
         {
-          "start": "20260608, 20260622",
-          "end": "20260612, 20260626"
+          "start": "20260608",
+          "end": "20260612"
+        },
+        {
+          "start": "20260622",
+          "end": "20260626"
         }
       ],
       "location": "Göteborg",
@@ -1843,13 +1863,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-loggk404040-20260819-eso",
+      "id": "evt-auto-loggk404040-20260819-ebg-eso",
       "templateId": "auto-loggk404040",
       "courseDates": [
         {
@@ -1864,13 +1884,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-c16020-20260819-landvetter",
+      "id": "evt-auto-c16020-20260819-ebg-landvetter",
       "templateId": "auto-c16020",
       "courseDates": [
         {
@@ -1885,13 +1905,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk9090001-20260817-villingsberg",
+      "id": "evt-auto-mahgk9090001-20260817-övg-villingsberg",
       "templateId": "auto-mahgk9090001",
       "courseDates": [
         {
@@ -1906,13 +1926,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-1-20260417-kråk",
+      "id": "evt-gruppchef-1-20260417-fjg-kråk",
       "templateId": "gruppchef-1",
       "courseDates": [
         {
@@ -1927,13 +1947,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-1-20260417-östersund",
+      "id": "evt-gruppchef-1-20260417-fjg-östersund",
       "templateId": "gruppchef-1",
       "courseDates": [
         {
@@ -1948,13 +1968,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-1-20260629-boden",
+      "id": "evt-gruppchef-1-20260629-nbg-boden",
       "templateId": "gruppchef-1",
       "courseDates": [
         {
@@ -1969,13 +1989,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-1-20260817-umeå",
+      "id": "evt-gruppchef-1-20260817-vbg-umeå",
       "templateId": "gruppchef-1",
       "courseDates": [
         {
@@ -1990,13 +2010,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-1-20261113-kalixfors",
+      "id": "evt-gruppchef-1-20261113-ljg-kalixfors",
       "templateId": "gruppchef-1",
       "courseDates": [
         {
@@ -2011,13 +2031,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-gruppchef-2-20261030-östersund",
+      "id": "evt-gruppchef-2-20261030-fjg-östersund",
       "templateId": "gruppchef-2",
       "courseDates": [
         {
@@ -2032,13 +2052,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-plutonchef-1-20260629-boden",
+      "id": "evt-plutonchef-1-20260629-nbg-boden",
       "templateId": "plutonchef-1",
       "courseDates": [
         {
@@ -2053,13 +2073,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-plutonchef-1-20261030-östersund",
+      "id": "evt-plutonchef-1-20261030-fjg-östersund",
       "templateId": "plutonchef-1",
       "courseDates": [
         {
@@ -2074,13 +2094,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-plutonchef-1-20261123-härnösand",
+      "id": "evt-plutonchef-1-20261123-vng-härnösand",
       "templateId": "plutonchef-1",
       "courseDates": [
         {
@@ -2095,13 +2115,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-plutonchef-2-20261123-härnösand",
+      "id": "evt-plutonchef-2-20261123-vng-härnösand",
       "templateId": "plutonchef-2",
       "courseDates": [
         {
@@ -2116,13 +2136,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-kompanichef-1-20261123-härnösand",
+      "id": "evt-kompanichef-1-20261123-vng-härnösand",
       "templateId": "kompanichef-1",
       "courseDates": [
         {
@@ -2137,13 +2157,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-basförmåga-8,4-cm-granatgevär-20260928-tåme",
+      "id": "evt-basförmåga-8,4-cm-granatgevär-20260928-vbg-tåme",
       "templateId": "basförmåga-8,4-cm-granatgevär",
       "courseDates": [
         {
@@ -2158,13 +2178,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-basförmåga-kulspruta-58-20260928-tåme",
+      "id": "evt-basförmåga-kulspruta-58-20260928-vbg-tåme",
       "templateId": "basförmåga-kulspruta-58",
       "courseDates": [
         {
@@ -2179,13 +2199,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkuav06a-20260423-kalixfors",
+      "id": "evt-auto-gkuav06a-20260423-ljg-kalixfors",
       "templateId": "auto-gkuav06a",
       "courseDates": [
         {
@@ -2200,13 +2220,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkuav06a-20260423-kalixfors",
+      "id": "evt-auto-gkuav06a-20260423-ljg-kalixfors",
       "templateId": "auto-gkuav06a",
       "courseDates": [
         {
@@ -2221,13 +2241,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkuav06a-20260813-umeå",
+      "id": "evt-auto-gkuav06a-20260813-vbg-umeå",
       "templateId": "auto-gkuav06a",
       "courseDates": [
         {
@@ -2242,13 +2262,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkuav06a-20260903-östersund",
+      "id": "evt-auto-gkuav06a-20260903-fjg-östersund",
       "templateId": "auto-gkuav06a",
       "courseDates": [
         {
@@ -2263,13 +2283,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gkuav06a-20261112-östersund",
+      "id": "evt-auto-gkuav06a-20261112-fjg-östersund",
       "templateId": "auto-gkuav06a",
       "courseDates": [
         {
@@ -2284,13 +2304,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk119fu02-20260527-östersund",
+      "id": "evt-auto-mahgk119fu02-20260527-fjg-östersund",
       "templateId": "auto-mahgk119fu02",
       "courseDates": [
         {
@@ -2305,13 +2325,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk119fu02-20261014-östersund",
+      "id": "evt-auto-mahgk119fu02-20261014-fjg-östersund",
       "templateId": "auto-mahgk119fu02",
       "courseDates": [
         {
@@ -2326,13 +2346,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-ikgrg18-20260120-boden",
+      "id": "evt-auto-ikgrg18-20260120-vbg-boden",
       "templateId": "auto-ikgrg18",
       "courseDates": [
         {
@@ -2347,13 +2367,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-iktmm-20260216-umeå",
+      "id": "evt-auto-iktmm-20260216-vbg-umeå",
       "templateId": "auto-iktmm",
       "courseDates": [
         {
@@ -2368,13 +2388,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-loggk404040-20260216-umeå",
+      "id": "evt-auto-loggk404040-20260216-vbg-umeå",
       "templateId": "auto-loggk404040",
       "courseDates": [
         {
@@ -2389,13 +2409,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk9090001-20260223-härnösand",
+      "id": "evt-auto-mahgk9090001-20260223-vng-härnösand",
       "templateId": "auto-mahgk9090001",
       "courseDates": [
         {
@@ -2410,13 +2430,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk9090001-20260817-umeå",
+      "id": "evt-auto-mahgk9090001-20260817-vbg-umeå",
       "templateId": "auto-mahgk9090001",
       "courseDates": [
         {
@@ -2431,18 +2451,22 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahgk9090001-20260311, 20260520-östersund",
+      "id": "evt-auto-mahgk9090001-20260311-fjg-östersund",
       "templateId": "auto-mahgk9090001",
       "courseDates": [
         {
-          "start": "20260311, 20260520",
-          "end": "20260315, 20260524"
+          "start": "20260311",
+          "end": "20260315"
+        },
+        {
+          "start": "20260520",
+          "end": "20260524"
         }
       ],
       "location": "Östersund",
@@ -2452,18 +2476,22 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahfk2011553-20260924, 20261008-boden",
+      "id": "evt-auto-mahfk2011553-20260924-nbg-boden",
       "templateId": "auto-mahfk2011553",
       "courseDates": [
         {
-          "start": "20260924, 20261008",
-          "end": "20260927, 20261011"
+          "start": "20260924",
+          "end": "20260927"
+        },
+        {
+          "start": "20261008",
+          "end": "20261011"
         }
       ],
       "location": "Boden",
@@ -2473,13 +2501,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahfk2011553-20261102-umeå",
+      "id": "evt-auto-mahfk2011553-20261102-vbg-umeå",
       "templateId": "auto-mahfk2011553",
       "courseDates": [
         {
@@ -2494,13 +2522,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-mahfk2011553-20261113-kalixfors",
+      "id": "evt-auto-mahfk2011553-20261113-ljg-kalixfors",
       "templateId": "auto-mahfk2011553",
       "courseDates": [
         {
@@ -2515,13 +2543,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-hvt423f1000-20260417-kalixfors",
+      "id": "evt-auto-hvt423f1000-20260417-ljg-kalixfors",
       "templateId": "auto-hvt423f1000",
       "courseDates": [
         {
@@ -2536,13 +2564,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-hvt423f1000-20261113-kalixfors",
+      "id": "evt-auto-hvt423f1000-20261113-ljg-kalixfors",
       "templateId": "auto-hvt423f1000",
       "courseDates": [
         {
@@ -2557,13 +2585,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-hvt423f1000-20260425-boden",
+      "id": "evt-auto-hvt423f1000-20260425-nbg-boden",
       "templateId": "auto-hvt423f1000",
       "courseDates": [
         {
@@ -2578,13 +2606,13 @@
       "status": "open",
       "notes": "Repetition",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-undgk311sf11-20261019-boden",
+      "id": "evt-auto-undgk311sf11-20261019-nbg-boden",
       "templateId": "auto-undgk311sf11",
       "courseDates": [
         {
@@ -2599,13 +2627,13 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
     },
     {
-      "id": "evt-auto-gksensor-20261116-östersund",
+      "id": "evt-auto-gksensor-20261116-fjg-östersund",
       "templateId": "auto-gksensor",
       "courseDates": [
         {
@@ -2620,7 +2648,7 @@
       "status": "open",
       "notes": "",
       "lastModifiedBy": "csv-import",
-      "lastModified": "20260104-211437",
+      "lastModified": "20260104-213219",
       "sourceFiles": [
         "events.csv"
       ]
