@@ -1,0 +1,391 @@
+Innehåll
+Senast uppdaterad ............................................................................................................................... 3
+Inledning ................................................................................................................................................ 3
+Grundläggande bestämmelser ........................................................................................................... 3
+Kursansökan .......................................................................................................................................... 3
+Antagning till kurs ................................................................................................................................. 3
+Rikshemvärnsstaben (RHS) .............................................................................................................. 4
+Kontakt RHS ...................................................................................................................................... 4
+Hemvärnets stridsskola (HvSS) ..................................................................................................... 5
+Chefsutbildningar ............................................................................................................................. 5
+Instruktörsutbildningar .................................................................................................................... 5
+Funktionsutbildningar ...................................................................................................................... 5
+Ledarskapsutbildningar ................................................................................................................... 5
+Kontakt HvSS ..................................................................................................................................... 5
+Södra militärregionen (MR S) ......................................................................................................... 6
+Chefsutbildningar ............................................................................................................................. 6
+Funktionsutbildningar ...................................................................................................................... 6
+Instruktörsutbildningar .................................................................................................................... 7
+Kontakt MR S ..................................................................................................................................... 7
+Mellersta militärregionen (MR M) ................................................................................................ 8
+Chefsutbildningar ............................................................................................................................. 8
+Funktionsutbildningar ...................................................................................................................... 8
+Instruktörsutbildningar .................................................................................................................... 9
+Ledarskapsutbildningar ................................................................................................................... 9
+Västra militärregionen (MR V) ..................................................................................................... 10
+Chefsutbildningar ........................................................................................................................... 10
+Funktionsutbildningar .................................................................................................................... 10
+Instruktörsutbildningar .................................................................................................................. 10
+Norra militärregionen (MR N) ....................................................................................................... 11
+Chefsutbildningar ........................................................................................................................... 11
+Funktionsutbildningar .................................................................................................................... 11
+Instruktörsutbildningar .................................................................................................................. 11
+Kontakt MR N ................................................................................................................................... 12
+Senast uppdaterad
+2025-12-11
+Inledning
+Stridskraften Hemvärnets gemensamma kurskatalog är framtagen för att samla samtliga
+utbildningar i landet. Syftet är att ge en överblick över hela stridskraftens kursutbud och
+möjliggöra att fler inom hemvärnet kan söka sig till utbildningar som genomförs utanför
+egen militärregion.
+Kurskatalogen är under bearbetning och kommer uppdateras och utvecklas kontinuerligt.
+Rikshemvärnsstaben, militärregionerna och Hemvärnets stridsskola ansvarar för innehållet i
+kurskatalogen avseende sin egen kursverksamhet. Felskrivningar kan förekomma.
+Senast uppdaterad version kommer finnas tillgänglig på Slack.
+Grundläggande bestämmelser
+Din utbildningsgång och de utbildningsbehov som krävs för din befattning planeras och ses
+över i samråd med utbildningsansvarig vid ditt kompani. För frågor om din utbildningsgång,
+din kursansökan och eventuella valideringar ska du i första hand vända dig till din närmaste
+chef. Kan denne inte svara ska frågan lyftas vidare till din militärregiongrupp.
+Kursansökan
+Sista ansökningsdag avser den dag då ansvarig för genomförandet av utbildningen ska ha
+mottagit din ansökan. Innan dess ska din ansökan ha hunnit gå igenom flera insatser, så
+tänk på att vara ute med sin kursansökan i god tid.
+Antagning till kurs
+En slutlig prioritering och antagning av sökande till kurserna genomförs av kursansvarig.
+Cirka 8 veckor före kursstart skickas antagningsbesked ut. Samtliga sökande får besked om
+de antagits till kursen eller inte, alternativt om de erbjudits reservplats.
+Observera att rutiner och bestämmelser kan variera i landet.
+Rikshemvärnsstaben (RHS)
+KURSKOD KURSBENÄMNING START slut SISTA ANSÖKNINGSDAG ANSVARIG ORT
+GK2 DNBI Krigssjukvård 2026-04-18 2026-04-26 RHS Boden
+GK2 DNBI Krigssjukvård 2026-05-09 2026-05-17 RHS Boden
+GK2 DNBI Krigssjukvård 2026-06-06 2026-06-14 RHS Boden
+GK2 DNBI Krigssjukvård 2026-08-15 2026-08-23 RHS Boden
+GK2 DNBI Krigssjukvård 2026-09-19 2026-09-27 RHS Boden
+GK2 DNBI Krigssjukvård 2026-10-17 2026-10-25 RHS Boden
+GK2 DNBI Krigssjukvård 2026-11-14 2026-11-22 RHS Boden
+GK2 DNBI Krigssjukvård 2026-12-05 2026-12-13 RHS Boden
+Kontakt RHS
+Frågor om RHS kurser: hkv-rhs-fomed@mil.se
+Hemvärnets stridsskola (HvSS)
+Chefsutbildningar
+KURSKOD KURSBENÄMNING START KURSLÄNGD SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+MAHGK119KB01 Bataljonchefskurs 1 2026-03-02 10 dagar 2025-12-11 HvSS Vällinge
+MAHFK2011218 Bataljonchefskurs 2 2026-08-31 10 dagar 2026-06-13 HvSS Vällinge
+MAHGK119KB00 Bataljonstridskurs 2026-04-13 5 dagar 2026-01-30 HvSS Vällinge
+MAHFK2011181 Gruppchefskurs 2 2026-04-20 10 dagar 2026-01-31 HvSS Vällinge
+MAHGK119KB11 Kompanichefskurs 1 2026-02-09 10 dagar 2025-11-27 HvSS Vällinge
+MAHGK119KB11 Kompanichefskurs 1 2026-10-26 10 dagar 2026-08-14 HvSS Vällinge
+MAHFK2011220 Kompanichefskurs 2 2026-08-31 10 dagar 2026-06-13 HvSS Vällinge
+MAHGK119KB10 Kompanistridskurs 2026-09-14 5 dagar 2026-06-19 HvSS Vällinge
+MAHGK119KB10 Kompanistridskurs 2026-10-12 5 dagar 2026-08-07 HvSS Vällinge
+MAHFK2011223 Plutonchefskurs 2 2026-04-20 10 dagar 2026-01-31 HvSS Vällinge
+Instruktörsutbildningar
+KURSKOD KURSBENÄMNING START KURSLÄNGD SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+MAHGK119IN00 Instruktörskurs Stabstjänst 2026-03-23 4 dagar 2026-01-16 HvSS Vällinge
+MAHGK119IN00 Instruktörskurs Stabstjänst 2026-11-16 4 dagar 2026-09-18 HvSS Vällinge
+Funktionsutbildningar
+KURSKOD KURSBENÄMNING START KURSLÄNGD SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+MAHGK2019222 Kvartermästarkurs 1 2026-02-09 10 dagar 2025-11-27 HvSS Vällinge
+MAHFÖ2019812 Nordisk Chefskurs 2026-11-08 5 dagar 2026-06-19 HvSS Danmark
+MAHGK119FU03 Stabchefskurs 2026-05-04 5 dagar 2026-02-22 HvSS Vällinge
+HVT424L0000 Stridsledning Sensor Hv 2026-01-26 10 dagar 2025-11-14 HvSS Vällinge
+HVT424L0000 Stridsledning Sensor Hv 2026-05-18 10 dagar 2026-03-06 HvSS Vällinge
+Ledarskapsutbildningar
+KURSKOD KURSBENÄMNING START KURSLÄNGD SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+ÄMLGK705LE11 Indirekt Ledarskap (IL) 2026-02-05 2+1 dagar 2025-11-27 HvSS Vällinge
+ÄMLGK705LE11 Indirekt Ledarskap (IL) 2026-09-17 2+1 dagar 2026-06-19 HvSS Vällinge
+ÄMLGK705LE12 Ledarskap och Självkännedom 2026-06-21 3 +1 dagar 2026-04-03 HvSS Vällinge
+(LoS)
+ÄMLGK705LE13 Utveckling Grupp Ledare (UGL) 2026-05-11 5 dagar 2026-02-27 HvSS Vällinge
+ÄMLGK705LE13 Utveckling Grupp Ledare (UGL) 2026-10-05 5 dagar 2026-05-15 HvSS Vällinge
+ÄMLGK816LE10 Utvecklande Ledarskap (UL) 2026-02-02 4 dagar 2025-11-27 HvSS Vällinge
+ÄMLGK816LE10 Utvecklande Ledarskap (UL) 2026-09-14 4 dagar 2025-11-27 HvSS Vällinge
+Kontakt HvSS
+Samtliga kursplaner innehållande förkunskapskrav, kursmål m.m. finns publicerade i
+dokumentet HvSS Kursutbud 2026. Dokumentet och ansökningsblankett finns att hämta via
+www.forsvarsmakten.se/hvss och framöver på Slack.
+Frågor om HvSS kurser: hvss-utb@mil.se
+Södra militärregionen (MR S)
+Chefsutbildningar
+KURSKOD KURSBENÄMNING START Slut SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+Gruppchefskurs (GC1) 2026-01-30 2026-02-01 2025-10-31 MR S KRAG/Kosta
+Gruppchefskurs 1 2026-03-23 2026-04-01 2026-01-09 MR S SSK/
+Rinkaby
+Plutonchefskurs (PC1) 2026-01-30 2026-02-01 2025-10-31 MR S KRAG/Kosta
+MAHGK2011222 Plutonchefskurs 1 2026-07-06 2026-08-16 2026- MR S SSK/
+Revingehed
+MAHGK2011223 Plutonchefskurs 2 (PC1) 2026-11-03 2026-11-08 2026-08-30 MR S BLG/
+Del 1 Karlskrona
+Plutonchefskurs 2 (PC1) 2027-02-05 2027-02-27 MR S BLG/
+Del 2 Karlskrona
+Grundkurs stabstjänst 2026-01-30 2026-02-01 2025-11-16 MR S BLG/F17
+Del 1
+Grundkurs stabstjänst 2026-02-13 2026-02-15 2025-11-16 MR S BLG/F17
+Del 2
+MAHFK2011181 Gruppchefskurs 2 2026-03-02 2026-03-11 2026-01-16 MR S LVG/Kvarn
+MAHFK2011181 Gruppchefskurs 2 2026-07-06 2026-08-16 2026- MR S SSK/
+Revingehed
+MAHFK2011181 Gruppchefskurs 2 (GC1) 2026-11-03 2026-11-08 2026-08-30 MR S BLG/
+Del 1 Karlskrona
+Gruppchefskurs 2 (GC1) 2027-02-05 2027-02-07 MR S BLG/
+Del 2 Karlskrona
+Gruppchefskurs 3 2027-04-02 2027-04-11 2027-01-17 MR S BLG/Kosta
+Bataljonstridskurs Del 1 2026-04-24 2026-04-26 2026-02-15 MR S BLG/F17
+Bataljonsstridskurs Del 2 2026-05-08 2026-05-10 2026- MR S BLG/F17
+Funktionsutbildningar
+KURSKOD KURSBENÄMNING START Slut SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+Intro 2026-02-27 Efter 3 dagar 2026-01-16 MR S LVG/Kvarn
+Intro 2026-02-27 2026-03-01 2026-01-16 MR S KRAG/Kosta
+Intro 2026-05-15 2026-05-17 2026-04-02 MR S LVG/Kvarn
+Intro 2026-06-12 2026-06-14 2026- MR S KRAG/Kosta
+Intro 2026-08-28 2026-08-30 2026-06-12 MR S LVG/Kvarn
+Intro 2026-11-06 2026-11-08 2026-09-25 MR S BLG/
+Karlskrona
+UNDGK311SF11 IK-skyddsvakt 2026-03-05 2026-03-08 2026-01-02 MR S BLG/
+Karlskrona
+UND424ISF45 Skyddsvakt 2026-03-06 2026-03-08 2026-01-02 MR S BLG/
+grundutbildning (Skvakt Karlskrona
+GU)
+Intro/kurs/fordon SSK/
+Rinkaby
+Basförmåga KSP 58 2026-03-23 2026-03-29 2026-01-09 MR S SSK/
+Rinkaby
+Basförmåga KSP 58 2026-04-02 2026-04-04 2026-01-16 MR S BLG/Kosta
+Basförmåga 8,4 cm GRG 2026-03-23 2026-03-29 2026-01-09 MR S SSK/
+Rinkaby
+Basförmåga 8,4 cm GRG 2026-03-23 2026-03-29 2026-01-16 MR S SSK/
+Rinkaby
+GK stabstjänst 2026-05-13 2026-05-17 2026- MR S KRAG/Kosta
+GK Stabstjänst 2026-11-25 2026-11-29 MR S KRAG/Kosta
+Instruktörsutbildningar
+KURSKOD KURSBENÄMNING START Slut SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+HVT423F1000 GK ÖLAK 2026-05-25 2026-06-03 2026-04-10 MR S LVG/Kvarn
+MAHGK9090001 Instruktörskurs 1 2026-06-01 2026-06-10 2026-03-06 MR S SSK/
+Rinkaby
+Instruktörskurs TOS (IK ESO ESO ESO MR S MR S stab J4/
+TOS) Eksjö
+Kontakt MR S
+Frågor om MR S kurser: mrs-j7@mil.se
+Mellersta militärregionen (MR M)
+Chefsutbildningar
+KURSKOD KURSBENÄMNING START kurslängd SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+MAHGK119GP00 Gruppchefskurs X 2026-06-27 10 dagar 2026-03-22 MR M ESO
+MAHGK8100030 Plutonchef 1-2 SLG Strängnäs
+MAHGK8100030 Plutonchef 1-2 2026-03-18 12 dagar 2026-01-11 SLG Strängnäs
+MAHGK119GP00 Gruppchef 1-2 SLG Strängnäs
+MAHGK119GP00 Gruppchef 1-2 2026-03-18 12 dagar 2026-01-11 SLG Strängnäs
+GO33.U2.7008:03 Ledarskap idag SLK Älvkarleö
+GO33.U2.7040:01 UGL SLK Älvkarleö
+GO33.U2.7040:02 UGL SLK Älvkarleö
+Funktionsutbildningar
+KURSKOD KURSBENÄMNING START kurslängd SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+G033.U2.5706:01 GK MC Vinter FMCK Marma
+G033.U2.5706:02 GK MC Vinter FMCK Marma
+G033.U2.5706:03 GK MC Vinter FMCK Marma
+G033.U2.5706:04 GK MC Vinter FMCK Marma
+G033.U2.5702:02 GK MC Ordonans FMCK Kungsängen
+GO33.U2.5702:02 Friv MC ordonnans FMCK Marma
+Förbandsplats Ny 2026-03-10 4 dagar 2026-01-11 DRG Falun
+Förbandsplats Ny LGG Kungsängen
+MAHGK5111102 PB8 2026-03-16 7 dagar 2026-01-11
+MAHGK5111102 PB8 2026-06-29 7 dagar 2026-03-22
+MAHGK5111102 PB8 GBG Gävle
+GO33.U2.5217:04 PB8 Bilkåren Enköping
+GO33.U2.5217:05 PB8 Bilkåren Enköping
+GO33.U2.5218:2 PB8/Minibuss Tungt Bilkåren Enköping
+släp
+LOGGK8481089 Tungt Släp (PB8) 2026-03-16 4 dagar 2026-01-11
+LOGGK8481089 Tungt släp (PB8) GBG Gävle
+Tung lastbil LGG ESO
+GO33.U2.5220:04 Tungt Lastbil barmark Bilkåren Enköping
+del 1+2
+GO33.U2.5241 Ungdomsledar- 5 dagar Bilkåren Marma
+utbildning från
+Bilkåren/FMCK
+GO33.U2.5242 GU-SAM ungdom Bilkåren Marma
+Defense Camp
+GO33.U2.5000:11 GUF 2026-03-14 14 dagar Enligt FöUtb FöUtb ESO
+GO33.U2.5000:16 GUF FöUtb ESO
+Försvarsmedicin - GK 1 FöUtb ESO
+TCCC CLS
+TCCC CLS DRG ESO
+GO33.U2.6700:01 Patrullhund 1-1 SBK ESO
+GO33.U2.6700:01 Patrullhundkurs 1-2 SBK ESO
+GO33.U2.6700:02 Patrullhundkurs 2-1 SBK ESO
+GO33.U2.6700:03 Patrullhund 3-2 SBK ESO
+GO33.U2.6700:03 Patrullhund 3-3 SBK ESO
+UTPGK450KU02 Kombattantutbildning 2026-10-19 5 dagar MR M ESO
+MAHGK119FU02 GK Stabstjänst 2026-10-19 5 dagar MR M ESO
+MAHGK119FU02 GK Stabstjänst 2026-03-09 5 dagar 2026-01-11 MR M ESO
+GO33.U2.5502 GU Flyg HV FFK Västerås
+GO33.U2.5503 GU Mek HV FFK Västerås
+GO33.U2.5504 GU Mörker HV FFK Västerås
+GO33.U2.5505 GU UvE FFK Västerås
+GO33.U2.5508 GU Span HV FFK Västerås
+GO33.U2.5509 GU Spanare HV FFK Västerås
+GO33.U2.5511 GU Foto & Bildtolkning FFK Västerås
+HV
+GO33.U2.5538 GU FI/CRI FFK Västerås
+GO33.U2.5541 GU Ungdom Grundkurs FFK Västerås
+GO33.U2.5542 FK Ungdom FFK Västerås
+GO33.U2.5543 GU Ungdom Spanare FFK Västerås
+GO33.U2.5901 GK Krisstöd enskilt FPF Älvkarleö
+GO33.U2.5910 GK krisstöd grupp FPF Älvkarleö
+GO33.U2.5911 GK FM värdegrund FPF Älvkarleö
+GO33.U2.7503:08 BU Besättningsman/ Sjvk RF
+Båtförare i Navigation
+och Maskin; Teori
+GO33.U2.7503:03 BU Besättningsman/ Sjvk RF
+Båtförare i
+Fartygsförlagd
+utbildning (FFU)
+GO33.U2.7502:01 BU Besättningsman/ Sjvk RF
+Båtförare i Navigation
+och Maskin; Teori
+GO33.U2.7503:01 BU Besättningsman/ Sjvk RF
+Båtförare i
+Fartygsförlagd
+utbildning
+GO33.U2.7025:03 GK fältkock SLK Söderhamn
+Instruktörsutbildningar
+KURSKOD KURSBENÄMNING START kurslängd SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+IK GRG18 2026-03-10 5 dagar 2026-01-11 SLG Strängnäs
+MAHFÖ2111555 IK KSP 2026-03-10 5 dagar 2026-01-11 SLG Strängnäs
+GO33.U2.6260:01 IK 1-2 2026-03-14 14 dagar Enligt FVRF FVRF ESO
+GO33.U2.6260:01 Instruktörskurs 1-2 2026-06-27 14 dagar Enligt FVRF FVRF ESO
+IK TMM GBG Marma
+HVT423F1000 GKÖLAK SLG Strängnäs
+GO33.U2.6260:01 Instruktörskurs 1-2 FVRF ESO
+GO33.U2.6303 IK Uppgradering FVRF Kungsängen
+GO33.U2.5537 IU Flyg Rote och Span FFK Västerås
+GO33.U2.5908 IK Central FPF Älvkarleö
+instruktörsutbildning
+Ledarskapsutbildningar
+KURSKOD KURSBENÄMNING START kurslängd SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+GO33.U2.7008:03 Ledarskap idag SLK Älvkarleö
+GO33.U2.7040:01 UGL SLK Älvkarleö
+GO33.U2.7040:02 UGL SLK Älvkarleö
+Västra militärregionen (MR V)
+Chefsutbildningar
+KURSKOD KURSBENÄMNING START kurslängd SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+MAHGK2011222 Plutonchefskurs 1 2026-01-16 10 dagar 2025-11-23 MR V ÖVG-
+Villingsberg
+MAHGK2011230 Gruppchefskurs 12 2026-02-16 2025-11-23 MR V EBG-
+MAHFK2011181 Göteborg
+MAHGK119GP00 Gruppchefskurs X 2026-02-20 10 dagar 2025-11-23 MR V MR V J7 -
+Skövde
+MAHGK119KB10 Kompanistridskurs 2026-03-02 5 dagar 2025-12-07 MR V SKG -
+Skövde
+MAHGK119KB00 Bataljonstridskurs 2026-03-04 5 dagar 2025-12-07 MR V MR V J7 -
+Skövde
+MAHFK2011181 Gruppchefskurs 2 2026-03-16 10 dagar 2026-01-04 MR V HAG -
+Halmstad
+MAHGK119FU02 Grundkurs stabstjänst 2026-08-17 5 dagar 2026-05-24 MR V SKG -
+Skövde
+MAHGK119KB11 Kompanichefskurs 2026-11-02 2026-08-09 MR V BDG –
+Skredsvik
+MAHGK2011222 Plutonchefskurs 2 2026-11-02 10 dagar 2026-08-09 MR V BDG -
+Skredsvik
+Funktionsutbildningar
+KURSKOD KURSBENÄMNING START kurslängd SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+Motorsåg nivå 1 och 2 2026-05-04 2026-02-08 MR V SKG -
+Kråk
+GKUAV06A Grundkurs MRPAS 2026-03-04 5 dagar 2025-12-07 MR V MR V J7 -
+Skövde
+GKUAV06A Grundkurs MRPAS 2026-05-27 5 dagar 2026-03-01 MR V MR V J7 -
+Skövde
+GKUAV06A Grundkurs MRPAS 2026-09-23 5 dagar 2026-06-28 MR V MR V J7 -
+ESO
+GKUAV06A Grundkurs MRPAS 2026-11-18 5 dagar 2026-08-23 MR V MR V J7 -
+ESO
+Instruktörsutbildningar
+KURSKOD KURSBENÄMNING START kurslängd SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+IK TMM Instruktörskurs TMM 2026-02-25 5 dagar 2025-11-30 MR V SKG -
+Skövde
+HVT423F1000 Grundkurs övnled AK 2026-03-02 8 dagar 2025-12-07 MR V HAG -
+"GKÖLAK" Halmstad
+UND525SFS47 Instruktörskurs 2026-03-04 5 dagar 2025-12-07 MR V HAG -
+skyddsvakt Halmstad
+MAR423FBANK Instruktörskurs Uppdelad i V 624 (mån-fre) 2026-03-22 MR V EBG -
+närkamp bas två block V 626 (mån-fre) Göteborg
+LOGGK404040 Instruktörskurs TOS 2026-08-19 5 dagar 2026-05-24 MR V EBG - ESO
+C16020 Instruktörskurs CBRN 2026-08-19 2026-05-24 MR V EBG -
+Landvetter
+MAHGK9090001 Instruktörskurs 1 2026-08-17 10 dagar 2026-05-24 MR V ÖVG -
+Villingsberg
+Norra militärregionen (MR N)
+Chefsutbildningar
+KURSKOD KURSBENÄMNING START kurslängd SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+MAHGK2011230 Gruppchefskurs 1 2026-04-17 10 dagar 2026-03-08 FJG SKG - Kråk
+MAHGK2011230 Gruppchefskurs 1 2026-04-17 10 dagar 2026-03-08 FJG Östersund
+MAHGK2011230 Gruppchefskurs 1 2026-06-29 7 dagar 2026-05-10 NBG Boden
+MAHGK2011230 Gruppchefskurs 1 2026-08-17 10 dagar 2026-06-07 VBG Umeå
+MAHGK2011230 Gruppchefskurs 1 2026-11-13 10 dagar 2026-10-15 LJG Kalixfors
+Gruppchefskurs 2 2026-10-30 10 dagar 2026-09-13 FJG Östersund
+MAHGK2011222 Plutonchefskurs 1 2026-06-29 7 dagar 2026-05-10 NBG Boden
+MAHGK2011222 Plutonchefskurs 1 2026-10-30 10 dagar 2026-09-13 FJG Östersund
+MAHGK2011222 Plutonchefskurs 1 2026-11-23 10 dagar 2026-10-12 VNG Härnösand
+MAHGK2011223 Plutonchefskurs 2 2026-11-23 10 dagar 2026-10-12 VNG Härnösand
+MAHGK119KB11 Kompanichefskurs 1 2026-11-23 10 dagar 2026-10-12 VNG Härnösand
+Funktionsutbildningar
+KURSKOD KURSBENÄMNING START kurslängd SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+MAHGK119VA01 Grundkurs Granatgevär 2026-09-28 5 dagar 2026-06-07 VBG Tåme
+MAHGK119VA04 Grundkurs KSP 58 2026-09-28 5 dagar 2026-06-07 VBG Tåme
+och
+MAHFK119VA14
+GK MRPAS 2026-01-29 4 dagar 2026-01-07 FJG Östersund
+GK MRPAS 2026-04-23 4 dagar 2026-04-01 LJG Kalixfors
+GK MRPAS 2026-08-13 4 dagar 2026-06-07 VBG Umeå
+GK MRPAS 2026-09-03 4 dagar 2026-08-02 FJG Östersund
+GK MRPAS 2026-11-12 4 dagar 2026-10-04 FJG Östersund
+MAHGK119FU02 GK Stabstjänst 2026-05-27 5 dagar 2026-04-19 FJG Östersund
+MAHGK119FU02 GK Stabstjänst 2026-10-14 5 dagar 2026-09-06 FJG Östersund
+Instruktörsutbildningar
+KURSKOD KURSBENÄMNING START kurslängd SISTA ANSVARIG ORT
+ANSÖKNINGSDAG
+Instruktörskurs GRG 2026-01-20 2 dagar 2025-11-15 VBG Boden
+m/18 VTA och UTS
+Instruktörskurs TMM 2026-02-16 4 dagar 2026-01-18 VBG Umeå
+Instruktörskurs TOS 2026-02-16 4 dagar 2026-01-18 VBG Umeå
+MAHGK9090001 Instruktörskurs 1 2026-02-23 7 dagar 2026-01-19 VNG Härnösand
+MAHGK9090001 Instruktörskurs 1 2026-08-17 10 dagar 2026-06-07 VBG Umeå
+MAHGK9090001 Instruktörskurs 1 del 1 2026-03-11 5 dagar 2026-02-01 FJG Östersund
+Uppdelad på
+två tillfällen
+MAHGK9090001 Instruktörskurs 1 del 2 2026-05-20 5 dagar 2026-02-01 FJG Östersund
+MAHFK2011553 Instruktörskurs 2 del 1 2026-09-24 4 dagar 2026-08-23 NBG Boden
+Uppdelad på
+två tillfällen
+MAHFK2011554 Instruktörskurs 2 del 2 2026-10-08 4 dagar NBG Boden
+MAHFK2011553 Instruktörskurs 2 2026-11-02 10 dagar 2026-09-06 VBG Umeå
+MAHFK2011553 Instruktörskurs 2 2026-11-13 10 dagar 2026-10-15 LJG Kalixfors
+HVT423F1000 GKÖLAK 2026-04-17 10 dagar 2026-04-01 LJG Kalixfors
+HVT423F1000 GKÖLAK 2026-11-13 10 dagar 2026-10-15 LJG Kalixfors
+HVT423F1000 Repetition GKÖLAK 2026-04-25 2 dagar 2026-03-22 NBG Boden
+UNDGK311SF11 IK Skyddsvakt 2026-10-19 5 dagar 2026-09-20 NBG Boden
+GK Sensor 2026-11-16 7 dagar 2026-10-11 FJG Östersund
+Kontakt MR N
+Frågor kurser FJG: mrn-faltjagargruppen-utbsektion@mil.se
+Frågor kurser NBG: mrn-norrbottensgruppen@mil.se
+Frågor kurser VBG: mrn-vasterbottensgruppen@mil.se
+Frågor kurser LJG: mrn-ljgutb@mil.se
+Frågor kurser VNG: erik.pallin@mil.se
+För frågor om kursen Instruktörskurs GRG m/18 VTA och UTS: peter.viklund@mil.se
