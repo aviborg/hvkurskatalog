@@ -15,8 +15,8 @@
             "Utföra grundläggande fältarbeten",
             "Tillämpa första hjälpen i fält"
         ],
-        "finalGoal": "Att självständigt kunna verka som soldat i en hemvärnspluton under ledning.",
-        "subGoals": [
+        "primaryLearningObjective": "Att självständigt kunna verka som soldat i en hemvärnspluton under ledning.",
+        "secondaryLearningObjectives": [
             "Säker vapenhantering",
             "Grundläggande stridsteknik",
             "Fältvana"
@@ -49,8 +49,8 @@
             "Upprätta stridsplan",
             "Samordna kompanifunktioner"
         ],
-        "finalGoal": "Att som kompanichef, med gott om tid, kunna utveckla en stridsplan, utverka order och leda sitt kompani vid skydd och bevakning av objekt i terräng och urban miljö.",
-        "subGoals": [
+        "primaryLearningObjective": "Att som kompanichef, med gott om tid, kunna utveckla en stridsplan, utverka order och leda sitt kompani vid skydd och bevakning av objekt i terräng och urban miljö.",
+        "secondaryLearningObjectives": [
             "Använda bedömandemallen, planering under tidspress (PUT) vid genomförande av ett bedömande för att ta fram en stridsplan.",
             "Förklara hur olika funktioner påverkar en stridsplan samt förklara behovet av att samordna och samverka mellan militära och civila aktörer.",
             "Beskriv och förklara hur plutonerna leds och samordnas inom ramen för kompaniets strid vid framryckning och tagande av oförsvarad terräng.",
@@ -87,8 +87,8 @@
             "Säkra fri luftväg",
             "Transportera skadade säkert"
         ],
-        "finalGoal": "Att kunna verka som stridssjukvårdare i en pluton.",
-        "subGoals": [
+        "primaryLearningObjective": "Att kunna verka som stridssjukvårdare i en pluton.",
+        "secondaryLearningObjectives": [
             "Materiellkännedom",
             "Sårvård i fält",
             "Rapportskrivning"
@@ -121,8 +121,8 @@
             "Ge tydliga order",
             "Fatta beslut under press"
         ],
-        "finalGoal": "Att självständigt kunna leda en hemvärnsgrupp under övning och insats.",
-        "subGoals": [
+        "primaryLearningObjective": "Att självständigt kunna leda en hemvärnsgrupp under övning och insats.",
+        "secondaryLearningObjectives": [
             "Ordergivning (5-punktsorder)",
             "Gruppens strid",
             "Ledarskap under press"

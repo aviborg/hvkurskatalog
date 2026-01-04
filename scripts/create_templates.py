@@ -2,22 +2,22 @@ import json
 
 templates = []
 
-def add(id, name, category, shortName=None, resp="HvSS", sources=None, base=None):
+def add(id, name, category, shortName=None, resp="HvSS", sources=None, base=None, courseCode=None):
     templates.append({
         "id": id,
         "name": name,
         "shortName": shortName,
         "category": category,
-        "courseCode": None,
+        "courseCode": courseCode,
         "description": "",
         "targetAudience": "",
         "syllabus": "",
         "purpose": "",
-        "finalGoal": "",
-        "subGoals": [],
+        "primaryLearningObjective": "",
+        "secondaryLearningObjectives": [],
         "examination": "",
         "prerequisites": [],
-        "literature": "",
+        "literature": [],
         "additionalInfo": None,
         "typicalDuration": "",
         "courseResponsible": resp,
@@ -38,7 +38,7 @@ add("gruppchef-x","Gruppchefskurs X","Chefsutbildningar","GCX","HvSS",["hvss-kur
 add("troppchef-stab-tross","Troppchef Stab och Tross","Chefsutbildningar","CSOT","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
 for n in ["1","2","3"]:
     add(f"plutonchef-{n}",f"Plutonchefskurs {n}","Chefsutbildningar",f"PC{n}","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
-add("plutonchef-12","Plutonchefskurs 1 + 2","Chefsutbildningar","PC12","HvSS",["hvss-kurskatalog-2025.pdf", "mr-m-utbildningskatalog-2026-a1.pdf"],["plutonchef-1","plutonchef-2"])
+add("plutonchef-12","Plutonchefskurs 1 + 2","Chefsutbildningar","PC12","HvSS",["hvss-kurskatalog-2025.pdf", "mr-m-utbildningskatalog-2026-a1.pdf"],["plutonchef-1","plutonchef-2"], "MAHGK8100030")
 add("ledningsplutonchef","Ledningsplutonchefskurs","Chefsutbildningar","LPC","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
 for n in ["1","2","3"]:
     add(f"kompanichef-{n}",f"Kompanichefskurs {n}","Chefsutbildningar",f"KC{n}","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])

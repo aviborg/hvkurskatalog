@@ -74,14 +74,14 @@ const COURSE_TEMPLATE_SCHEMA = {
       "items": { "type": "string" },
       "description": "List of learning objectives."
     },
-    "finalGoal": {
+    "primaryLearningObjective": {
       "type": "string",
-      "description": "Final goal after completing the course."
+      "description": "Primary learning objective after completing the course."
     },
-    "subGoals": {
+    "secondaryLearningObjectives": {
       "type": "array",
       "items": { "type": "string" },
-      "description": "Sub-goals or intermediate objectives."
+      "description": "Secondary learning objectives."
     },
     "examination": {
       "type": "string",
@@ -130,8 +130,8 @@ const COURSE_TEMPLATE_SCHEMA = {
     "syllabus",
     "purpose",
     "learningObjectives",
-    "finalGoal",
-    "subGoals",
+    "primaryLearningObjective",
+    "secondaryLearningObjectives",
     "examination",
     "prerequisites",
     "literature",

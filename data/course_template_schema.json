@@ -42,16 +42,16 @@
       "type": "string",
       "description": "Purpose of the course."
     },
-    "finalGoal": {
+    "primaryLearningObjective": {
       "type": "string",
-      "description": "Final goal after completing the course."
+      "description": "Primary learning objective after completing the course."
     },
-    "subGoals": {
+    "secondaryLearningObjectives": {
       "type": "array",
       "items": {
         "type": "string"
       },
-      "description": "Sub-goals or intermediate objectives."
+      "description": "Secondary learning objectives."
     },
     "examination": {
       "type": "string",
@@ -65,7 +65,8 @@
       "description": "Prerequisites for participation."
     },
     "literature": {
-      "type": "string",
+      "type": ["string", "array"],
+      "items": { "type": "string" },
       "description": "Required or recommended literature."
     },
     "additionalInfo": {
@@ -115,8 +116,8 @@
     "targetAudience",
     "syllabus",
     "purpose",
-    "finalGoal",
-    "subGoals",
+    "primaryLearningObjective",
+    "secondaryLearningObjectives",
     "examination",
     "prerequisites",
     "literature",

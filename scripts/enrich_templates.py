@@ -25,9 +25,9 @@ TEMPLATE_FILE = "data/hemvarn_course_templates_all.json"
 SCHEMA_FILE = "data/course_template_schema.json"
 OUTPUT_FILE = "data/hemvarn_course_templates_enriched.json"
 
-MODEL = "gpt-4.1"
+MODEL = os.getenv("ENRICH_MODEL", "gpt-4.1-mini")
 TEMPERATURE = 0.2
-THROTTLE_SECONDS = 2.5
+THROTTLE_SECONDS = 0.5
 
 os.makedirs(TEXT_DIR, exist_ok=True)
 
@@ -154,6 +154,7 @@ Rules:
 - Be neutral, professional, and concise.
 - Prefer provided source text when available.
 - If source text is missing, you MAY synthesize high-level, well-established knowledge.
+- If a course code (courseCode) is provided, preserve its exact lower or upper case format as in official catalogs.
 - Do NOT invent exact hours, regulations, or examination rules unless obvious.
 - Do NOT modify id, name, shortName, category, courseResponsible, baseTemplateIds, or sourceFiles.
 - Output ONLY a valid CourseTemplate JSON object.
@@ -170,8 +171,8 @@ PRIMARY_EXAMPLE = {
     "targetAudience": "Avsedd för dig som är eller skall placeras i befattning som gruppchef/stf inom Hemvärnet.",
     "syllabus": "Grundläggande ledarskap, ordergivning, gruppens stridsteknik, soldatregler och tillämpade övningar.",
     "purpose": "Att deltagaren skall kunna verka som gruppchef/stf inom Hemvärnet eller frivilligorganisation.",
-    "finalGoal": "Efter genomförd kurs ska deltagaren kunna verka som gruppchef inom Hemvärnet eller frivilligorganisation.",
-    "subGoals": [
+    "primaryLearningObjective": "Efter genomförd kurs ska deltagaren kunna verka som gruppchef inom Hemvärnet eller frivilligorganisation.",
+    "secondaryLearningObjectives": [
         "Förklara och utveckla gruppchefens roll, ansvar och utförande av befälsföring av grupp vid uppgifts lösande samt tillämpandet av soldatreglerna, FM Värdegrund och fysiskt stridsvärde.",
         "Förklara och använda högre chefs order i form av att ge order till egen grupp.",
         "Exemplifiera och använda stridsteknik enligt handbok hemvärnspluton-grupp vid framryckande och tagande av skyddsobjekt inom hemvärnsplutons ram.",
@@ -220,8 +221,8 @@ CONTRAST_EXAMPLE = {
       "targetAudience": "Krigsplacerad, obeväpnad personal, såväl kombattanter som icke kombattanter (dessa icke kombattanter kan efter särskild utbildning tilldelas lättare beväpning).",
       "syllabus": "Fysisk träning, Exercis, CBRN, Hälso- och sjukvårdsutbildning, Försvarsupplysning, FM Värdegrund, Folkrätt, förmanskap, Uniformssystem 90, Förevisningsskjutning, Brandutbildning",
       "purpose": "Ge viss personal i Försvarsmaktens krigsorganisation förståelse för sin roll och sin status som ”kombattant” alternativt ”icke kombattant”.",
-      "finalGoal": "Ge deltagarna kunskap om Totalförsvaret, Försvarsmaktens Värdegrund, Folkrätt och det egna krigsförbandets uppgift och funktion i krigsorganisationen.",
-      "subGoals": [
+      "primaryLearningObjective": "Ge deltagarna kunskap om Totalförsvaret, Försvarsmaktens Värdegrund, Folkrätt och det egna krigsförbandets uppgift och funktion i krigsorganisationen.",
+      "secondaryLearningObjectives": [
         "Kursen ska, tillsammans med eventuell specifik befattningsutbildning, ge sådan förmåga att eleven ska kunna krigsplaceras på avsedd befattning i krigsorganisationen."
       ],
       "examination": "För godkänt krävs att respektive kursdeltagaren deltagit i samtliga utbildningsmoment. Eventuell komplettering ska ske inom 6 månader från kurstillfället.",
@@ -258,6 +259,11 @@ def enrich_template(template, source_text, schema):
 
     # Strip extras
     enriched = {k: v for k, v in enriched.items() if k in schema["properties"]}
+
+    if enriched.get("courseCode"):
+      enriched["courseCode"] = enriched["courseCode"].upper()
+
+    # Validate
     validate(instance=enriched, schema=schema)
 
     return enriched
