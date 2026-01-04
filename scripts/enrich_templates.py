@@ -33,7 +33,7 @@ os.makedirs(TEXT_DIR, exist_ok=True)
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # =========================
-# PDF → TEXT EXTRACTION
+# PDF → TEXT
 # =========================
 
 def extract_pdf_to_text(pdf_name):
@@ -43,44 +43,34 @@ def extract_pdf_to_text(pdf_name):
     if os.path.exists(txt_path):
         return
 
-    print(f"[INFO] Extracting {pdf_name}")
     with pdfplumber.open(pdf_path) as pdf, open(txt_path, "w", encoding="utf-8") as out:
         for i, page in enumerate(pdf.pages):
             text = page.extract_text()
             if text:
-                out.write(f"\n=== PAGE {i+1} ===\n")
-                out.write(text)
-                out.write("\n")
+                out.write(f"\n=== PAGE {i+1} ===\n{text}\n")
 
 # =========================
-# ALIAS GENERATION
+# ALIASES
 # =========================
 
 def build_course_aliases(template):
-    name = template["name"]
-    short = template.get("shortName")
-
-    aliases = {name.lower()}
-
-    base = re.sub(r"\s+\d+.*$", "", name)
+    aliases = {template["name"].lower()}
+    if template.get("shortName"):
+        aliases.add(template["shortName"].lower())
+    base = re.sub(r"\s+\d+.*$", "", template["name"])
     aliases.update({
         f"{base}kurs".lower(),
-        f"{base} kurs".lower(),
+        f"{base} kurs".lower()
     })
-
-    if short:
-        aliases.add(short.lower())
-        aliases.add(short.replace("-", "").lower())
-
     return aliases
 
 # =========================
-# LOAD SOURCE TEXT (BEST EFFORT)
+# LOAD SOURCE TEXT
 # =========================
 
 def load_source_text(template):
-    collected = []
     aliases = build_course_aliases(template)
+    collected = []
 
     for pdf in template["sourceFiles"]:
         extract_pdf_to_text(pdf)
@@ -88,33 +78,18 @@ def load_source_text(template):
         if not os.path.exists(txt_path):
             continue
 
-        with open(txt_path, "r", encoding="utf-8") as f:
-            lines = f.readlines()
+        with open(txt_path, encoding="utf-8") as f:
+            content = f.read().lower()
 
-        buffer = []
-        capturing = False
-
-        for line in lines:
-            line_l = line.lower()
-
-            if any(a in line_l for a in aliases):
-                capturing = True
-                buffer = [line]
-                continue
-
-            if capturing and re.match(r"^[A-ZÅÄÖ].{6,}$", line.strip()):
+        for alias in aliases:
+            if alias in content:
+                collected.append(content)
                 break
-
-            if capturing:
-                buffer.append(line)
-
-        if buffer:
-            collected.append("".join(buffer))
 
     return "\n".join(collected)
 
 # =========================
-# MERGE LOGIC
+# MERGE
 # =========================
 
 IMMUTABLE_FIELDS = {
@@ -124,19 +99,19 @@ IMMUTABLE_FIELDS = {
 
 def merge_templates(original, enriched):
     merged = original.copy()
-    for key, value in enriched.items():
-        if key in IMMUTABLE_FIELDS:
+    for k, v in enriched.items():
+        if k in IMMUTABLE_FIELDS:
             continue
-        if original.get(key) in ("", [], None) and value not in ("", [], None):
-            merged[key] = value
+        if original.get(k) in ("", [], None) and v not in ("", [], None):
+            merged[k] = v
     return merged
 
 # =========================
-# OPENAI CALL WITH RETRY
+# OPENAI CALL
 # =========================
 
 def call_with_retry(messages, retries=5):
-    for attempt in range(retries):
+    for i in range(retries):
         try:
             return client.responses.create(
                 model=MODEL,
@@ -144,33 +119,32 @@ def call_with_retry(messages, retries=5):
                 input=messages
             )
         except RateLimitError:
-            wait = 2 ** attempt + random.uniform(0, 1)
-            print(f"[RATE LIMIT] sleeping {wait:.2f}s")
+            wait = 2 ** i + random.uniform(0, 1)
             time.sleep(wait)
-    raise RuntimeError("Exceeded retry limit")
+    raise RuntimeError("Rate limit exceeded")
 
 # =========================
-# ENRICH TEMPLATE (NEW STRATEGY)
+# PROMPT
 # =========================
 
 SYSTEM_PROMPT = """
 You are enriching Swedish Hemvärnet course templates.
 
 You may use:
-- Provided source text (if any)
-- Well-established, widely accepted knowledge about Hemvärnet and Försvarsmakten courses
+- Provided source text
+- Well-established knowledge of Hemvärnet and Försvarsmakten training
 
 Rules:
-- Write in Swedish.
-- Be professional and concise.
-- Prefer source text when available.
-- If source text is missing or minimal, you MAY synthesize a reasonable high-level description.
-- Do NOT invent highly specific details (exact hours, regulations, page numbers).
-- Do NOT modify id, name, shortName, category, courseResponsible, baseTemplateIds, or sourceFiles.
-- Output ONLY a single JSON object that conforms exactly to the CourseTemplate schema.
+- Write in Swedish
+- Be neutral, professional, and concise
+- Prefer source text when available
+- If missing, synthesize high-level, conservative descriptions
+- Do NOT invent specific regulations, hours, or exams
+- Do NOT modify identifiers or administrative fields
+- Output ONLY a valid CourseTemplate JSON object
 """
 
-EXAMPLE_TEMPLATE = {
+EXAMPLE = {
     "id": "gruppchef-1",
     "name": "Gruppchefskurs 1",
     "shortName": "GC1",
@@ -205,27 +179,29 @@ EXAMPLE_TEMPLATE = {
       ]
 }
 
+# =========================
+# ENRICH
+# =========================
+
 def enrich_template(template, source_text, schema):
-    user_payload = {
-        "example": EXAMPLE_TEMPLATE,
+    payload = {
+        "example": EXAMPLE,
         "template": template,
         "sourceText": source_text
     }
 
     response = call_with_retry([
         {"role": "system", "content": SYSTEM_PROMPT},
-        {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)}
+        {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}
     ])
 
-    raw = response.output_text.strip()
-    if not raw:
-        raise RuntimeError("Empty model response")
+    enriched = json.loads(response.output_text.strip())
 
-    parsed = json.loads(raw)
+    # Strip extras
+    enriched = {k: v for k, v in enriched.items() if k in schema["properties"]}
+    validate(instance=enriched, schema=schema)
 
-    parsed = {k: v for k, v in parsed.items() if k in schema["properties"]}
-    validate(instance=parsed, schema=schema)
-    return parsed
+    return enriched
 
 # =========================
 # MAIN
@@ -239,12 +215,32 @@ def main():
         schema = json.load(f)
 
     for i, template in enumerate(tqdm(catalog["templates"], desc="Enriching")):
+
+        # Skip merged templates
+        if template.get("baseTemplateIds"):
+            continue
+
         if template.get("description"):
             continue
 
         source_text = load_source_text(template)
-
         enriched = enrich_template(template, source_text, schema)
+
+        # Confidence + provenance
+        filled_fields = sum(bool(enriched.get(k)) for k in schema["properties"])
+        confidence = (
+            "high" if filled_fields > 10 else
+            "medium" if filled_fields > 5 else
+            "low"
+        )
+
+        enriched["enrichmentConfidence"] = confidence
+        enriched["enrichmentProvenance"] = {
+            k: ("pdf" if source_text else "synthesized")
+            for k, v in enriched.items()
+            if v not in ("", [], None)
+        }
+
         catalog["templates"][i] = merge_templates(template, enriched)
 
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
