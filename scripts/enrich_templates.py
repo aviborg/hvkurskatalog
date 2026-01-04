@@ -7,8 +7,7 @@ from dotenv import load_dotenv
 from tqdm import tqdm
 import pdfplumber
 from jsonschema import validate
-from openai import OpenAI
-from openai import RateLimitError
+from openai import OpenAI, RateLimitError
 
 # =========================
 # CONFIG
@@ -25,9 +24,9 @@ TEMPLATE_FILE = "data/hemvarn_course_templates_all.json"
 SCHEMA_FILE = "data/course_template_schema.json"
 OUTPUT_FILE = "data/hemvarn_course_templates_enriched.json"
 
-MODEL = "gpt-4.1-mini"
-TEMPERATURE = 0.1
-THROTTLE_SECONDS = 0.25
+MODEL = "gpt-4.1"
+TEMPERATURE = 0.2
+THROTTLE_SECONDS = 0.5
 
 os.makedirs(TEXT_DIR, exist_ok=True)
 
@@ -54,54 +53,29 @@ def extract_pdf_to_text(pdf_name):
                 out.write("\n")
 
 # =========================
-# COURSE NAME ALIASES
+# ALIAS GENERATION
 # =========================
 
 def build_course_aliases(template):
-    """
-    Swedish-robust alias generation for HvSS / MR catalogs.
-    """
     name = template["name"]
-    short = template.get("shortName", "")
+    short = template.get("shortName")
 
-    aliases = set()
+    aliases = {name.lower()}
 
-    # Base name
-    aliases.add(name)
-
-    # Remove trailing numbers
     base = re.sub(r"\s+\d+.*$", "", name)
-
-    # kurs / skurs variants
     aliases.update({
-        f"{base}kurs",
-        f"{base}skurs",
-        f"{base} kurs",
+        f"{base}kurs".lower(),
+        f"{base} kurs".lower(),
     })
 
-    # Numbered courses
-    m = re.search(r"(\d+\s*\+\s*\d+|\d+)", name)
-    if m:
-        num = m.group(1)
-        aliases.update({
-            f"{base}kurs {num}",
-            f"{base}skurs {num}",
-            f"{base} {num}",
-        })
-
-    # Instruktör special case
-    if base.lower().startswith("instruktör"):
-        aliases.add("instruktörskurs")
-
-    # Abbreviations
     if short:
-        aliases.add(short)
-        aliases.add(short.replace("-", ""))
+        aliases.add(short.lower())
+        aliases.add(short.replace("-", "").lower())
 
-    return {a.lower() for a in aliases if a}
+    return aliases
 
 # =========================
-# LOAD SOURCE TEXT (SECTION-BASED)
+# LOAD SOURCE TEXT (BEST EFFORT)
 # =========================
 
 def load_source_text(template):
@@ -111,26 +85,23 @@ def load_source_text(template):
     for pdf in template["sourceFiles"]:
         extract_pdf_to_text(pdf)
         txt_path = os.path.join(TEXT_DIR, pdf.replace(".pdf", ".txt"))
-
         if not os.path.exists(txt_path):
             continue
 
         with open(txt_path, "r", encoding="utf-8") as f:
             lines = f.readlines()
 
-        capturing = False
         buffer = []
+        capturing = False
 
         for line in lines:
             line_l = line.lower()
 
-            # Start capturing on header match
-            if any(alias in line_l for alias in aliases):
+            if any(a in line_l for a in aliases):
                 capturing = True
                 buffer = [line]
                 continue
 
-            # Stop on next section header
             if capturing and re.match(r"^[A-ZÅÄÖ].{6,}$", line.strip()):
                 break
 
@@ -179,37 +150,71 @@ def call_with_retry(messages, retries=5):
     raise RuntimeError("Exceeded retry limit")
 
 # =========================
-# ENRICH TEMPLATE
+# ENRICH TEMPLATE (NEW STRATEGY)
 # =========================
 
+SYSTEM_PROMPT = """
+You are enriching Swedish Hemvärnet course templates.
+
+You may use:
+- Provided source text (if any)
+- Well-established, widely accepted knowledge about Hemvärnet and Försvarsmakten courses
+
+Rules:
+- Write in Swedish.
+- Be professional and concise.
+- Prefer source text when available.
+- If source text is missing or minimal, you MAY synthesize a reasonable high-level description.
+- Do NOT invent highly specific details (exact hours, regulations, page numbers).
+- Do NOT modify id, name, shortName, category, courseResponsible, baseTemplateIds, or sourceFiles.
+- Output ONLY a single JSON object that conforms exactly to the CourseTemplate schema.
+"""
+
+EXAMPLE_TEMPLATE = {
+    "id": "gruppchef-1",
+    "name": "Gruppchefskurs 1",
+    "shortName": "GC1",
+    "category": "Chefsutbildningar",
+    "courseCode": "MAHGK2011230",
+    "description": "Kursen omfattar grundläggande gruppchefsutbildning där fokus ligger på orderträning, stridsteknik, beslutsfattning där teori varvas med praktiska övningar utomhus.",
+    "targetAudience": "Avsedd för dig som är eller skall placeras i befattning som gruppchef/stf inom Hemvärnet.",
+    "syllabus": "Grundläggande ledarskap, ordergivning, gruppens stridsteknik, soldatregler och tillämpade övningar.",
+    "purpose": "Att deltagaren skall kunna verka som gruppchef/stf inom Hemvärnet eller frivilligorganisation.",
+    "finalGoal": "Efter genomförd kurs ska deltagaren kunna verka som gruppchef inom Hemvärnet eller frivilligorganisation.",
+    "subGoals": [
+        "Förklara och utveckla gruppchefens roll, ansvar och utförande av befälsföring av grupp vid uppgifts lösande samt tillämpandet av soldatreglerna, FM Värdegrund och fysiskt stridsvärde.",
+        "Förklara och använda högre chefs order i form av att ge order till egen grupp.",
+        "Exemplifiera och använda stridsteknik enligt handbok hemvärnspluton-grupp vid framryckande och tagande av skyddsobjekt inom hemvärnsplutons ram.",
+        "Beskriva upprättandet av förläggning, observationsplats och postställe.",
+        "Definiera och beskriva hemvärnsplutonernas organisation och uppgifter."
+        ],
+    "examination": "Praktiskt lärande examinationer där elevens ordergivning vid nedbrytande av plutonchefs order, användande av OBO alternativt 5 punkts order enligt handbok och agerande i rollen som gruppchef utvärderas fortlöpande under kursen med tyngdpunkt på fältdygnen. Max 2 examinationstillfälle under kursen.",
+    "prerequisites": [
+        "VPL, GMU, eller GU.",
+        "Genomfört kompetensprov Ak 4B/C.",
+        "Fysisk status för att klara minst två fältdygn."
+        ],
+    "literature": "Handbok Hvplut/Hvgrp del 1-2, (Grunder och Objektet), MSR, FM Handböcker och reglementen",
+    "additionalInfo": "Utbildning till gruppchef/stf omfattar två kurser; Gruppchefskurs1 och Gruppchefskurs 2. Gruppchefskurs 3 är endast avsedd för de som är eller skall bli chef/stf för en understödsgrupp.",
+    "typicalDuration": "10 dagar om totalt 106 timmar.",
+    "courseResponsible": "HvSS",
+    "baseTemplateIds": [],
+    "sourceFiles": [
+        "hvss-kurskatalog-2023.pdf",
+        "hvss-kurskatalog-2025.pdf"
+      ]
+}
+
 def enrich_template(template, source_text, schema):
-    payload = {
+    user_payload = {
+        "example": EXAMPLE_TEMPLATE,
         "template": template,
-        "sourceText": source_text,
-        "instructions": [
-            "Populate only empty fields",
-            "Use Swedish",
-            "Use verbatim wording where possible",
-            "If information is not found, leave the field empty",
-            "Do not invent content",
-            "Do not modify identifiers, names, short names or category",
-            "Return ONLY the course template JSON object"
-        ]
+        "sourceText": source_text
     }
 
     response = call_with_retry([
-        {
-            "role": "system",
-            "content": (
-                "You extract Hemvärnet course template data.\n"
-                "Return ONLY a valid CourseTemplate JSON object.\n"
-                "No wrappers, no explanations."
-            )
-        },
-        {
-            "role": "user",
-            "content": json.dumps(payload, ensure_ascii=False)
-        }
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)}
     ])
 
     raw = response.output_text.strip()
@@ -218,12 +223,7 @@ def enrich_template(template, source_text, schema):
 
     parsed = json.loads(raw)
 
-    if "template" in parsed and isinstance(parsed["template"], dict):
-        parsed = parsed["template"]
-
-    # Strip non-schema keys
     parsed = {k: v for k, v in parsed.items() if k in schema["properties"]}
-
     validate(instance=parsed, schema=schema)
     return parsed
 
@@ -243,10 +243,6 @@ def main():
             continue
 
         source_text = load_source_text(template)
-
-        if not source_text.strip():
-            print(f"[SKIP] No source text for {template['id']}")
-            continue
 
         enriched = enrich_template(template, source_text, schema)
         catalog["templates"][i] = merge_templates(template, enriched)

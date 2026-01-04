@@ -13,7 +13,6 @@ def add(id, name, category, shortName=None, resp="HvSS", sources=None, base=None
         "targetAudience": "",
         "syllabus": "",
         "purpose": "",
-        "learningObjectives": [],
         "finalGoal": "",
         "subGoals": [],
         "examination": "",

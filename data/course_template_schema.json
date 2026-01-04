@@ -42,13 +42,6 @@
       "type": "string",
       "description": "Purpose of the course."
     },
-    "learningObjectives": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "description": "List of learning objectives."
-    },
     "finalGoal": {
       "type": "string",
       "description": "Final goal after completing the course."
