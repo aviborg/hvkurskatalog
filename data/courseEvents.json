@@ -3,7 +3,10 @@
         "id": "evt-guf-summer-2025",
         "templateId": "gu-f",
         "courseDates": [
-            { "start": "20260615", "end": "20260629" }
+            {
+                "start": "20260615",
+                "end": "20260629"
+            }
         ],
         "location": "Borlänge",
         "courseResponsible": "DBG",
@@ -18,7 +21,10 @@
         "id": "evt-sjv1-aug-2025",
         "templateId": "sjv-1",
         "courseDates": [
-            { "start": "20260810", "end": "20260817" }
+            {
+                "start": "20260810",
+                "end": "20260817"
+            }
         ],
         "location": "Skövde",
         "courseResponsible": "SSK",
@@ -33,8 +39,14 @@
         "id": "evt-gc1-fall-2025",
         "templateId": "gc-1",
         "courseDates": [
-            { "start": "20260901", "end": "20260905" },
-            { "start": "20260910", "end": "20260914" }
+            {
+                "start": "20260901",
+                "end": "20260905"
+            },
+            {
+                "start": "20260910",
+                "end": "20260914"
+            }
         ],
         "location": "Vällinge",
         "courseResponsible": "LVG",
@@ -49,7 +61,10 @@
         "id": "evt-bv206-oct-2025",
         "templateId": "bv206",
         "courseDates": [
-            { "start": "20261005", "end": "20261012" }
+            {
+                "start": "20261005",
+                "end": "20261012"
+            }
         ],
         "location": "Boden",
         "courseResponsible": "NBG",
@@ -64,7 +79,10 @@
         "id": "evt-intro-spring-2025",
         "templateId": "intro-hv",
         "courseDates": [
-            { "start": "20260412", "end": "20260413" }
+            {
+                "start": "20260412",
+                "end": "20260413"
+            }
         ],
         "location": "Distans / Lokal ort",
         "courseResponsible": "HVSS",
@@ -79,7 +97,10 @@
         "id": "evt-kc1-may-2026",
         "templateId": "kc-1",
         "courseDates": [
-            { "start": "20260510", "end": "20260520" }
+            {
+                "start": "20260510",
+                "end": "20260520"
+            }
         ],
         "location": "Vällinge",
         "courseResponsible": "HVSS",
@@ -89,5 +110,638 @@
         "notes": "Kursen kan till del ske som distansutbildning. Samläsning med Plutonchefskurs kan förekomma.",
         "createdBy": "system",
         "createdAt": "20251228"
+    },
+    {
+        "id": "evt-intro-lvg-var-2025",
+        "course_id": "intro",
+        "dates": "20250207-20250209",
+        "location": "Kvarn",
+        "spots": 50,
+        "notes": "Anmälan bör inlämnas senast v50 m.a.a. julledighet. Anmälan endast genom Mitt Försvarsmakten.",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-intro-blg-var-2025",
+        "course_id": "intro",
+        "dates": "20250207-20250209",
+        "location": "Karlskrona",
+        "spots": 30,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-fordonsutb-tung-släpkärra-del-1-blg-sommar-2025",
+        "course_id": "fordonsutb-tung-släpkärra-del-1",
+        "dates": "20250214-20250216",
+        "location": "Karlskrona",
+        "spots": 20,
+        "notes": "Omfattar även del 2 v517 Beroende inlängd på inskr kan fordonshelger utökas med t.ex. förnyelse av förarbevis",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-intro-krag-var-2025",
+        "course_id": "intro",
+        "dates": "20250214-20250216",
+        "location": "Kosta Ö/S",
+        "spots": 33,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-skyddsvakt-blg-var-2025",
+        "course_id": "skyddsvakt",
+        "dates": "20250306-20250309",
+        "location": "Karlskrona",
+        "spots": 12,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-skyddsvakt-gu-blg-var-2025",
+        "course_id": "skyddsvakt-gu",
+        "dates": "20250307-20250309",
+        "location": "Karlskrona",
+        "spots": 30,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-skyddsvakt-instruktör-krag-var-2025",
+        "course_id": "skyddsvakt-instruktör",
+        "dates": "20250307-20250309",
+        "location": "Eksjö",
+        "spots": 30,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gk-övningsledare-automatkarbin-lvg-var-2025",
+        "course_id": "gk-övningsledare-automatkarbin",
+        "dates": "20250303-20250312",
+        "location": "Kvarn",
+        "spots": "ESO",
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-radarkurs-lvg-var-2025",
+        "course_id": "radarkurs",
+        "dates": "20250315-20250316",
+        "location": "Kvarn",
+        "spots": 10,
+        "notes": "Enligt ev. senare utskick för inbjudan",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-praktiktillfälle-simulator-lvg-var-2025",
+        "course_id": "praktiktillfälle-simulator",
+        "dates": "20250315-20250316",
+        "location": "Kvarn",
+        "spots": 6,
+        "notes": "Enligt ev. senare utskick för inbjudan",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-yrkesinformatörs-blg-var-2025",
+        "course_id": "yrkesinformatörsutbildning",
+        "dates": "20250316",
+        "location": "Karlskrona",
+        "spots": 30,
+        "notes": "Anmälan till: Respektive rekryteringskoordinator",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-intro-rinkaby-sommar-2025",
+        "course_id": "intro-kurs-ford-tjänst",
+        "dates": "20250321-20250323",
+        "location": "Rinkaby",
+        "spots": 60,
+        "notes": "Nytt utbildning.",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-fordonsutb-lvg-var-2025",
+        "course_id": "fordonsutbildning-pb8",
+        "dates": "20250502-20250504",
+        "location": "Eksjö",
+        "spots": 20,
+        "notes": "Anmälan till del 1 ovan omfattar även denna",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-instruktörskurs-ssk-sommar-2025",
+        "course_id": "instruktörskurs",
+        "dates": "20250623-20250702",
+        "location": "Ravlunda",
+        "spots": 24,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gruppchefskurs-1-ssk-sommar-2025",
+        "course_id": "gruppchefskurs-1",
+        "dates": "20250623-20250702",
+        "location": "Revingehed",
+        "spots": 24,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gruppchefskurs-2-ssk-sommar-2025",
+        "course_id": "gruppchefskurs-2",
+        "dates": "20250707-20250716",
+        "location": "Revingehed",
+        "spots": 24,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-plutonchefskurs-ssk-sommar-2025",
+        "course_id": "plutonchefskurs",
+        "dates": "20250707-20250716",
+        "location": "Revingehed",
+        "spots": 24,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-instruktörskurs-tos-stab-j4-sommar-2025",
+        "course_id": "instruktörskurs-tos",
+        "dates": "20250828-20250831",
+        "location": "Eksjö",
+        "spots": 25,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-intro-krag-sommar-2025",
+        "course_id": "intro",
+        "dates": "20250912-20250914",
+        "location": "Kosta Ö/S",
+        "spots": 33,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-grundutbildning-skarpskytt-blg-höst-2025",
+        "course_id": "grundutbildning-skarpskytt",
+        "dates": "20250602-20250608",
+        "location": "Kosta Ö/S",
+        "spots": 20,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-kurs-m-rpas-blg-höst-2025",
+        "course_id": "kurs-m-rpas",
+        "dates": "20250602-20250608",
+        "location": "Kosta Ö/S",
+        "spots": 10,
+        "notes": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-ik1-2-ssk-v526-2025",
+        "templateId": "ik1-2",
+        "courseResponsible": "SSK",
+        "startDate": "20250623",
+        "endDate": "20250706",
+        "location": "Ravlunda",
+        "maxParticipants": 24,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gc1-ssk-v526-2025",
+        "templateId": "gc1",
+        "courseResponsible": "SSK",
+        "startDate": "20250623",
+        "endDate": "20250702",
+        "location": "Revingehed",
+        "maxParticipants": 24,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gc2-ssk-v528-2025",
+        "templateId": "gc2",
+        "courseResponsible": "SSK",
+        "startDate": "20250707",
+        "endDate": "20250716",
+        "location": "Revingehed",
+        "maxParticipants": 24,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-pc1-ssk-v528-2025",
+        "templateId": "pc1",
+        "courseResponsible": "SSK",
+        "startDate": "20250707",
+        "endDate": "20250716",
+        "location": "Revingehed",
+        "maxParticipants": 24,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-ik1-krag-v534-2025",
+        "templateId": "ik1",
+        "courseResponsible": "KRAG",
+        "startDate": "20250822",
+        "endDate": "20250824",
+        "location": "Kosta Ö/S",
+        "maxParticipants": 24,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-ik2-krag-v534-2025",
+        "templateId": "ik2",
+        "courseResponsible": "KRAG",
+        "startDate": "20250822",
+        "endDate": "20250824",
+        "location": "Kosta Ö/S",
+        "maxParticipants": 8,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-ffs8-blg-v535-2025",
+        "templateId": "ffs8",
+        "courseResponsible": "BLG",
+        "startDate": "20250825",
+        "endDate": "20250829",
+        "location": "Karlskrona",
+        "maxParticipants": 6,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-ik-susa-del-1-ssk-v535-2025",
+        "templateId": "ik-susa-del-1",
+        "courseResponsible": "SSK",
+        "startDate": "20250827",
+        "endDate": "20250831",
+        "location": "Rinkaby",
+        "maxParticipants": 16,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-intro-lvg-v535-2025",
+        "templateId": "intro",
+        "courseResponsible": "LVG",
+        "startDate": "20250829",
+        "endDate": "20250831",
+        "location": "Kvarn",
+        "maxParticipants": 50,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-sgu-nsg-v536-2025",
+        "templateId": "sgu",
+        "courseResponsible": "NSG",
+        "startDate": "20250905",
+        "endDate": "20250907",
+        "location": "Eksjö",
+        "maxParticipants": 30,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-fordonstjanst-ssk-v535-2025",
+        "templateId": "fordonstjanst",
+        "courseResponsible": "SSK",
+        "startDate": "20250829",
+        "endDate": "20250831",
+        "location": "Rinkaby",
+        "maxParticipants": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-ik-tos-stab-j4-v535-2025",
+        "templateId": "ik-tos",
+        "courseResponsible": "STAB J4",
+        "startDate": "20250828",
+        "endDate": "20250831",
+        "location": "Eksjö",
+        "maxParticipants": 25,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-intervjuare-mr-v540-2025",
+        "templateId": "intervjuare",
+        "courseResponsible": "MR S/J2 SÄK",
+        "startDate": "20251004",
+        "endDate": "20251004",
+        "location": "Revingehed/Skolhuset",
+        "maxParticipants": 40,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-intro-fg-lvg-v540-2025",
+        "templateId": "intro-fg",
+        "courseResponsible": "LVG",
+        "startDate": "20251002",
+        "endDate": "20251012",
+        "location": "Rinkaby",
+        "maxParticipants": 60,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-ik-skp58-ssk-v540-2025",
+        "templateId": "ik-skp58",
+        "courseResponsible": "SSK",
+        "startDate": "20251201",
+        "endDate": "20251207",
+        "location": "Rinkaby",
+        "maxParticipants": 16,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-ik-susa-del-2-ssk-v540-2025",
+        "templateId": "ik-susa-del-2",
+        "courseResponsible": "SSK",
+        "startDate": "20251201",
+        "endDate": "20251207",
+        "location": "Rinkaby",
+        "maxParticipants": 16,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gf-1000p-blg-v542-2025",
+        "templateId": "gf-1000p",
+        "courseResponsible": "BLG",
+        "startDate": "20251219",
+        "endDate": "20251221",
+        "location": "Karlskrona",
+        "maxParticipants": 20,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gk-olsk-lvg-v622-2026",
+        "templateId": "gk-olsk",
+        "courseResponsible": "LVG",
+        "startDate": "20260525",
+        "endDate": "20260603",
+        "location": "Kvarn",
+        "maxParticipants": 20,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gc2-ssk-v628-2026",
+        "templateId": "gc2",
+        "courseResponsible": "SSK",
+        "startDate": "20260706",
+        "endDate": "20260816",
+        "location": "Revingehed",
+        "maxParticipants": 24,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gruppchefskurs-1-bdg-aug-2025",
+        "kurskod": "MAHGK2011230",
+        "datum": "20250818",
+        "ansvarig": "BDG",
+        "plats": "SKREDSVIK",
+        "elevplatser": "20",
+        "sista_anmalning": "20250430",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gruppchefskurs-2-x-aug-2025",
+        "kurskod": "MAHGK119GP00",
+        "datum": "20250818",
+        "ansvarig": "Försvarsutbildarna",
+        "plats": "VILLINGSBERG",
+        "elevplatser": "20",
+        "sista_anmalning": "20250817",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-instruktorskurs-tos-ebg-sep-2025",
+        "kurskod": "L0GGK404040",
+        "datum": "20250930",
+        "ansvarig": "EBG",
+        "plats": "SKILLINGARYD",
+        "elevplatser": "55",
+        "sista_anmalning": "20250430",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-instruktorskurs-m-rpas-mr-v-k3-oct-2025",
+        "kurskod": "UNDGK311SF11",
+        "datum": "20251001",
+        "ansvarig": "HAG",
+        "plats": "SKILLINGARYD",
+        "elevplatser": "30",
+        "sista_anmalning": "20250430",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-grundkurs-m-rpas-mr-v-oct-2025",
+        "kurskod": "MAHGK119FU02",
+        "datum": "20250929",
+        "ansvarig": "SKG",
+        "plats": "SKILLINGARYD",
+        "elevplatser": "25",
+        "sista_anmalning": "20250430",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-instruktorskurs-1-ovg-aug-2025",
+        "kurskod": "MAHGK9090001",
+        "datum": "20250818",
+        "ansvarig": "ÖVG",
+        "plats": "VILLINGSBERG",
+        "elevplatser": "40",
+        "sista_anmalning": "20250430",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-kompanistridskurs-skg-nov-2025",
+        "kurskod": "MAHGK119KB10",
+        "datum": "20251117",
+        "ansvarig": "SKG",
+        "plats": "SKILLINGARYD",
+        "elevplatser": "40",
+        "sista_anmalning": "20250430",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-bataljonstridskurs-mrv-nov-2025",
+        "kurskod": "MAHGK119KB00",
+        "datum": "20251119",
+        "ansvarig": "MRV",
+        "plats": "SKILLINGARYD",
+        "elevplatser": "20",
+        "sista_anmalning": "20250430",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gk2-dnbi-krigssjukvård-rhs-april-2026",
+        "templateId": "gk2-dnbi-krigssjukvård",
+        "startDate": "20260418",
+        "endDate": "20260426",
+        "lastApplicationDate": null,
+        "location": "Boden",
+        "spots": null,
+        "responsible": "RHS",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gk2-dnbi-krigssjukvård-rhs-may-2026",
+        "templateId": "gk2-dnbi-krigssjukvård",
+        "startDate": "20260509",
+        "endDate": "20260517",
+        "lastApplicationDate": null,
+        "location": "Boden",
+        "spots": null,
+        "responsible": "RHS",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-gk2-dnbi-krigssjukvård-rhs-june-2026",
+        "templateId": "gk2-dnbi-krigssjukvård",
+        "startDate": "20260606",
+        "endDate": "20260614",
+        "lastApplicationDate": null,
+        "location": "Boden",
+        "spots": null,
+        "responsible": "RHS",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-bataljonchefskurs-1-hvss-summer-2026",
+        "templateId": "bataljonchefskurs-1",
+        "kursansvarig": "HvSS",
+        "dates": [
+            "20260615"
+        ],
+        "locations": [],
+        "spots": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-bataljonchefskurs-2-hvss-summer-2026",
+        "templateId": "bataljonchefskurs-2",
+        "kursansvarig": "HvSS",
+        "dates": [
+            "20260615"
+        ],
+        "locations": [],
+        "spots": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "evt-bataljonstridskurs-hvss-spring-2026",
+        "templateId": "bataljonstridskurs",
+        "kursansvarig": "HvSS",
+        "dates": [
+            "20210512"
+        ],
+        "locations": [],
+        "spots": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
     }
 ]
