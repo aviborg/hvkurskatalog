@@ -1,6 +1,10 @@
 import json
+from datetime import datetime, timezone
 
 templates = []
+
+def now_utc_timestamp():
+    return datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
 
 def add(id, name, category, shortName=None, resp="HvSS", sources=None, base=None, courseCode=None):
     templates.append({
@@ -22,98 +26,100 @@ def add(id, name, category, shortName=None, resp="HvSS", sources=None, base=None
         "typicalDuration": "",
         "courseResponsible": resp,
         "baseTemplateIds": base or [],
-        "sourceFiles": sources or []
+        "sourceFiles": sources or [],
+        "lastModifiedBy": "create_templates_script",
+        "lastModified": now_utc_timestamp()
     })
 
 # ---------- HvSS 2023 / 2025 ----------
 
 # Grundläggande militärutbildning
-add("kombu","Kombattantutbildning för krigsplacerad, obeväpnad personal (KombU)","Grundläggande militärutbildning","KombU","HvSS",["hvss-kurskatalog-2023.pdf", "mr-m-utbildningskatalog-2026-a1.pdf"])
+add("kombu","Kombattantutbildning för krigsplacerad, obeväpnad personal (KombU)","Grundläggande militärutbildning","KombU","HvSS",["hvss-kurskatalog-2023.pdf", "mr-m-utbildningskatalog-2026-a1.pdf"], None, "UTPGK450KU02")
 
 # Chefsutbildningar
-for n in ["1","2","3"]:
-    add(f"gruppchef-{n}",f"Gruppchefskurs {n}","Chefsutbildningar",f"GC{n}","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
-add("gruppchef-12","Gruppchefskurs 1 + 2","Chefsutbildningar","GC12","HvSS",["hvss-kurskatalog-2025.pdf", "mr-m-utbildningskatalog-2026-a1.pdf"],["gruppchef-1","gruppchef-2"])
-add("gruppchef-x","Gruppchefskurs X","Chefsutbildningar","GCX","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
-add("troppchef-stab-tross","Troppchef Stab och Tross","Chefsutbildningar","CSOT","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
-for n in ["1","2","3"]:
-    add(f"plutonchef-{n}",f"Plutonchefskurs {n}","Chefsutbildningar",f"PC{n}","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
+for course in [["1", "MAHGK2011230"], ["2", "MAHFK2011181"],["3","MAHFK2011231"]]:
+    add(f"gruppchef-{course[0]}",f"Gruppchefskurs {course[0]}","Chefsutbildningar",f"GC{course[0]}","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf",], None, course[1])
+add("gruppchef-12","Gruppchefskurs 1 + 2","Chefsutbildningar","GC12","HvSS",["hvss-kurskatalog-2025.pdf", "mr-m-utbildningskatalog-2026-a1.pdf"],["gruppchef-1","gruppchef-2"], None, "GC12")
+add("gruppchef-x","Gruppchefskurs X","Chefsutbildningar","GCX","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"], None, "MAHGK119GP00")
+add("troppchef-stab-tross","Troppchef Stab och Tross","Chefsutbildningar","CSOT","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"], None, "HVT422CGP01")
+for course in [["1", "MAHGK2011222"], ["2", "MAHFK2011223"],["3","MAHFK2011520"]]:
+    add(f"plutonchef-{course[0]}",f"Plutonchefskurs {course[0]}","Chefsutbildningar",f"PC{course[0]}","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"], None, course[1])
 add("plutonchef-12","Plutonchefskurs 1 + 2","Chefsutbildningar","PC12","HvSS",["hvss-kurskatalog-2025.pdf", "mr-m-utbildningskatalog-2026-a1.pdf"],["plutonchef-1","plutonchef-2"], "MAHGK8100030")
-add("ledningsplutonchef","Ledningsplutonchefskurs","Chefsutbildningar","LPC","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
-for n in ["1","2","3"]:
-    add(f"kompanichef-{n}",f"Kompanichefskurs {n}","Chefsutbildningar",f"KC{n}","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
-add("kompanistridskurs","Kompanistridskurs","Chefsutbildningar","KSTR","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
-for n in ["1","2","3"]:
-    add(f"bataljonchef-{n}",f"Bataljonchefskurs {n}","Chefsutbildningar",f"BC{n}","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
-add("bataljonstridskurs","Bataljonstridskurs","Chefsutbildningar","BSTR","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
+add("ledningsplutonchef","Ledningsplutonchefskurs","Chefsutbildningar","LPC","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"], None, "MAHGK2011502")
+for course in [["1", "MAHGK119KB11"], ["2", "MAHFK2011220"],["3","HVT422FKB03"]]:
+    add(f"kompanichef-{course[0]}",f"Kompanichefskurs {course[0]}","Chefsutbildningar",f"KC{course[0]}","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"], None, course[1])
+add("kompanistridskurs","Kompanistridskurs","Chefsutbildningar","KSTR","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"], None, "MAHGK119KB10")
+for course in [["1", "MAHGK119KB01"], ["2", "MAHFK2011218"],["3","HVT422FKB04"]]:
+    add(f"bataljonchef-{course[0]}",f"Bataljonchefskurs {course[0]}","Chefsutbildningar",f"BC{course[0]}","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"], None, course[1])
+add("bataljonstridskurs","Bataljonstridskurs","Chefsutbildningar","BSTR","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"], None, "MAHGK119KB00")
 
 # Instruktörsutbildningar (full list from TOC)
 instruktors = [
-    "Instruktörskurs 1","Instruktörskurs 2","Instruktörskurs FUSA grupp",
-    "Instruktörskurs Gevär 22 Ungdomsvapen","Instruktörskurs Granattillsats Ak4B",
-    "Instruktörskurs Grg m/48","Instruktörskurs IS Hv","Instruktörskurs Ksp 58B",
-    "Instruktörskurs ODEN","Instruktörskurs Pansarskott m86","Instruktörskurs Pistol 88",
-    "Instruktörskurs Psg90 alt. AK4B med kikarsikte","Instruktörskurs Rekrytering",
-    "Instruktörskurs SkjutR AK 4B/C del 1","Instruktörskurs SkjutR AK 4B/C del 2",
-    "Instruktörskurs stabstjänst","Instruktörskurs SäkR avlyst terräng",
-    "Instruktörskurs SäkR skjutbana","Instruktörskurs Tårgas",
-    "Instruktörskurs grundkurs övningsledare Strisim PC",
-    "Instruktörskurs fortsättningskurs övningsledare Strisim PC",
-    "HALVAR Huvudinstruktörskurs","HALVAR Instruktörskurs"
+    ["Grundkurs Övningsledare Automatkarbin BAS", "GKÖLAK", "HVT423F10001"],
+    ["Instruktörskurs 1", "IK1", "MAHGK9090001"], ["Instruktörskurs 2", "IK2", "MAHFK2011553"], ["Instruktörskurs FUSA grupp", "IKFUSA", "MAHAK2111559"],
+    ["Instruktörskurs Gevär 22 Ungdomsvapen", "IKG22U", "MAHFÖ6121005"], ["Instruktörskurs Granattillsats Ak4B", "IKGTAK", "MAHFÖ2111660"],
+    ["Instruktörskurs Grg m/48", "IKGRG", "MAHFÖ2111556"], ["Instruktörskurs IS Hv", "IKISHV", "MAHGK7110001"], ["Instruktörskurs Ksp 58B", "IKKSP", "MAHFÖ2111555"],
+    ["Instruktörskurs ODEN", "IKODEN", "HVT422FIK00"],["Instruktörskurs Pansarskott m86", "IKPSM86", "MAHFÖ2111557"],["Instruktörskurs Pistol 88", "IKP88", "MAHFÖ2111558"],
+    ["Instruktörskurs Psg90 alt. AK4B med kikarsikte", "IKPSG", "MAHFÖ2111560"],["Instruktörskurs Rekrytering", "IKREK", "MAHGK2019526"],
+    ["Instruktörskurs SkjutR AK 4B/C del 1", "IKSR1", "MAHGK2111565"],["Instruktörskurs SkjutR AK 4B/C del 2", "IKSR2", "MAHFÖ2111566"],
+    ["Instruktörskurs stabstjänst", "IKST", "MAHGK119IN00"],["Instruktörskurs SäkR avlyst terräng", "IKSRAT", "MAHFÖ2111564"],
+    ["Instruktörskurs SäkR skjutbana", "IKSRSB", "MAHFÖ2111563"],["Instruktörskurs Tårgas", "IKTG", "MAHFÖ2119502"],
+    ["Instruktörskurs grundkurs övningsledare Strisim PC", "GKÖLSPC", "MARGK510ÖSSP"], 
+    ["Instruktörskurs fortsättningskurs övningsledare Strisim PC", "FKÖLSPC", "MARFK510ÖSSP"],
+    ["HALVAR Huvudinstruktörskurs", "HALVARHIK", "MAHFÖ2011558"],["HALVAR Instruktörskurs", "HALVARIK", "MAHGK2011557"]
 ]
 
 for name in instruktors:
-    cid = name.lower().replace(" ", "-").replace("/", "").replace(".", "")
-    add(cid,name,"Instruktörsutbildningar",None,"HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
+    cid = name[0].lower().replace(" ", "-").replace("/", "").replace(".", "")
+    add(cid,name[0],"Instruktörsutbildningar",name[1],"HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"], None, name[2])
 
 # Funktionsutbildningar
 funktion = [
-    "Anställda vid utbildningsgrupp","Anställda vid MR-grupp","Fredsadministrativkurs",
-    "Fordon Förare PB8","HALVAR Figurantkurs","Hemvärns Personnel Recovery Officerskurs (Hv PR-O)",
-    "Informatör/webredaktör bataljon","IS Hv Super User","IS Hv Teknikerkurs",
-    "Krigsförbandsplaneringskurs","Kvartermästarkurs 1","Kvartermästarkurs 2",
-    "Marin hemvärnstaktik","Nordisk chefskurs","Scanbal","Stabschefskurs",
-    "Grundkurs Stabstjänst","Grundkurs Störa","Grundkurs Underrättelsetjänst Hv",
-    "VaktB kurs","Stridsledning Sensor Hund Hv","Säkerhetstjänstkurs Hv"
+    ["Anställda vid MR-grupp", "MAHGK2011301"], ["Fredsadministrativkurs", "MAHGK119FU01"],
+    ["Fordon Förare PB8", "MAHGK5111102"],["HALVAR Figurantkurs", "MAHFÖ2011560"], ["Hemvärns Personnel Recovery Officerskurs (Hv PR-O)", "MAÖGK043P007"],
+    ["Informatör/webredaktör bataljon", "MAHGK2019501"], ["IS Hv Super User", "MAHFÖ7110002"], ["IS Hv Teknikerkurs", "MAHGK7090001"],
+    ["Krigsförbandsplaneringskurs", "MAHFÖ2011515"], ["Kvartermästarkurs 1", "MAHGK2019222"], ["Kvartermästarkurs 2", "MAHFK4109223"],
+    ["Marin hemvärnstaktik", "MAHGK2061519"], ["Nordisk chefskurs", "MAHFÖ2019812"], ["Scanbal", "MAHFÖ7120001"], ["Stabschefskurs", "MAHGK119FU03"],
+    ["Grundkurs Stabstjänst", "MAHGK119FU02"], ["Grundkurs Störa", "MAHGK119FU04"], ["Grundkurs Underrättelsetjänst Hv", "HVT422FFU00"],
+    ["VaktB kurs", "MAHGK0440001"], ["Stridsledning Sensor Hund Hv", "HVT424L0000"], ["Säkerhetstjänstkurs Hv", "MAHGK8100020"], ["Ungdomsledarkurs", "MAHGK2011535"]
 ]
 
 for name in funktion:
-    cid = name.lower().replace(" ", "-").replace("/", "").replace(".", "")
-    add(cid,name,"Funktionsutbildningar",None,"HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"])
+    cid = name[0].lower().replace(" ", "-").replace("/", "").replace(".", "")
+    add(cid,name[0],"Funktionsutbildningar",None,"HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"], None, name[1])
 
 # Vapenkurser
 vapenkurser = [
-    "Hv-Intro Automatkarbin 4","Basförmåga 8,4 cm Granatgevär","Basförmåga Automatkarbin 4",
-    "Basförmåga Granattillsats 40mm","Basförmåga Kulspruta 58","Basförmåga Pansarskott m/86",
-    "Pistolkurs fortsättning","Spetsförmåga 8,4 cm Granatgevär","Spetsförmåga Pansarskott m/86",
-    "Tilläggsförmåga 8,4 cm Granatgevär","Tilläggsförmåga Automatkarbin 4",
-    "Tilläggsförmåga Granattillsats 40mm","Tilläggsförmåga Kulspruta m/58",
-    "Tilläggsförmåga Pansarskott m/86","Skarpskytt PSG90 Hv"
+    ["Hv-Intro Automatkarbin 4", "MAHGK119VA00"], ["Basförmåga 8,4 cm Granatgevär", "MAHGK119VA01"], ["Basförmåga Automatkarbin 4", "MAHGK119VA02"],
+    ["Basförmåga Granattillsats 40mm", "MAHGK119VA03"], ["Basförmåga Kulspruta 58","MAHGK119VA04"], ["Basförmåga Pansarskott m/86", "MAHGK119VA05"],
+    ["Pistolkurs fortsättning","MAHFK119VA10"], ["Spetsförmåga 8,4 cm Granatgevär","MAHFK119VA21"], ["Spetsförmåga Pansarskott m/86","MAHFK119VA20"],
+    ["Tilläggsförmåga 8,4 cm Granatgevär","MAHFK119VA11"], ["Tilläggsförmåga Automatkarbin 4","MAHFK119VA12"],
+    ["Tilläggsförmåga Granattillsats 40mm","MAHGK119VA13"], ["Tilläggsförmåga Kulspruta m/58","MAHFK119VA14"],
+    ["Tilläggsförmåga Pansarskott m/86","MAHFK119VA15"], ["Skarpskytt PSG90 Hv","MAHGK4101701"]
 ]
 
 for name in vapenkurser:
-    cid = name.lower().replace(" ", "-").replace("/", "").replace(".", "")
-    add(cid,name,"Vapenkurser",None,"HvSS",["hvss-kurskatalog-2023.pdf"])
+    cid = name[0].lower().replace(" ", "-").replace("/", "").replace(".", "")
+    add(cid,name[0],"Vapenkurser",None,"HvSS",["hvss-kurskatalog-2023.pdf"], None, name[1])
 
 # Ledarskap
 ledarskap = [
-    ["Indirekt ledarskap", "IL"],["Ledarskap och självkännedom", "LoS"],
-    ["Utveckling grupp ledare", "UGL"],["Utvecklande ledarskap", "UL"]
+    ["Indirekt ledarskap", "IL", "ÄMLGK705LE11"],["Ledarskap och självkännedom", "LoS", "ÄMLGK705LE12"],
+    ["Utveckling grupp ledare", "UGL", "ÄMLGK705LE13"],["Utvecklande ledarskap", "UL", "ÄMLGK816LE10"]
 ]
 
 for name in ledarskap:
     cid = name[0].lower().replace(" ", "-").replace("(", "").replace(")", "")
-    add(cid,name[0],"Ledarskapsutbildningar",name[1],"HvSS",["hvss-kurskatalog-2023.pdf"])
+    add(cid,name[0],"Ledarskapsutbildningar",name[1],"HvSS",["hvss-kurskatalog-2023.pdf"], None, name[2])
 
 # Musik
-add("chef-musikkar","Chef musikkår","Musikutbildningar","CMK","HvSS",["hvss-kurskatalog-2023.pdf"])
+add("chef-musikkar","Chef musikkår","Musikutbildningar","CMK","HvSS",["hvss-kurskatalog-2023.pdf"], None, "MAHGK3031741")
 
 # MR M 2026
 add("gu-f","Grundläggande soldatutbildning för frivillig personal, GU-F","Grundläggande militärutbildning","GU-F","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"])
 add("tccc-cls","TCCC-CLS (Combat Life Saver)","Funktionsutbildningar","TCCC-CLS","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"])
-add("pb8","PB8 (Personbil 8)","Funktionsutbildningar","PB8","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"])
 add("gk-tung-slapkarra","Gk Tung släpkärra","Funktionsutbildningar","GKTSK","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"])
-add("instruktörskurs-12","Instruktörskurs 1 + 2","Instruktörsutbildningar","IK12","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"],["instruktörskurs-1","instruktörskurs-2"])
+add("instruktörskurs-12","Instruktörskurs 1 + 2","Instruktörsutbildningar","IK12","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"],["instruktörskurs-1","instruktörskurs-2"], None, "IK12")
 
 out = {"templates": templates}
 

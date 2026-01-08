@@ -291,21 +291,6 @@ def main():
         source_text = load_source_text(template)
         enriched = enrich_template(template, source_text, schema)
 
-        # Confidence + provenance
-        filled_fields = sum(bool(enriched.get(k)) for k in schema["properties"])
-        confidence = (
-            "high" if filled_fields > 10 else
-            "medium" if filled_fields > 5 else
-            "low"
-        )
-
-        enriched["enrichmentConfidence"] = confidence
-        enriched["enrichmentProvenance"] = {
-            k: ("pdf" if source_text else "synthesized")
-            for k, v in enriched.items()
-            if v not in ("", [], None)
-        }
-
         merged = merge_templates(template, enriched)
 
         # Only update metadata if something actually changed
