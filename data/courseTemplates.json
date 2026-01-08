@@ -5,7 +5,7 @@
         "shortName": "GU-F",
         "category": "Grundläggande militärutbildning",
         "courseCode": null,
-        "description": "En två veckors intensiv utbildning som ger dig grundläggande soldatkunskaper. Kursen är steget in i Hemvärnet och täcker vapen, taktik, fältarbete, första hjälpen och för militären viktig lagstiftning.",
+        "description": "GU-F genomförs som GSSU av frivilliga försvarsorganisationer...",
         "targetAudience": "Nya hemvärnsrekryter",
         "syllabus": "Kursen omfattar grundläggande soldatfärdigheter inklusive vapentjänst, skjutning, taktik, fältarbete, stridssjukvård och militär lagstiftning.",
         "purpose": "Att ge frivilliga soldater grundläggande militära färdigheter för tjänstgöring i Hemvärnet.",
@@ -22,17 +22,21 @@
             "Fältvana"
         ],
         "examination": "Praktisk och teoretisk examination",
-        "prerequisites": [
-            "Svensk medborgare",
-            "Fyllt 18 år",
-            "Godkänd säkerhetsprövning"
-        ],
+        "prerequisites": "Utbildningsplan och utbildningsavtal.",
         "literature": "Soldatreglemente för Hemvärnet (SoldR Hv), Handbok Hemvärn.",
         "additionalInfo": "Genomförs som sammanhängande utbildning.",
         "typicalDuration": 14,
         "ownerRegion": "HVSS",
         "createdBy": "system",
-        "lastModified": "20251228"
+        "lastModified": "20260108",
+        "title": "Grundläggande soldatutbildning för frivillig personal, GUF",
+        "duration": "Fjorton (14) dagar",
+        "targetGroup": "Personal som inte har militärgrundutbildning...",
+        "content": "GU-F genomförs som GSSU av frivilliga försvarsorganisationer för viss personal i hemvärnets krigsförband.",
+        "objectives": "Efter genomförd GU-F ska eleven kunna försvara sig själv och tillsammans med andra kunna försvara plats eller anläggning.",
+        "responsible": "Försvarsutbildarna",
+        "target_group": "Personal som inte har militärgrundutbildning.",
+        "course_responsible": "Försvarsutbildarna"
     },
     {
         "id": "kc-1",
@@ -139,5 +143,1197 @@
         "ownerRegion": "HVSS",
         "createdBy": "system",
         "lastModified": "20251228"
+    },
+    {
+        "id": "intro",
+        "description": "",
+        "objectives": [],
+        "prerequisites": [],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108",
+        "name": "Intro",
+        "notes": [
+            "Anmälan bör inlämnas senast v525 m.a.a. semesterperiod",
+            "Anmälan endast genom Mitt Försvarsmakten"
+        ]
+    },
+    {
+        "id": "fordonsutb-tung-släpkärra-del-1",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "fordonsutb-tung-släpkärra-del-2",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "skyddsvakt",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "skyddsvakt-gu",
+        "description": "Skyddsvakt grundutbildning",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "skyddsvakt-instruktör",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gk-övningsledare-automatkarbin",
+        "description": "GK Övningsledare automatkarbin",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "praktiktillfälle-simulator",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "yrkesinformatörsutbildning",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "intro-kurs-ford-tjänst",
+        "description": "Intro och Kurs Fordonstjänst",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "instruktörskurs",
+        "description": "Instruktörskurs 1+2 sammanslagen",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gruppchefskurs-1",
+        "description": "Gruppchefskurs 1",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108",
+        "kurskod": "MAHGK2011230",
+        "kursbenamning": "Gruppchefskurs 1",
+        "kursgrupp": "Grupp/Pluton",
+        "kurslangd": "10 dagar om totalt 106 timmar.",
+        "kursansvarig_datum": "2019-01-16 C Utb HvSS",
+        "innehall": "Kursen omfattar grundläggande gruppchefsutbildning där fokus ligger på orderträning, stridsteknik, beslutfattning där teori varvas med praktiska övningar utomhus.",
+        "urval": "Avsedd för dig som är eller skall placeras i befattning som gruppchef/stf inom Hemvärnet.",
+        "forkunskapskrav": [
+            "VPL",
+            "GMU",
+            "GU",
+            "Genomfört kompetensprov Ak 4B/C",
+            "Fysisk status för att klara minst två fältdygn."
+        ],
+        "certifikat": "Behörighet att genomföra Gruppchefskurs 2. Befordringskrav för gruppchefsnivån.",
+        "examinationsbestammelser": "Praktiskt lärande examinationer där elevens ordergivning vid nedbrytande av plutonchefs order och användande av OBO alternativt 5 punkts order enligt handbok och agerande i rollen som gruppchef utvärderas fortlöpande under kursen med tyngdpunkt på fältdygn.",
+        "syfte": "Att deltagaren skall kunna verka som gruppchef/stf inom Hemvärnet eller frivilligorganisation.",
+        "kursens_benamning": "Gruppchefskurs 1",
+        "kursens_omfattning_i_tid": "10 dagar om totalt 106 timmar",
+        "kursansvarig_skola": "Hemvärnets Stridsskola",
+        "genomförande_skola": "Hemvärnets Stridsskola eller utbildningsgrupp",
+        "certifikat_och_behörighet": "Behörighet att genomföra Gruppchefskurs 2.",
+        "kursens_innehåll_och_undervisningsformer": "Kursen omfattar grundläggande gruppchefsutbildning där fokus ligger på orderträning, stridsteknik, beslutsfattning där teori varvas med praktiska övningar utomhus.",
+        "förkunskapskrav": "VPL, GMU, eller GU. Genomfört kompetensprov Ak 4B/C.",
+        "kurslitteratur_och_övriga_läromedel": "Handbok Hvplut/Hvgrp del 1-2, (Grunder och Objektet), MSR, FM Handböcker och reglementen.",
+        "kursens_syfte_och_lärandemål": [
+            "Deltagaren skall kunna verka som gruppchef/stf inom Hemvärnet eller frivilligorganisation.",
+            "Förståelse och utvecklas genom att använda erhållna kunskaper och färdigheter, i rollen som gruppchef inom Hemvärnet eller frivilligorganisation."
+        ],
+        "kursbenämning": "Gruppchefskurs 1",
+        "kurslängd": "10 dagar om totalt 106 timmar.",
+        "kursansvarig": "HvSS",
+        "fastställande datum": "2019-01-16",
+        "Kursinnehåll och undervisningsformer": "Kursen omfattar grundläggande gruppchefsutbildning där fokus ligger på orderträning, stridsteknik, beslutsfattning där teori varvas med praktiska övningar utomhus.",
+        "Urval": "Avsedd för dig som är eller skall placeras i befattning som gruppchef/stf inom Hemvärnet.",
+        "Förkunskapskrav": "VPL, GMU, eller GU. Genomfört kompetensprov Ak 4B/C.",
+        "Certifikat och behörighet": "Behörighet att genomföra Gruppchefskurs 2.",
+        "Kurslitteratur och övriga läromedel": [
+            "Handbok Hvplut/Hvgrp del 1-2",
+            "FM Handböcker och reglementen"
+        ]
+    },
+    {
+        "id": "gruppchefskurs-2",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108",
+        "kurskod": "MAHFK2011181",
+        "kursbenamning": "Gruppchefskurs 2",
+        "kursgrupp": "Grupp/Pluton",
+        "kurslangd": "10 dagar om totalt 88 timmar",
+        "kursansvarig_datum": "2019-01-16 C Utb HvSS",
+        "innehall": "Kursen omfattar fortsatt gruppchefsutbildning genom teori och praktik med praktiska övningar utomhus där fokus ligger på orderträning, stridsteknik, beslutfattning i tillämpad och simulerad miljö.",
+        "urval": "Avsedd för dig som är eller skall placeras i befattning som gruppchef/stf inom Hemvärnet.",
+        "forkunskapskrav": [
+            "Genomfört Gruppchefskurs 1 alternativt gruppchefsutbildning under värnplikten / GU",
+            "Godkänt kompetensprov Ak 4B/C",
+            "Bör innehaft befattningen under minst en SÖF alternativt KFÖ",
+            "God fysisk status."
+        ],
+        "certifikat": "Behörighet att söka Plutonchefskurs 1 och Gruppchefskurs 3.",
+        "examinationsbestammelser": "Praktiskt lärande examinationer där elevens ordergivning vid nedbrytande av plutonchefs order och användande av OBO alternativt 5 punkts order enligt handbok och agerande i rollen som gruppchef utvärderas fortlöpande under kursen.",
+        "syfte": "Att deltagaren skall kunna verka som gruppchef/stf inom Hemvärnet",
+        "name": "Gruppchefskurs 2",
+        "kursens_benamning": "Gruppchefskurs 2",
+        "kursens_omfattning_i_tid": "10 dagar om totalt 88 timmar",
+        "kursansvarig_skola": "Hemvärnets Stridsskola",
+        "genomförande_skola": "Hemvärnets Stridsskola eller utbildningsgrupp",
+        "certifikat_och_behörighet": "Behörighet att söka Plutonchefskurs 1 och Gruppchefskurs 3.",
+        "kursens_innehåll_och_undervisningsformer": "Kursen omfattar fortsatt gruppchefsutbildning genom teori och praktik med praktiska övningar utomhus där fokus ligger på orderträning, stridsteknik, beslutsfattning i tillämpad miljö.",
+        "förkunskapskrav": "Genomfört Gruppchefskurs 1 alternativt gruppchefsutbildning under värnplikten / GU.",
+        "kurslitteratur_och_övriga_läromedel": "Handbok Hvplut/Hvgrp del 1-2, (Grunder och Objektet), MSR, FM Handböcker och reglementen.",
+        "kursens_syfte_och_lärandemål": [
+            "Deltagaren skall kunna verka som gruppchef/stf inom Hemvärnet",
+            "Utveckla och tillämpa erhållna kunskaper och färdigheter, i rollen som gruppchef inom Hemvärnet."
+        ],
+        "kursbenämning": "Gruppchefskurs 2",
+        "kurslängd": "10 dagar om totalt 88 timmar",
+        "kursansvarig": "HvSS",
+        "fastställande datum": "2019-01-16",
+        "Kursinnehåll och undervisningsformer": "Kursen omfattar fortsatt gruppchefsutbildning genom teori och praktik med praktiska övningar utomhus där fokus ligger på orderträning, stridsteknik, beslutsfattning i tillämpad och simulerad miljö.",
+        "Urval": "Avsedd för dig som är eller skall placeras i befattning som gruppchef/stf inom Hemvärnet.",
+        "Förkunskapskrav": "Genomfört Gruppchefskurs 1 alternativt gruppchefsutbildning.",
+        "Certifikat och behörighet": "Behörighet att söka Plutonchefskurs 1 och Gruppchefskurs 3.",
+        "Kurslitteratur och övriga läromedel": [
+            "Handbok Hvplut/Hvgrp del 1-2",
+            "FM Handböcker och reglementen"
+        ],
+        "namn": "Gruppchefskurs 2",
+        "fastställandeDatum": "2019-01-16",
+        "beskrivning": "Kursen omfattar fortsatt gruppchefsutbildning genom teori och praktik med praktiska övningar utomhus där fokus ligger...",
+        "mål": [
+            "Att deltagaren skall kunna verka som gruppchef/stf inom Hemvärnet..."
+        ],
+        "kurslitteratur": [
+            "Handbok Hvplut/Hvgrp del 1-2,"
+        ],
+        "genomförandeSkola": "Hemvärnets Stridsskola eller MR-grupp"
+    },
+    {
+        "id": "plutonchefskurs",
+        "description": "Plutonchefskurs 1",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "radarkurs",
+        "description": "Radarkurs simulator, praktik",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "instruktörskurs-tos",
+        "description": "Instruktörskurs TOS",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "grundutbildning-skarpskytt",
+        "description": "Grundutbildning skarpskytt",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "kurs-m-rpas",
+        "description": "Kurs M-RPAS befälhavare",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "ffu-n8",
+        "description": "FFU N8",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "fordonsutbildning-pb8",
+        "description": "Fordonsutbildning Nyutb PB8",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "fordonsutbildning-fg1000p",
+        "description": "Fordonsutbildning FG 1000p",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gk-tccc-cls-stridssjukvårdare",
+        "description": "GK TCCC CLS Stridssjukvårdare Hv",
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "ik1-2",
+        "name": "Instruktörskurs 1+2",
+        "description": "Instruktörskurs 1 och 2 genomförs som två helgkurser och en kursvecka.",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gc1",
+        "name": "Gruppchefskurs 1",
+        "description": "",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "pc1",
+        "name": "Plutonchefskurs 1",
+        "description": "",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "ffs8",
+        "name": "FFU N8",
+        "description": "Enligt senare utskick.",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "ik-susa-del-1",
+        "name": "IK SUSA (del 1)",
+        "description": "Genomförs som under två kursveckor, andra delen vecka 549. Del 1 teoretisk.",
+        "objectives": [],
+        "prerequisites": [
+            "IK1+2, GK ÖLAK"
+        ],
+        "notes": [
+            "MAHFK2111564 ingår i kursen"
+        ],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "sgu",
+        "name": "Skyddsvakt grundutbildning (Skvakt GU)",
+        "description": "",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "fordonstjanst",
+        "name": "Fordonstjänst",
+        "description": "Pb 8 Nyub Del 3 av 4 (deltagare kallas automatiskt), Pb 8 Anp ub Del 2 av 2 (deltagare kallas automatiskt).",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "ik-tos",
+        "name": "Instruktörskurs TOS (IK TOS)",
+        "description": "Kursen genomförs av Eksjö sjv-skola",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [
+            "Anmälan till mrs-sak@mil.se 2 kurstillfällen samma dag underhållslinje framgår av inbjudan"
+        ],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "intervjuare",
+        "name": "Säkerhetsprövning: behörig intervjuare",
+        "description": "Inkl. tillämpligt juridiskt ramverk, intervjuförfarandet. Behörig ska av MR-grp bedömas lämplig och vara intresserad av att kunna genomföra säkerhetsprövningsintervjuer.",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [
+            "Efter godkänd kurs ska vederbörande även bedömas som lämplig för att kunna hålla säk.prövningsintervju."
+        ],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "intro-fg",
+        "name": "Intro (FG)",
+        "description": "",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [
+            "Anmälan via forsvarsutbildarna.se"
+        ],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "ik-skp58",
+        "name": "IK KSP 58 B",
+        "description": "",
+        "objectives": [],
+        "prerequisites": [
+            "IK 1, GK ÖLAK"
+        ],
+        "notes": [
+            "Kursen startar med brukarutb"
+        ],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "ik-susa-del-2",
+        "name": "IK SUSA del 2",
+        "description": "Praktisk del",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [
+            "Endast för elever som genomfört IK SUSA del 1 vecka 535"
+        ],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gf-1000p",
+        "name": "Fordonstutbildning FG 1000p",
+        "description": "",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gk-olsk",
+        "name": "GK ÖLAK",
+        "description": "",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gc2",
+        "name": "Gruppchefskurs 2",
+        "description": "",
+        "objectives": [],
+        "prerequisites": [],
+        "notes": [
+            "Förkunskapskrav GC1"
+        ],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "plutonchefskurs-1",
+        "kurskod": "MAHGK2011222",
+        "kursbenamning": "Plutonchefskurs 1",
+        "kursgrupp": "Grupp/Pluton",
+        "kurslangd": "10 dagar om totalt 96 timmar.",
+        "kursansvarig_datum": "2019-01-16 C Utb HvSS",
+        "innehall": "Kursen omfattar grundläggande plutonchefskunskaper och färdigheter med tyngdpunkt på order träning och stridsteknik.",
+        "urval": "Avsedd för dig som är eller skall placeras i befattning som plutonchef/stf eller kompanikvartermästare, chef Hvflygtropp.",
+        "forkunskapskrav": [
+            "Vpl",
+            "GU",
+            "GMU",
+            "GU-F gäller endast chef Ledningspluton. Gruppchefskurs 2.",
+            "Godkänt Kompetensprov Ak 4B/C.",
+            "God fysisk status för att klara minst ett dygn i fält."
+        ],
+        "certifikat": "Kursen ger behörighet att genomföra Plutonchefskurs 2. Kvartemästare får behörighet att söka kvartemästarkurs 1. Chef ledningspluton erhåller behörighet till ledningsplutonchefskurs och stabsmedlemkurs.",
+        "examinationsbestammelser": "Praktiskt lärande examinationer där elevens nedbrytande av kompanichefs order och användande av 5 punkts order vid ordergivning.",
+        "syfte": "Att deltagaren skall verka som plutonchef/stf inom Hemvärnet.",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "plutonchefskurs-2",
+        "kurskod": "MAHFK2011223",
+        "kursbenamning": "Plutonchefskurs 2",
+        "kursgrupp": "Grupp/Pluton",
+        "kurslangd": "10 dagar om total 88 timmar.",
+        "kursansvarig_datum": "2019-01-16 C Utb HvSS",
+        "innehall": "Kursen omfattar fortsatt plutonchefsutbildning genom teori och praktik med praktiska övningar utomhus där fokus ligger på orderträning, stridsteknik, beslutfattning i tillämpad och simulerad miljö (StriSim PC).",
+        "urval": "Avsedd för dig som skall placeras eller tjänstgör som plutonchef/stf. Öppen för ledningsplutonchef/stf.",
+        "forkunskapskrav": [
+            "Genomfört Plutonchefskurs 1.",
+            "Godkänd skyddsvaktsutbildning.",
+            "God fysisk status."
+        ],
+        "certifikat": "Kursen ger behörighet för insatsplutonschefer att söka Plutonchefs 3 samt Kompanichefs 1.",
+        "examinationsbestammelser": "Praktiskt lärande examinationer där elevens nedbrytande av kompanichefs order och användande av 5 punkts order vid ordergivning enligt handbok samt agerandet i rollen som plutonchef.",
+        "syfte": "Att deltagaren skall kunna verka som plutonchef/stf inom Hemvärnet.",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108",
+        "name": "Plutonchefskurs 2",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "namn": "Plutonchefskurs 2",
+        "kurslängd": "10 dagar om totalt 88 timmar",
+        "fastställandeDatum": "2019-01-16",
+        "kursansvarig": "HvSS",
+        "beskrivning": "Kursen omfattar fortsatt plutonchefsutbildning genom teori och praktik med praktiska övningar utomhus där fokus ligger...",
+        "förkunskapskrav": "Genomfört Plutonchefs 1. Godkänd skyddsvaktsutbildning.",
+        "mål": [
+            "Att deltagaren skall kunna verka som plutonchef/stf inom Hemvärnet..."
+        ],
+        "kurslitteratur": [
+            "Handbok Hvplut/Hvgrp del 1-3, (Grunder och Objektet), MSR"
+        ],
+        "genomförandeSkola": "Hemvärnets Stridsskola eller MR-grupp"
+    },
+    {
+        "id": "kompanichefskurs-1",
+        "kurskod": "MAHGK119KB11",
+        "kursbenamning": "Kompanichefskurs 1",
+        "kursgrupp": "Kompanj/Bataljon",
+        "kurslangd": "10 dagar om totalt 88 timmar",
+        "kursansvarig_datum": "2021-05-12 C Utb HvSS",
+        "innehall": "Kursen omfattar grundläggande kompanichefsutbildning med fokus på stridsteknik och taktik på kompani, funktioner inom kompaniet samt bedömande.",
+        "urval": "Avsedd för kompanichefer och stf kompanichef.",
+        "forkunskapskrav": [
+            "Grundkurs stabstjänst (GKS).",
+            "Plutonchefskurs 2 och övat i befattning."
+        ],
+        "certifikat": "Behörighet för kompanichefer/stf att söka Kompanichefskurs 2.",
+        "examinationsbestammelser": "Praktiskt lärande examinationer där elevens ordergivning vid nedbrytande av bataljonchefs order.",
+        "syfte": "Kompanichef: Få en grundlagd förmåga att agera och leda som chef vid eget kompani.",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108",
+        "name": "Kompanichefskurs 1",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "kursbenämning": "Kompanichefskurs 1",
+        "kurslängd": "10 dagar om totalt 88 timmar",
+        "kursansvarig": "HvSS",
+        "fastställande datum": "2021-05-12",
+        "Kursinnehåll och undervisningsformer": "Kursen omfattar grundläggande kompanichefsutbildning med fokus på stridsteknik och taktik på kompani, funktioner inom kompaniet samt bedömande fram till en färdig stridsplan.",
+        "Urval": "Avsedd för kompanichefer och stf kompanichefer.",
+        "Förkunskapskrav": "Grundkurs stabstjänst (GKS). Plutonchefskurs 2 och övat i befattning.",
+        "Certifikat och behörighet": "Behörighet för kompanichefer/stf att söka Kompanichefskurs 2.",
+        "Kurslitteratur och övriga läromedel": [
+            "AH Ledning 2016",
+            "Metodhandbok ledning bataljon 2007",
+            "Handbok Hemvärns- bataljon/kompani/pluton"
+        ],
+        "namn": "Kompanichefskurs 1",
+        "fastställandeDatum": "2021-05-12",
+        "beskrivning": "Kursen omfattar grundläggande kompanichefsutbildning med fokus på stridsteknik och taktik på kompaniet...",
+        "förkunskapskrav": "Grundkurs stabstjänst (GKS).",
+        "mål": [
+            "Kompanichef: Få en grundlagd förmåga att agera och leda som chef vid eget kompani..."
+        ],
+        "kurslitteratur": [
+            "AH Ledning 2016",
+            "Metodhandbok ledning bataljon 2007"
+        ],
+        "genomförandeSkola": "Hemvärnets Stridsskola"
+    },
+    {
+        "id": "kompanistridskurs",
+        "kurskod": "MAHGK119KB10",
+        "kursbenamning": "Kompanistridskurs",
+        "kursgrupp": "Kompanj/Bataljon",
+        "kurslangd": "5 dagar om totalt 44 tim",
+        "kursansvarig_datum": "2021-05-12 C Utb HvSS",
+        "innehall": "Kursen omfattar grundläggande utbildning på kompaninivå, med fokus på taktik kompani, funktioner inom bataljon och kompani.",
+        "urval": "Avsedd för dig som är placerad eller skall placeras i befattning som stridsledare kompani och bataljon.",
+        "forkunskapskrav": [
+            "Grundkurs Stabstjänst (GKS)."
+        ],
+        "syfte": "Få en grundlagd förståelse för stridsteknik/ taktik på kompaninivå vid lösande av olika typer av uppgifter.",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108",
+        "namn": "Kompanistridskurs",
+        "kurslängd": "5 dagar om totalt 44 tim",
+        "fastställandeDatum": "2021-05-12",
+        "kursansvarig": "HvSS",
+        "beskrivning": "Kursen omfattar grundläggande utbildning på kompaninivå, med fokus på taktik kompani, funktioner inom bataljon...",
+        "förkunskapskrav": "Grundkurs Stabstjänst (GKS).",
+        "mål": [
+            "Få en grundlagd förståelse för stridsteknik/ taktik på kompaninivå..."
+        ],
+        "kurslitteratur": [
+            "Handbok Hemvärns-bataljon/kompani",
+            "AH Ledning 2016"
+        ],
+        "certifikat": null,
+        "genomförandeSkola": "Hemvärnets Stridsskola"
+    },
+    {
+        "id": "bataljonstridskurs",
+        "kurskod": "MAHGK119KB00",
+        "kursbenamning": "Bataljonstridskurs",
+        "kursgrupp": "Kompanj/Bataljon",
+        "kurslangd": "5 dagar om totalt 44 tim",
+        "kursansvarig_datum": "2021-05-12",
+        "innehall": "Kursen omfattar grundläggande utbildning på bataljonsnivå.",
+        "urval": "Avsedd för dig som är placerad eller skall placeras i befattning som sektionschef och befäl i bataljonstab.",
+        "forkunskapskrav": [
+            "Grundkurs stabstjänst (GKS)."
+        ],
+        "syfte": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108",
+        "kursbenämning": "Bataljonstridskurs",
+        "kurslängd": "5 dagar om totalt 44 tim",
+        "kursansvarig": "HvSS",
+        "fastställande datum": "2021-05-12",
+        "Kursinnehåll och undervisningsformer": "Kursen omfattar grundläggande utbildning på bataljonsnivå, med fokus på taktik på kompani och bataljon, funktioner inom bataljon, organisation och uppgifter i bataljonsstab samt framtagnade och utmynnande i en stridsplan.",
+        "Urval": "Avsedd för dig som är placerad eller skall placeras i befattning som sektionschef och befäl i bataljonstab.",
+        "Förkunskapskrav": "Grundkurs stabstjänst (GKS).",
+        "Certifikat och behörighet": null,
+        "Kurslitteratur och övriga läromedel": [
+            "AH Ledning 2016",
+            "Metodhandbok ledning bataljon 2007",
+            "Handbok Hemvärnsbataljon/kompani"
+        ],
+        "namn": "Bataljonstridskurs",
+        "fastställandeDatum": "2021-05-12",
+        "beskrivning": "Kursen omfattar grundläggande utbildning på bataljonsnivå, med fokus på taktik på kompani och bataljon...",
+        "förkunskapskrav": "Grundkurs stabstjänst (GKS).",
+        "mål": [
+            "Få en grundlagd förståelse för stridsteknik på kompaninivå..."
+        ],
+        "kurslitteratur": [
+            "AH Ledning 2016",
+            "Metodhandbok ledning bataljon 2007",
+            "Handbok Hemvärnsbataljon/kompani"
+        ],
+        "certifikat": null,
+        "genomförandeSkola": "Hemvärnets Stridsskola",
+        "faststallande_datum": "2021-05-12",
+        "kursinnehall": "Kursen omfattar grundläggande utbildning på bataljonsnivå, med fokus på taktik...",
+        "urkval": "Avsedd för dig som är placerad eller skall placeras i befattning som sektionschef...",
+        "forkunskaper": [
+            "Grundkurs stabstjänst (GKS)"
+        ],
+        "certifikat_beh": null,
+        "kursens_syfte": "Få en grundlagd förståelse för stridsteknik/ taktik på kompaninivå..."
+    },
+    {
+        "id": "grundkurs-stabstjanst",
+        "kurskod": "MAHGK119FU02",
+        "kursbenamning": "Grundkurs Stabstjänst",
+        "kursgrupp": "Funktionskurser",
+        "kurslangd": "5 dagar om totalt 44 timmar.",
+        "kursansvarig_datum": "2021-05-12 C Utb HvSS",
+        "innehall": "Kursen är en grundläggande kurs i stabsarbete.",
+        "urval": "Avsedd för dig som är placerad eller skall placeras i befattning som kompanichef, bataljonschef.",
+        "forkunskapskrav": [
+            "Färdighet i att hantera programmet SitaWare HQ (IS Hv)."
+        ],
+        "syfte": "Få en grundlagd förståelse för hur bataljonsstab verkar över tid, samt för stabsmedlemmens roll i bataljonsstab",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gk2-dnbi-krigssjukvård",
+        "name": "GK2 DNBI Krigssjukvård",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "bataljonchefskurs-1",
+        "name": "Bataljonchefskurs 1",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108",
+        "kurskod": "MAHGK119KB01",
+        "kursbenämning": "Bataljonchefskurs 1",
+        "kursgrupp": "Kompanj/Bataljon",
+        "kurslängd": "10 dagar om totalt 88 timmar",
+        "kursansvarig": "HvSS",
+        "fastställande datum": "2022-06-15",
+        "Kursinnehåll och undervisningsformer": "Kursen omfattar grundläggande bataljonchefsutbildning med fokus på stridsteknik och taktik på bataljon, funktioner inom bataljon samt bedömande fram till färdig stridsplan.",
+        "Urval": "Avsedd för dig som är eller skall placeras i befattning som bataljonchef, stf bataljonchef.",
+        "Förkunskapskrav": "Kompanichefskurs 2 alternativt Kompanistridskurs.",
+        "Certifikat och behörighet": "Behörighet för bataljonchef/stf samt stabschef att söka Bataljonchefskurs 2.",
+        "Kurslitteratur och övriga läromedel": [
+            "AH Ledning 2016",
+            "Metodhandbok ledning bataljon 2007",
+            "Handbok Hemvärnsbataljon (remissutgåva)"
+        ],
+        "namn": "Bataljonchefskurs 1",
+        "fastställandeDatum": "2022-06-15",
+        "beskrivning": "Kursen omfattar grundläggande bataljonchefsutbildning med fokus på stridsteknik och taktik på bataljon...",
+        "förkunskapskrav": "Kompanichefskurs 2 alternativt Kompanistridskurs",
+        "mål": [
+            "Få en grundlagd färdighet i bataljonchefsbefattningen..."
+        ],
+        "kurslitteratur": [
+            "AH Ledning 2016",
+            "Metodhandbok ledning bataljon 2007",
+            "Handbok Hemvärnsbataljon (remissutgåva)"
+        ],
+        "certifikat": "Behörighet för bataljonchef/stf samt stabschef att söka Bataljonchefskurs 2",
+        "genomförandeSkola": "Hemvärnets Stridsskola",
+        "kursbenamning": "Bataljonchefskurs 1",
+        "kurslangd": "10 dagar om totalt 88 timmar",
+        "faststallande_datum": "2022-06-15",
+        "kursinnehall": "Kursen omfattar grundläggande bataljonchefsutbildning med fokus på stridsteknik och taktik...",
+        "urkval": "Avsedd för dig som är eller skall placeras i befattning som bataljonchef...",
+        "forkunskaper": [
+            "Kompanichefskurs 2 alternativt Kompanistridskurs",
+            "Brukare ISHV"
+        ],
+        "certifikat_beh": "Behörighet för bataljonchef/stf samt stabschef att söka Bataljonchefskurs 2",
+        "kursens_syfte": "Få en grundlagd färdighet i bataljonchefsbefattningen."
+    },
+    {
+        "id": "bataljonchefskurs-2",
+        "name": "Bataljonchefskurs 2",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108",
+        "kurskod": "MAHFK2011218",
+        "kursbenämning": "Bataljonchefskurs 2",
+        "kursgrupp": "Kompanj/Bataljon",
+        "kurslängd": "10 dagar om totalt 88 timmar",
+        "kursansvarig": "HvSS",
+        "fastställande datum": "2022-06-15",
+        "Kursinnehåll och undervisningsformer": "Kursen omfattar fortsatt bataljonchefsutbildning med fokus på stridsteknik och taktik på bataljon, funktioner inom bataljon samt bedömande fram till färdig stridsplan.",
+        "Urval": "Avsedd för dig som är eller skall placeras i befattning som bataljonchef, stf bataljonchef.",
+        "Förkunskapskrav": "Bataljonchefskurs 1. Brukare ISHV.",
+        "Certifikat och behörighet": "Behörighet för bataljonchef/stf att söka Bataljonchefskurs 3.",
+        "Kurslitteratur och övriga läromedel": [
+            "AH Ledning 2016",
+            "Metodhandbok ledning bataljon 2007",
+            "Handbok Hemvärnsbataljon (remissutgåva)"
+        ],
+        "namn": "Bataljonchefskurs 2",
+        "fastställandeDatum": "2022-06-15",
+        "beskrivning": "Kursen omfattar fortsatt bataljonchefsutbildning med fokus på stridsteknik och taktik på bataljon...",
+        "förkunskapskrav": "Bataljonchefskurs 1. Brukare ISHV.",
+        "mål": [
+            "Få en utvecklad färdighet i bataljonchefsbefattningen..."
+        ],
+        "kurslitteratur": [
+            "AH Ledning 2016",
+            "Metodhandbok ledning bataljon 2007",
+            "Handbok Hemvärnsbataljon (remissutgåva)"
+        ],
+        "certifikat": "Behörighet för bataljonchef/stf att söka Bataljonchefs 3",
+        "genomförandeSkola": "Hemvärnets Stridsskola",
+        "kursbenamning": "Bataljonchefskurs 2",
+        "kurslangd": "10 dagar om totalt 88 timmar",
+        "faststallande_datum": "2022-06-15",
+        "kursinnehall": "Kursen omfattar fortsatt bataljonchefsutbildning med fokus på stridsteknik och taktik...",
+        "urkval": "Avsedd för dig som är eller skall placeras i befattning som bataljonchef...",
+        "forkunskaper": [
+            "Bataljonchefskurs 1",
+            "Brukare ISHV"
+        ],
+        "certifikat_beh": "Behörighet för bataljonchef/stf att söka Bataljonchefskurs 3",
+        "kursens_syfte": "Få en utvecklad färdighet i bataljonchefsbefattningen."
+    },
+    {
+        "id": "batatjonstridskurs",
+        "name": "Batatjonstridskurs",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "instruktörskurs-stabstjänst",
+        "name": "Instruktörskurs Stabstjänst",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "kvartermästarkurs-1",
+        "name": "Kvartermästarkurs 1",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "nordisk-chefskurs",
+        "name": "Nordisk Chefskurs",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "stabschefskurs",
+        "name": "Stabschefskurs",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "indirekt-ledarskap-il",
+        "name": "Indirekt Ledarskap (IL)",
+        "description": null,
+        "objectives": null,
+        "prerequisites": null,
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "kombu",
+        "kursens_benamning": "Kombattantutbildning för krigsplacerad, obeväpnad personal",
+        "kursgrupp": "Grundläggande militär utbildning",
+        "kurskod": "UTPGK450KU02",
+        "kursens_omfattning_i_tid": "3 dagar",
+        "niva": "Grundutbildning",
+        "urval": "Krigsplacerad, obeväpnad personal, såväl kombattanter som icke kombattanter (dessa icke kombattanter kan efter särskild utbildning tilldelas lättare beväpning).",
+        "kursens_syfte_och_lärandemål": [
+            "Förståelse för sin roll och sin status som kombattant alternativt icke kombattant.",
+            "Kunskap om Totalförsvaret, Försvarsmaktens Värdegrund, Folkrätt och egna krigsförbandets uppgift och funktion i krigsorganisationen."
+        ],
+        "kursens_innehåll_och_undervisningsformer": "Nedbrytning av lärandemål till specifika utbildningsmål sker i centralt utgiven kursbeskrivning. Undervisningsformerna utgörs av teoretiska och praktiska utbildningsmoment.",
+        "kursansvarig_skola_central_förband": "MHS H",
+        "genomförande_skola_central_förband": "Krigsförband med identifierat utbildningsbehov ansvarar för att organisera utbildningen. Instruktörer kan återfinnas på samtliga Försvarsmaktens förband, skolor och centrum samt inom de frivilliga",
+        "certifikat_och_behörighet": "Efter godkänd kurs kan eleven placeras på en obeväpnad befattning som kan ha status som kombattant eller icke kombattant (dessa icke kombattanter kan efter särskild utbildning tilldelas).",
+        "examination": "För godkänt krävs att respektive kursdeltagaren deltagit i samtliga utbildningsmoment. Eventuell komplettering ska ske inom 6 månader från kurstillfället.",
+        "kurslitteratur_och_övriga_läromedel": "Underlag för utbildningen utgörs främst av delar av underlag för GMU. Dessa framgår av kursbeskrivningen för KombU.",
+        "övrigt": "Samverkan och synkronisering mot GMU och FSU har skett med kursansvarig för GMU och FSU (se vidare i kursbeskrivningen). Kursen kan även genomföras med icke kombattanter.",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108",
+        "title": "Kombattantutbildning för obeväpnad personal (KOMBU)",
+        "description": null,
+        "duration": "Fem (5) dagar",
+        "targetGroup": "Krigsplacerad, obeväpnad personal...",
+        "content": "Fysisk träning, exercis, CBRN, hälso- och sjukvårdsutbildning.",
+        "objectives": "Förståelse för sin roll och sin status som ”kombattant” eller ”icke kombattant”.",
+        "prerequisites": "Befattning i Hemvärnet eller anställd i Försvarsmakten.",
+        "responsible": "MR M",
+        "target_group": "Krigsplacerad, obeväpnad personal.",
+        "course_responsible": "MR M"
+    },
+    {
+        "id": "bataljonchefskurs-3",
+        "kurskod": "HVT422FKB04",
+        "kursbenämning": "Bataljonchefskurs 3",
+        "kursgrupp": "Kompanj/Bataljon",
+        "kurslängd": "10 dagar om totalt 88 timmar.",
+        "kursansvarig": "HvSS",
+        "fastställande datum": "2022-06-15",
+        "Kursinnehåll och undervisningsformer": "Kursen omfattar fördjupad bataljonchefsutbildning med fokus på föreläsningar, seminarier och grupparbeten.",
+        "Urval": "Avsedd för dig som är i befattning som bataljonchef, stf bataljonchef.",
+        "Förkunskapskrav": "Bataljonchefskurs 2 samt tjänstgjort i befattning minst 3 år.",
+        "Certifikat och behörighet": [
+            "Del av befordringsgrund mot högre grad."
+        ],
+        "Kurslitteratur och övriga läromedel": [
+            "AH Ledning 2016",
+            "Metodhandbok ledning bataljon 2007",
+            "Handbok Hemvärnsbataljon (remissutgåva)"
+        ],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gruppchefskurs-3",
+        "kurskod": "MAHFK2011231",
+        "kursbenämning": "Gruppchefskurs 3",
+        "kursgrupp": "Grupp/Pluton",
+        "kurslängd": "10 dagar om totalt 88 timmar",
+        "kursansvarig": "HvSS",
+        "fastställande datum": "2019-01-16",
+        "Kursinnehåll och undervisningsformer": "Kursen omfattar praktik mot gruppchef understödsgrupp, den innefattar även repetitionsutbildning av granatgevär teori och praktik.",
+        "Urval": "Avsedd för dig som är eller skall placeras som chef understödsgruppchef/stf inom Hemvärnet.",
+        "Förkunskapskrav": "Gruppchefskurs 1.",
+        "Certifikat och behörighet": null,
+        "Kurslitteratur och övriga läromedel": [
+            "Handbok Hvplut/Hvgrp del 1-2",
+            "FM Handböcker och reglementen",
+            "Manual 8,4 cm granatgevär"
+        ],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gruppchefskurs-x",
+        "kurskod": "MAHGK119GP00",
+        "kursbenämning": "Gruppchefskurs X",
+        "kursgrupp": "Grupp/Pluton",
+        "kurslängd": "10 dagar om totalt 106 timmar, varav 3 dygn i fält.",
+        "kursansvarig": "HvSS",
+        "fastställande datum": "2021-05-12",
+        "Kursinnehåll och undervisningsformer": "Kursen omfattar grundläggande gruppchefsutbildning där fokus ligger på orderträning, stridsteknik, beslutsfattning där teorin varvas med praktiska övningar utomhus.",
+        "Urval": "Avsedd för dig som är eller skall placeras i befattning som X-gruppchef/stf inom Hemvärnet eller i frivilligorganisationer.",
+        "Förkunskapskrav": "Vpl, GMU, GU, GUF motsv. Genomfört kompetensprov Ak 4B, C eller pistol m/88.",
+        "Certifikat och behörighet": null,
+        "Kurslitteratur och övriga läromedel": [
+            "Handbok Hvplut/Hvgrp del 1-2",
+            "Markstridshandböcker"
+        ],
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108",
+        "title": "Gruppchefskurs X",
+        "description": null,
+        "duration": "Tio dagar",
+        "targetGroup": "Avsedd för dig som är eller skall placeras i befattning...",
+        "content": "Kursen omfattar grundläggande gruppchefsutbildning...",
+        "objectives": "Att deltagaren skall kunna verka som X-gruppchef/stf inom...",
+        "prerequisites": "Vpl, GMU, GU, GUF motsv...",
+        "responsible": "MR M"
+    },
+    {
+        "id": "kompanichefskurs-2",
+        "namn": "Kompanichefskurs 2",
+        "kurskod": "MAHFK2011220",
+        "kursgrupp": "Kompanj/Bataljon",
+        "kurslängd": "10 dagar om totalt 88 timmar",
+        "fastställandeDatum": "2019-01-16",
+        "kursansvarig": "HvSS",
+        "beskrivning": "Kursen omfattar fortsatt kompanichefsutbildning med fokus på stridsteknik på pluton/ kompani, funktioner...",
+        "förkunskapskrav": "Kompanichefskurs 1.",
+        "mål": [
+            "Kompanichef: Få en ökad förmåga att agera och leda som chef vid eget kompani..."
+        ],
+        "kurslitteratur": [
+            "KFS, Arméhandbok del 2",
+            "Metodhandbok ledning bataljon 2007"
+        ],
+        "certifikat": "Behörighet att kunna söka Kompanichefskurs 3.",
+        "genomförandeSkola": "Hemvärnets Stridsskola",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "instruktorskurs-stabstjanst",
+        "namn": "Instruktörskurs stabstjänst",
+        "kurskod": "MAHGK119IN00",
+        "kursgrupp": "Instruktörskurs",
+        "kurslängd": "4 dagar om totalt 40 timmar",
+        "fastställandeDatum": "2022-06-15",
+        "kursansvarig": "HvSS",
+        "beskrivning": "Kursen är en grundläggande kurs i stabsarbetsmetodik för utbildningsofficerare vid MR-grupp...",
+        "förkunskapskrav": "Brukare ISHV",
+        "mål": [
+            "Praktisk lärande examination som genomförs i slutet av kursen..."
+        ],
+        "kurslitteratur": [
+            "Metodhandbok ledning bataljon 2007",
+            "AH Ledning 2016"
+        ],
+        "certifikat": "Behörig instruktör för Grundkurs Stabstjänst enligt HvSS fastställda kursplan",
+        "genomförandeSkola": "Hemvärnets Stridsskola",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gruppchefskurs-1-2",
+        "title": "Gruppchefskurs 1 + 2",
+        "description": null,
+        "duration": "14 dagar",
+        "targetGroup": "Avsedd för dig som är eller skall placeras i befattning...",
+        "content": "Kursen omfattar grundläggande gruppchefsutbildning...",
+        "objectives": "Kursens syfte: Att deltagaren skall kunna verka som gruppchef/stf...",
+        "prerequisites": "VPL, GMU eller GU...",
+        "responsible": "MR M",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "plutonchefskurs-1-2",
+        "title": "Plutonchefskurs 1 + 2",
+        "description": null,
+        "duration": "14 dagar",
+        "targetGroup": "Avsedd för dig som skall placeras eller tjänstgör som...",
+        "content": "Kursen omfattar plutonchefsutbildning genom teori...",
+        "objectives": "Kursens syfte: Att deltagaren skall kunna verka som plutonchef/stf...",
+        "prerequisites": "VPL, GU, GMU...",
+        "responsible": "MR M",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "ik-1-2",
+        "title": "IK 1 + 2 Instruktörsutbildning",
+        "description": null,
+        "duration": "Fjorton (14) dagar",
+        "targetGroup": "Avsedd för dig som ska bli instruktör inom Försvarsmakten.",
+        "content": "Teoretiska grunder och praktiska trupputbildningsövningar.",
+        "objectives": "Formell kompetens som instruktör i Försvarsmakten.",
+        "prerequisites": "VPL, GMU, GU, eller GU-F.",
+        "responsible": "Flygvapenfrivilliga (FVFR)",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108",
+        "target_group": "För den som ska bli instruktör inom Hemvärnet eller Frivillig Försvarsorganisation.",
+        "course_responsible": "MR M, FVRF"
+    },
+    {
+        "id": "automatkabin-bas",
+        "title": "Grundkurs Övningsledare Automatkarbin BAS",
+        "description": null,
+        "duration": "Åtta dagar",
+        "targetGroup": "Instruktörer",
+        "content": "Kursen ger eleverna brukarkompetens till och med BAS-nivå...",
+        "objectives": "Ge kursdeltagaren erforderlig kompetens att utses till...",
+        "prerequisites": "Genomfört brukarutbildning Automatkarbin lägst Basnivå...",
+        "responsible": "MR M",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "ik-grg18",
+        "title": "IK GRG18",
+        "description": null,
+        "duration": "Sex dagar",
+        "targetGroup": "Instruktörer",
+        "content": "Kursens innehåll och undervisningsformer...",
+        "objectives": "Kursens innehåll och undervisningsformer...",
+        "prerequisites": "Genomförd IK1, GÖKLAK, giltig GRG18/ GRG 48...",
+        "responsible": "MR M",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "ik-ksp",
+        "title": "IK KSP",
+        "description": null,
+        "duration": "Sex dagar",
+        "targetGroup": "Instruktörer",
+        "content": "Kursens innehåll och undervisningsformer...",
+        "objectives": "Kursens innehåll och undervisningsformer...",
+        "prerequisites": "Alt. 1. Genomförd Instruktörskurs SkjutR Ak 4B/C del 1...",
+        "responsible": "MR M",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "ik-tmm",
+        "title": "IK TMM",
+        "description": null,
+        "duration": "Fyra dagar",
+        "targetGroup": "Kursen riktar sig mot de som skall verka som instruktörer...",
+        "content": "Kursen består av teoretiska grunder samt praktiska övningar...",
+        "objectives": "Efter godkänd kurs skall eleven ha förmåga att verka...",
+        "prerequisites": "IK1 och verksam som instruktör samt normal datamognad.",
+        "responsible": "MR M",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "stabstjanst",
+        "title": "Grundkurs Stabstjänst",
+        "description": null,
+        "duration": "Fem dagar",
+        "targetGroup": "Avsedd för dig som är placerad eller skall placeras...",
+        "content": null,
+        "objectives": "Få en grundlagd förståelse för hur bataljonsstab verkar...",
+        "prerequisites": "Färdighet i att hantera programmet SitaWare HQ (IS Hv).",
+        "responsible": "MR M",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "pb8",
+        "title": "PB8 (Personbil 8)",
+        "description": null,
+        "duration": "Sju dagar",
+        "targetGroup": "Avsedd för dig som är placerad eller skall placeras i befattning...",
+        "content": null,
+        "objectives": "Kursen syftar till att kursdeltagaren efter genomförd utb...",
+        "prerequisites": "Du ska ha god vana att köra bil...",
+        "responsible": "MR M",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gk-tung-slapkarra",
+        "title": "Gk Tung Släpkärra",
+        "description": null,
+        "duration": "Fem dagar",
+        "targetGroup": "Avsedd för dig som är placerad eller skall placeras i befattning...",
+        "content": null,
+        "objectives": "Kursen syftar till att kursdeltagaren, efter genomförd...",
+        "prerequisites": "Giltigt förarbevis för PB8.",
+        "responsible": "MR M",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gruppchef-1-2",
+        "title": "Gruppchefskurs 1 + 2",
+        "duration": "Fjorton (14) dagar",
+        "target_group": "För den som är eller skall placeras som gruppchef/stf inom Försvarsmakten.",
+        "content": "Grundläggande gruppchefsutbildning.",
+        "objectives": "Utveckla och tillämpa erhållna kunskaper och färdigheter i rollen som gruppchef.",
+        "prerequisites": "VPL, GMU, GU eller GUF.",
+        "course_responsible": "MR M",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "gruppchef-x",
+        "title": "Gruppchefskurs X",
+        "duration": "Tio (10) dagar",
+        "target_group": "För den som är eller skall placeras som X-gruppchef/stf inom Hemvärnet.",
+        "content": "Grundläggande gruppchefsutbildning.",
+        "objectives": "Kunskap och färdigheter som X-gruppchef inom Hemvärnet.",
+        "prerequisites": "Vpl, GMU, GU, GUF motsv.",
+        "course_responsible": "MR M",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
+    },
+    {
+        "id": "plutonchef-1-2",
+        "title": "Plutonchefskurs 1 + 2",
+        "duration": "Fjorton (14) dagar",
+        "target_group": "För den som skall placeras eller tjänstgör som plutonchef/stf.",
+        "content": "Plutonchefsutbildning genom teori och praktik.",
+        "objectives": "Kunna verka som plutonchef/stf inom Försvarsmakten.",
+        "prerequisites": "VPL, GU, GMU.",
+        "course_responsible": "MR M",
+        "createdBy": "ai-extraction",
+        "createdAt": "20260108",
+        "lastModified": "20260108"
     }
 ]
