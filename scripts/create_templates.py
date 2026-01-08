@@ -39,7 +39,7 @@ add("kombu","Kombattantutbildning för krigsplacerad, obeväpnad personal (KombU
 # Chefsutbildningar
 for course in [["1", "MAHGK2011230"], ["2", "MAHFK2011181"],["3","MAHFK2011231"]]:
     add(f"gruppchef-{course[0]}",f"Gruppchefskurs {course[0]}","Chefsutbildningar",f"GC{course[0]}","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf",], None, course[1])
-add("gruppchef-12","Gruppchefskurs 1 + 2","Chefsutbildningar","GC12","HvSS",["hvss-kurskatalog-2025.pdf", "mr-m-utbildningskatalog-2026-a1.pdf"],["gruppchef-1","gruppchef-2"], None, "GC12")
+add("gruppchef-12","Gruppchefskurs 1 + 2","Chefsutbildningar","GC12","HvSS",["hvss-kurskatalog-2025.pdf", "mr-m-utbildningskatalog-2026-a1.pdf"],["gruppchef-1","gruppchef-2"], "GC12")
 add("gruppchef-x","Gruppchefskurs X","Chefsutbildningar","GCX","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"], None, "MAHGK119GP00")
 add("troppchef-stab-tross","Troppchef Stab och Tross","Chefsutbildningar","CSOT","HvSS",["hvss-kurskatalog-2023.pdf","hvss-kurskatalog-2025.pdf"], None, "HVT422CGP01")
 for course in [["1", "MAHGK2011222"], ["2", "MAHFK2011223"],["3","MAHFK2011520"]]:
@@ -55,7 +55,7 @@ add("bataljonstridskurs","Bataljonstridskurs","Chefsutbildningar","BSTR","HvSS",
 
 # Instruktörsutbildningar (full list from TOC)
 instruktors = [
-    ["Grundkurs Övningsledare Automatkarbin BAS", "GKÖLAK", "HVT423F10001"],
+    ["Grundkurs Övningsledare Automatkarbin BAS", "GKÖLAK", "HVT423F1000"],
     ["Instruktörskurs 1", "IK1", "MAHGK9090001"], ["Instruktörskurs 2", "IK2", "MAHFK2011553"], ["Instruktörskurs FUSA grupp", "IKFUSA", "MAHAK2111559"],
     ["Instruktörskurs Gevär 22 Ungdomsvapen", "IKG22U", "MAHFÖ6121005"], ["Instruktörskurs Granattillsats Ak4B", "IKGTAK", "MAHFÖ2111660"],
     ["Instruktörskurs Grg m/48", "IKGRG", "MAHFÖ2111556"], ["Instruktörskurs IS Hv", "IKISHV", "MAHGK7110001"], ["Instruktörskurs Ksp 58B", "IKKSP", "MAHFÖ2111555"],
@@ -116,10 +116,10 @@ for name in ledarskap:
 add("chef-musikkar","Chef musikkår","Musikutbildningar","CMK","HvSS",["hvss-kurskatalog-2023.pdf"], None, "MAHGK3031741")
 
 # MR M 2026
-add("gu-f","Grundläggande soldatutbildning för frivillig personal, GU-F","Grundläggande militärutbildning","GU-F","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"])
-add("tccc-cls","TCCC-CLS (Combat Life Saver)","Funktionsutbildningar","TCCC-CLS","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"])
-add("gk-tung-slapkarra","Gk Tung släpkärra","Funktionsutbildningar","GKTSK","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"])
-add("instruktörskurs-12","Instruktörskurs 1 + 2","Instruktörsutbildningar","IK12","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"],["instruktörskurs-1","instruktörskurs-2"], None, "IK12")
+add("gu-f","Grundläggande soldatutbildning för frivillig personal, GU-F","Grundläggande militärutbildning","GU-F","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"], None, "GUF")
+add("tccc-cls","Tactical Combat Casualty Care Combat Lifesavers Course","Funktionsutbildningar","TCCC-CLS","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"], None, "TCCCCLS")
+add("gk-tung-slapkarra","Gk Tung släpkärra","Funktionsutbildningar","GKTSK","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"], None, "GKTSK")
+add("instruktörskurs-12","Instruktörskurs 1 + 2","Instruktörsutbildningar","IK12","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"],["instruktörskurs-1","instruktörskurs-2"], "IK12")
 
 out = {"templates": templates}
 

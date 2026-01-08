@@ -22,7 +22,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "gruppchef-1",
@@ -46,7 +48,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "gruppchef-2",
@@ -70,7 +74,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "gruppchef-3",
@@ -94,14 +100,16 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "gruppchef-12",
       "name": "Gruppchefskurs 1 + 2",
       "shortName": "GC12",
       "category": "Chefsutbildningar",
-      "courseCode": null,
+      "courseCode": "GC12",
       "description": "",
       "targetAudience": "",
       "syllabus": "",
@@ -121,7 +129,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2025.pdf",
         "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "gruppchef-x",
@@ -145,7 +155,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "troppchef-stab-tross",
@@ -169,7 +181,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "plutonchef-1",
@@ -193,7 +207,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "plutonchef-2",
@@ -217,7 +233,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "plutonchef-3",
@@ -241,7 +259,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "plutonchef-12",
@@ -268,7 +288,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2025.pdf",
         "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "ledningsplutonchef",
@@ -292,7 +314,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "kompanichef-1",
@@ -316,7 +340,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "kompanichef-2",
@@ -340,7 +366,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "kompanichef-3",
@@ -364,7 +392,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "kompanistridskurs",
@@ -388,7 +418,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "bataljonchef-1",
@@ -412,7 +444,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "bataljonchef-2",
@@ -436,7 +470,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "bataljonchef-3",
@@ -460,7 +496,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "bataljonstridskurs",
@@ -484,7 +522,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "grundkurs-övningsledare-automatkarbin-bas",
@@ -508,7 +548,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-1",
@@ -532,7 +574,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-2",
@@ -556,7 +600,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-fusa-grupp",
@@ -580,7 +626,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-gevär-22-ungdomsvapen",
@@ -604,7 +652,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-granattillsats-ak4b",
@@ -628,7 +678,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-grg-m48",
@@ -652,7 +704,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-is-hv",
@@ -676,7 +730,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-ksp-58b",
@@ -700,7 +756,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-oden",
@@ -724,7 +782,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-pansarskott-m86",
@@ -748,7 +808,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-pistol-88",
@@ -772,7 +834,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-psg90-alt-ak4b-med-kikarsikte",
@@ -796,7 +860,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-rekrytering",
@@ -820,7 +886,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-skjutr-ak-4bc-del-1",
@@ -844,7 +912,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-skjutr-ak-4bc-del-2",
@@ -868,7 +938,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-stabstjänst",
@@ -892,7 +964,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-säkr-avlyst-terräng",
@@ -916,7 +990,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-säkr-skjutbana",
@@ -940,7 +1016,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-tårgas",
@@ -964,7 +1042,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-grundkurs-övningsledare-strisim-pc",
@@ -988,7 +1068,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-fortsättningskurs-övningsledare-strisim-pc",
@@ -1012,7 +1094,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "halvar-huvudinstruktörskurs",
@@ -1036,7 +1120,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "halvar-instruktörskurs",
@@ -1060,7 +1146,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "anställda-vid-mr-grupp",
@@ -1084,7 +1172,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "fredsadministrativkurs",
@@ -1108,7 +1198,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "fordon-förare-pb8",
@@ -1132,7 +1224,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "halvar-figurantkurs",
@@ -1156,7 +1250,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "hemvärns-personnel-recovery-officerskurs-(hv-pr-o)",
@@ -1180,7 +1276,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "informatörwebredaktör-bataljon",
@@ -1204,7 +1302,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "is-hv-super-user",
@@ -1228,7 +1328,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "is-hv-teknikerkurs",
@@ -1252,7 +1354,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "krigsförbandsplaneringskurs",
@@ -1276,7 +1380,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "kvartermästarkurs-1",
@@ -1300,7 +1406,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "kvartermästarkurs-2",
@@ -1324,7 +1432,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "marin-hemvärnstaktik",
@@ -1348,7 +1458,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "nordisk-chefskurs",
@@ -1372,7 +1484,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "scanbal",
@@ -1396,7 +1510,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "stabschefskurs",
@@ -1420,7 +1536,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "grundkurs-stabstjänst",
@@ -1444,7 +1562,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "grundkurs-störa",
@@ -1468,7 +1588,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "grundkurs-underrättelsetjänst-hv",
@@ -1492,7 +1614,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "vaktb-kurs",
@@ -1516,7 +1640,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "stridsledning-sensor-hund-hv",
@@ -1540,7 +1666,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "säkerhetstjänstkurs-hv",
@@ -1564,7 +1692,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "ungdomsledarkurs",
@@ -1588,7 +1718,9 @@
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf",
         "hvss-kurskatalog-2025.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "hv-intro-automatkarbin-4",
@@ -1611,7 +1743,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "basförmåga-8,4-cm-granatgevär",
@@ -1634,7 +1768,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "basförmåga-automatkarbin-4",
@@ -1657,7 +1793,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "basförmåga-granattillsats-40mm",
@@ -1680,7 +1818,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "basförmåga-kulspruta-58",
@@ -1703,7 +1843,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "basförmåga-pansarskott-m86",
@@ -1726,7 +1868,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "pistolkurs-fortsättning",
@@ -1749,7 +1893,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "spetsförmåga-8,4-cm-granatgevär",
@@ -1772,7 +1918,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "spetsförmåga-pansarskott-m86",
@@ -1795,7 +1943,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "tilläggsförmåga-8,4-cm-granatgevär",
@@ -1818,7 +1968,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "tilläggsförmåga-automatkarbin-4",
@@ -1841,7 +1993,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "tilläggsförmåga-granattillsats-40mm",
@@ -1864,7 +2018,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "tilläggsförmåga-kulspruta-m58",
@@ -1887,7 +2043,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "tilläggsförmåga-pansarskott-m86",
@@ -1910,7 +2068,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "skarpskytt-psg90-hv",
@@ -1933,7 +2093,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "indirekt-ledarskap",
@@ -1956,7 +2118,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "ledarskap-och-självkännedom",
@@ -1979,7 +2143,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "utveckling-grupp-ledare",
@@ -2002,7 +2168,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "utvecklande-ledarskap",
@@ -2025,7 +2193,9 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "chef-musikkar",
@@ -2048,14 +2218,16 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "hvss-kurskatalog-2023.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "gu-f",
       "name": "Grundläggande soldatutbildning för frivillig personal, GU-F",
       "shortName": "GU-F",
       "category": "Grundläggande militärutbildning",
-      "courseCode": null,
+      "courseCode": "GUF",
       "description": "",
       "targetAudience": "",
       "syllabus": "",
@@ -2071,14 +2243,16 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "tccc-cls",
-      "name": "TCCC-CLS (Combat Life Saver)",
+      "name": "Tactical Combat Casualty Care Combat Lifesavers Course",
       "shortName": "TCCC-CLS",
       "category": "Funktionsutbildningar",
-      "courseCode": null,
+      "courseCode": "TCCCCLS",
       "description": "",
       "targetAudience": "",
       "syllabus": "",
@@ -2094,14 +2268,16 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "gk-tung-slapkarra",
       "name": "Gk Tung släpkärra",
       "shortName": "GKTSK",
       "category": "Funktionsutbildningar",
-      "courseCode": null,
+      "courseCode": "GKTSK",
       "description": "",
       "targetAudience": "",
       "syllabus": "",
@@ -2117,14 +2293,16 @@
       "baseTemplateIds": [],
       "sourceFiles": [
         "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     },
     {
       "id": "instruktörskurs-12",
       "name": "Instruktörskurs 1 + 2",
       "shortName": "IK12",
       "category": "Instruktörsutbildningar",
-      "courseCode": null,
+      "courseCode": "IK12",
       "description": "",
       "targetAudience": "",
       "syllabus": "",
@@ -2143,7 +2321,9 @@
       ],
       "sourceFiles": [
         "mr-m-utbildningskatalog-2026-a1.pdf"
-      ]
+      ],
+      "lastModifiedBy": "create_templates_script",
+      "lastModified": "20260108-191036"
     }
   ]
 }

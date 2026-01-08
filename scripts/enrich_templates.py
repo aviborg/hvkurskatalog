@@ -185,7 +185,7 @@ PRIMARY_EXAMPLE = {
         "Genomfört kompetensprov Ak 4B/C.",
         "Fysisk status för att klara minst två fältdygn."
         ],
-    "literature": "Handbok Hvplut/Hvgrp del 1-2, (Grunder och Objektet), MSR, FM Handböcker och reglementen",
+    "literature": ["Handbok Hvplut/Hvgrp del 1-2 (Grunder och Objektet)", "MSR", "FM Handböcker och reglementen"],
     "additionalInfo": "Utbildning till gruppchef/stf omfattar två kurser; Gruppchefskurs1 och Gruppchefskurs 2. Gruppchefskurs 3 är endast avsedd för de som är eller skall bli chef/stf för en understödsgrupp.",
     "typicalDuration": "10 dagar om totalt 106 timmar.",
     "courseResponsible": "HvSS",
@@ -262,6 +262,19 @@ def enrich_template(template, source_text, schema):
 
     if enriched.get("courseCode"):
       enriched["courseCode"] = enriched["courseCode"].upper()
+
+    # Handle None values - convert to appropriate defaults based on schema
+    for key, prop in schema["properties"].items():
+        if key in enriched and enriched[key] is None:
+            prop_type = prop.get("type")
+            # If type allows null, keep None
+            if isinstance(prop_type, list) and "null" in prop_type:
+                continue
+            # Otherwise convert to appropriate default
+            if prop_type == "array" or (isinstance(prop_type, list) and "array" in prop_type):
+                enriched[key] = []
+            elif prop_type == "string" or (isinstance(prop_type, list) and "string" in prop_type):
+                enriched[key] = ""
 
     # Validate
     validate(instance=enriched, schema=schema)
