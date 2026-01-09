@@ -118,7 +118,7 @@ add("chef-musikkar","Chef musikkår","Musikutbildningar","CMK","HvSS",["hvss-kur
 # MR M 2026
 add("gu-f","Grundläggande soldatutbildning för frivillig personal, GU-F","Grundläggande militärutbildning","GU-F","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"], None, "GUF")
 add("tccc-cls","Tactical Combat Casualty Care Combat Lifesavers Course","Funktionsutbildningar","TCCC-CLS","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"], None, "TCCCCLS")
-add("gk-tung-slapkarra","Gk Tung släpkärra","Funktionsutbildningar","GKTSK","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"], None, "GKTSK")
+add("gk-tung-slapkarra","Gk Tung släpkärra","Funktionsutbildningar","GKTSK","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"], None, "LOGGK8481089")
 add("instruktörskurs-12","Instruktörskurs 1 + 2","Instruktörsutbildningar","IK12","MRM",["mr-m-utbildningskatalog-2026-a1.pdf"],["instruktörskurs-1","instruktörskurs-2"], "IK12")
 
 out = {"templates": templates}
